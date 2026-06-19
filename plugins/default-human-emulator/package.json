@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/default-human-emulator",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -8,12 +8,12 @@
   "description": "Default human emulator based on Xetera/ghost-cursor",
   "main": "index.js",
   "dependencies": {
-    "@justinearl/commons": "2.0.2",
-    "@justinearl/unblocked-specification": "2.0.2"
+    "@justinearl/commons": "2.0.3",
+    "@justinearl/unblocked-specification": "2.0.3"
   },
   "devDependencies": {
-    "@justinearl/js-path": "2.0.2",
-    "@justinearl/unblocked-agent": "2.0.2",
-    "@justinearl/unblocked-agent-testing": "2.0.2"
+    "@justinearl/js-path": "2.0.3",
+    "@justinearl/unblocked-agent": "2.0.3",
+    "@justinearl/unblocked-agent-testing": "2.0.3"
   }
 }

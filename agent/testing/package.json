@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/unblocked-agent-testing",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -12,11 +12,11 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@justinearl/commons": "2.0.2",
-    "@justinearl/unblocked-agent": "2.0.2",
-    "@justinearl/unblocked-agent-mitm": "2.0.2",
-    "@justinearl/unblocked-agent-mitm-socket": "2.0.2",
-    "@justinearl/unblocked-specification": "2.0.2",
+    "@justinearl/commons": "2.0.3",
+    "@justinearl/unblocked-agent": "2.0.3",
+    "@justinearl/unblocked-agent-mitm": "2.0.3",
+    "@justinearl/unblocked-agent-mitm-socket": "2.0.3",
+    "@justinearl/unblocked-specification": "2.0.3",
     "@koa/multer": "^3.0.2",
     "@koa/router": "^13.0.0",
     "http-proxy-agent": "^7.0.2",

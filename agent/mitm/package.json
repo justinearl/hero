@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/unblocked-agent-mitm",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -8,14 +8,14 @@
   "description": "Man-in-the-middle proxy to fix chrome request/response",
   "main": "index.js",
   "dependencies": {
-    "@justinearl/commons": "2.0.2",
-    "@justinearl/unblocked-agent-mitm-socket": "2.0.2",
-    "@justinearl/unblocked-specification": "2.0.2",
+    "@justinearl/commons": "2.0.3",
+    "@justinearl/unblocked-agent-mitm-socket": "2.0.3",
+    "@justinearl/unblocked-specification": "2.0.3",
     "dns-packet": "^5.2.4",
     "moment": "^2.29.4"
   },
   "devDependencies": {
-    "@justinearl/unblocked-agent-testing": "2.0.2",
+    "@justinearl/unblocked-agent-testing": "2.0.3",
     "@types/node": "^18.19.10",
     "@types/ws": "^7.4.7",
     "http-proxy-agent": "^7.0.2",

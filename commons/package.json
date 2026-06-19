@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/commons",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"

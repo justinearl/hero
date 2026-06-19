@@ -1,24 +1,24 @@
 {
   "name": "@justinearl/hero-end-to-end",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "End to end Hero tests",
   "private": true,
   "dependencies": {
-    "@justinearl/commons": "2.0.2",
-    "@justinearl/execute-js-plugin": "2.0.2",
-    "@justinearl/hero": "2.0.2",
-    "@justinearl/hero-core": "2.0.2",
-    "@justinearl/hero-interfaces": "2.0.2",
-    "@justinearl/net": "2.0.2"
+    "@justinearl/commons": "2.0.3",
+    "@justinearl/execute-js-plugin": "2.0.3",
+    "@justinearl/hero": "2.0.3",
+    "@justinearl/hero-core": "2.0.3",
+    "@justinearl/hero-interfaces": "2.0.3",
+    "@justinearl/net": "2.0.3"
   },
   "devDependencies": {
-    "@justinearl/default-browser-emulator": "2.0.2",
-    "@justinearl/default-human-emulator": "2.0.2",
-    "@justinearl/hero-plugin-utils": "2.0.2",
-    "@justinearl/hero-testing": "2.0.2",
-    "@justinearl/hero-timetravel": "2.0.2",
-    "@justinearl/unblocked-agent-mitm": "2.0.2",
-    "@justinearl/unblocked-specification": "2.0.2",
+    "@justinearl/default-browser-emulator": "2.0.3",
+    "@justinearl/default-human-emulator": "2.0.3",
+    "@justinearl/hero-plugin-utils": "2.0.3",
+    "@justinearl/hero-testing": "2.0.3",
+    "@justinearl/hero-timetravel": "2.0.3",
+    "@justinearl/unblocked-agent-mitm": "2.0.3",
+    "@justinearl/unblocked-specification": "2.0.3",
     "@ulixee/awaited-dom": "1.4.2",
     "ws": "^8.18.0"
   }
