@@ -1,11 +1,11 @@
 import * as Fs from 'fs';
 import * as Path from 'path';
-import * as Helpers from '@ulixee/unblocked-agent-testing/helpers';
-import { defaultHooks } from '@ulixee/unblocked-agent-testing/browserUtils';
+import * as Helpers from '@justinearl/unblocked-agent-testing/helpers';
+import { defaultHooks } from '@justinearl/unblocked-agent-testing/browserUtils';
 import { inspect } from 'util';
-import { Browser } from '@ulixee/unblocked-agent';
-import Page from '@ulixee/unblocked-agent/lib/Page';
-import { TestLogger } from '@ulixee/unblocked-agent-testing';
+import { Browser } from '@justinearl/unblocked-agent';
+import Page from '@justinearl/unblocked-agent/lib/Page';
+import { TestLogger } from '@justinearl/unblocked-agent-testing';
 import BrowserEmulator from '../index';
 import { emulatorDataDir } from '../paths';
 import DomExtractor = require('./DomExtractor');

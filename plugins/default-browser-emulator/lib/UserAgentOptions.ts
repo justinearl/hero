@@ -1,11 +1,11 @@
 import { UAParser } from 'ua-parser-js';
-import { pickRandom } from '@ulixee/commons/lib/utils';
+import { pickRandom } from '@justinearl/commons/lib/utils';
 import IUserAgentOption, {
   IVersion,
-} from '@ulixee/unblocked-specification/plugin/IUserAgentOption';
-import RealUserAgents from '@ulixee/real-user-agents';
-import UserAgent from '@ulixee/real-user-agents/lib/UserAgent';
-import findUaClientHintsPlatformVersion from '@ulixee/real-user-agents/lib/findUaClientHintsPlatformVersion';
+} from '@justinearl/unblocked-specification/plugin/IUserAgentOption';
+import RealUserAgents from '@justinearl/real-user-agents';
+import UserAgent from '@justinearl/real-user-agents/lib/UserAgent';
+import findUaClientHintsPlatformVersion from '@justinearl/real-user-agents/lib/findUaClientHintsPlatformVersion';
 import DataLoader from './DataLoader';
 import UserAgentSelector from './UserAgentSelector';
 import { createBrowserId, createOsId } from './BrowserData';

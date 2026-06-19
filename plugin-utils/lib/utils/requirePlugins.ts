@@ -1,5 +1,5 @@
-import { IPluginClass } from '@ulixee/hero-interfaces/IPlugin';
-import { IPluginType } from '@ulixee/hero-interfaces/IPluginTypes';
+import { IPluginClass } from '@justinearl/hero-interfaces/IPlugin';
+import { IPluginType } from '@justinearl/hero-interfaces/IPluginTypes';
 import extractPlugins from './extractPlugins';
 import filterPlugins from './filterPlugins';
 

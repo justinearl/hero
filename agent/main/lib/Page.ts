@@ -14,29 +14,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Timer from '@ulixee/commons/lib/Timer';
-import { assert, createPromise } from '@ulixee/commons/lib/utils';
-import { IJsPath } from '@ulixee/js-path';
-import IDialog from '@ulixee/unblocked-specification/agent/browser/IDialog';
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
-import INavigation from '@ulixee/unblocked-specification/agent/browser/INavigation';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Timer from '@justinearl/commons/lib/Timer';
+import { assert, createPromise } from '@justinearl/commons/lib/utils';
+import { IJsPath } from '@justinearl/js-path';
+import IDialog from '@justinearl/unblocked-specification/agent/browser/IDialog';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
+import INavigation from '@justinearl/unblocked-specification/agent/browser/INavigation';
 import {
   IPage,
   IPageEvents,
   TNewDocumentCallbackFn,
-} from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IScreenshotOptions from '@ulixee/unblocked-specification/agent/browser/IScreenshotOptions';
-import { ILoadStatus, LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+} from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IScreenshotOptions from '@justinearl/unblocked-specification/agent/browser/IScreenshotOptions';
+import { ILoadStatus, LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 import {
   IElementInteractVerification,
   IInteractionGroup,
   InteractionCommand,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
 import Protocol from 'devtools-protocol';
 import * as Url from 'url';
 import IWaitForOptions from '../interfaces/IWaitForOptions';

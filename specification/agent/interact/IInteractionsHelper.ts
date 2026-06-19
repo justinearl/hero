@@ -1,5 +1,5 @@
-import type { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { IJsPath, INodePointer, INodeVisibility } from '@ulixee/js-path';
+import type { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { IJsPath, INodePointer, INodeVisibility } from '@justinearl/js-path';
 import IMouseResult from './IMouseResult';
 import IPoint from '../browser/IPoint';
 import { IMousePosition } from './IInteractions';

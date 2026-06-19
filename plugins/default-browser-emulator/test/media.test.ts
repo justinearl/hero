@@ -1,6 +1,6 @@
-import { Helpers, TestLogger, testIfNotOnGithubWindows } from '@ulixee/unblocked-agent-testing';
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
-import { Pool } from '@ulixee/unblocked-agent';
+import { Helpers, TestLogger, testIfNotOnGithubWindows } from '@justinearl/unblocked-agent-testing';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
+import { Pool } from '@justinearl/unblocked-agent';
 import BrowserEmulator from '../index';
 
 let koaServer: ITestKoaServer;

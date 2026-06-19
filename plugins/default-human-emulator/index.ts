@@ -6,18 +6,18 @@ import {
   IMousePositionXY,
   InteractionCommand,
   isMousePositionXY,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import IInteractionsHelper, {
   IRectLookup,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractionsHelper';
-import IPoint from '@ulixee/unblocked-specification/agent/browser/IPoint';
-import IMouseResult from '@ulixee/unblocked-specification/agent/interact/IMouseResult';
-import logger from '@ulixee/commons/lib/Logger';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractionsHelper';
+import IPoint from '@justinearl/unblocked-specification/agent/browser/IPoint';
+import IMouseResult from '@justinearl/unblocked-specification/agent/interact/IMouseResult';
+import logger from '@justinearl/commons/lib/Logger';
 import IUnblockedPlugin, {
   UnblockedPluginClassDecorator,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 import generateVector from './generateVector';
 import { name } from './package.json';
 

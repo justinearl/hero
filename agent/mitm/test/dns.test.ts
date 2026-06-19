@@ -1,7 +1,7 @@
-import { pickRandom } from '@ulixee/commons/lib/utils';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import AgentEnv from '@ulixee/unblocked-agent/env'; // eslint-disable-line import/no-extraneous-dependencies
-import { INetworkHooks } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
+import { pickRandom } from '@justinearl/commons/lib/utils';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import AgentEnv from '@justinearl/unblocked-agent/env'; // eslint-disable-line import/no-extraneous-dependencies
+import { INetworkHooks } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
 import { LookupAddress, promises as nodeDns } from 'dns';
 import RequestSession from '../handlers/RequestSession';
 import { Dns } from '../lib/Dns';

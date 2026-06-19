@@ -1,4 +1,4 @@
-import IBrowserEngine from '@ulixee/unblocked-specification/agent/browser/IBrowserEngine';
+import IBrowserEngine from '@justinearl/unblocked-specification/agent/browser/IBrowserEngine';
 import { defaultScreen } from '../Viewports';
 
 export function configureBrowserLaunchArgs(

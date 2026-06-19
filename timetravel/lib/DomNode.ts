@@ -1,5 +1,5 @@
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import { IDomChangeRecord } from '@ulixee/hero-core/models/DomChangesTable';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import { IDomChangeRecord } from '@justinearl/hero-core/models/DomChangesTable';
 import { INodesById } from './DomRebuilder';
 
 export default class DomNode {

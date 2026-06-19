@@ -1,5 +1,5 @@
-import IDomState from '@ulixee/hero-interfaces/IDomState';
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
+import IDomState from '@justinearl/hero-interfaces/IDomState';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
 import DomState from '../lib/DomState';
 
 export default interface IFlowHandler {

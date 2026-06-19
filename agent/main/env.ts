@@ -1,4 +1,4 @@
-import { loadEnv, parseEnvBool } from '@ulixee/commons/lib/envUtils';
+import { loadEnv, parseEnvBool } from '@justinearl/commons/lib/envUtils';
 
 loadEnv(__dirname);
 const env = process.env;

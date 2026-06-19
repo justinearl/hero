@@ -1,7 +1,7 @@
-import { Hero, Helpers } from '@ulixee/hero-testing';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
-import Tab from '@ulixee/hero/lib/Tab';
+import { Hero, Helpers } from '@justinearl/hero-testing';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
+import Tab from '@justinearl/hero/lib/Tab';
 
 let koaServer: ITestKoaServer;
 beforeAll(async () => {

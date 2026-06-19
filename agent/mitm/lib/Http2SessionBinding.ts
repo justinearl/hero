@@ -1,7 +1,7 @@
 import { Http2Session } from 'http2';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import { IEventSubscriber } from '@ulixee/commons/interfaces/IRegisteredEventListener';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import { IEventSubscriber } from '@justinearl/commons/interfaces/IRegisteredEventListener';
 
 export default class Http2SessionBinding {
   private logger: IBoundLog;

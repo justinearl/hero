@@ -1,5 +1,5 @@
-import { IEmulationOptions } from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import { IUnblockedPluginClass, PluginConfigs } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+import { IEmulationOptions } from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import { IUnblockedPluginClass, PluginConfigs } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import IUserProfile from './IUserProfile';
 import ISessionOptions from './ISessionOptions';
 import IScriptInvocationMeta from './IScriptInvocationMeta';

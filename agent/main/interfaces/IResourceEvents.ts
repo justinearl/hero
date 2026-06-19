@@ -1,8 +1,8 @@
-import type IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import { IBrowserResourceRequest } from '@ulixee/unblocked-specification/agent/browser/IBrowserNetworkEvents';
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
+import type IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import { IBrowserResourceRequest } from '@justinearl/unblocked-specification/agent/browser/IBrowserNetworkEvents';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
 import IResourceProcessingDetails from './IResourceProcessingDetails';
 
 export interface IResourceEvents {

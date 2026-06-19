@@ -1,6 +1,6 @@
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Log from '@ulixee/commons/lib/Logger';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Log from '@justinearl/commons/lib/Logger';
 import IApiHandlers from '../interfaces/IApiHandlers';
 import IConnectionToClient, { IConnectionToClientEvents } from '../interfaces/IConnectionToClient';
 import ICoreEventPayload from '../interfaces/ICoreEventPayload';

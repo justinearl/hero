@@ -1,4 +1,4 @@
-import { loadEnv, parseEnvBool, parseEnvPath } from '@ulixee/commons/lib/envUtils';
+import { loadEnv, parseEnvBool, parseEnvPath } from '@justinearl/commons/lib/envUtils';
 
 loadEnv(__dirname);
 

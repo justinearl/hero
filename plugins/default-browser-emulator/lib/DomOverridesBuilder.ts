@@ -1,6 +1,6 @@
 import * as fs from 'fs';
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import TypeSerializer, { stringifiedTypeSerializerClass } from '@ulixee/commons/lib/TypeSerializer';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import TypeSerializer, { stringifiedTypeSerializerClass } from '@justinearl/commons/lib/TypeSerializer';
 import INewDocumentInjectedScript from '../interfaces/INewDocumentInjectedScript';
 import IBrowserEmulatorConfig, { InjectedScript } from '../interfaces/IBrowserEmulatorConfig';
 

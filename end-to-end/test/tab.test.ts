@@ -1,9 +1,9 @@
-import { Hero, Helpers } from '@ulixee/hero-testing';
-import { Command } from '@ulixee/hero';
-import { KeyboardKey } from '@ulixee/unblocked-specification/agent/interact/IKeyboardLayoutUS';
+import { Hero, Helpers } from '@justinearl/hero-testing';
+import { Command } from '@justinearl/hero';
+import { KeyboardKey } from '@justinearl/unblocked-specification/agent/interact/IKeyboardLayoutUS';
 import * as os from 'os';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 
 let koaServer: ITestKoaServer;
 beforeAll(async () => {

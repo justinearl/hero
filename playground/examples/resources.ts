@@ -1,4 +1,4 @@
-import Hero, { LocationStatus } from '@ulixee/hero-playground';
+import Hero, { LocationStatus } from '@justinearl/hero-playground';
 
 (async () => {
   const hero = new Hero({

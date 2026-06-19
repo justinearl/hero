@@ -1,6 +1,6 @@
-import DisconnectedError from '@ulixee/net/errors/DisconnectedError';
-import { registerSerializableErrorType } from '@ulixee/commons/lib/TypeSerializer';
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
+import DisconnectedError from '@justinearl/net/errors/DisconnectedError';
+import { registerSerializableErrorType } from '@justinearl/commons/lib/TypeSerializer';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
 
 export default class DisconnectedFromCoreError extends DisconnectedError {
   public override code = 'DisconnectedFromCore';

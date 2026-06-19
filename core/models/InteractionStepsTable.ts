@@ -1,12 +1,12 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
 import {
   IElementInteractVerification,
   IInteractionCommand,
   IInteractionStep,
   IKeyboardCommand,
   isMousePositionXY,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 
 export default class InteractionStepsTable extends SqliteTable<IInteractionStepRecord> {
   constructor(db: SqliteDatabase) {

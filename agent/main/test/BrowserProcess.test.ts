@@ -1,4 +1,4 @@
-import { BrowserUtils, TestLogger, Helpers } from '@ulixee/unblocked-agent-testing/index';
+import { BrowserUtils, TestLogger, Helpers } from '@justinearl/unblocked-agent-testing/index';
 import * as Os from 'os';
 import { Browser } from '../index';
 import BrowserLaunchError from '../errors/BrowserLaunchError';

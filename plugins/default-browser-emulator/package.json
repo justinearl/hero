@@ -1,6 +1,10 @@
 {
-  "name": "@ulixee/default-browser-emulator",
+  "name": "@justinearl/default-browser-emulator",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Browser emulator generated from DoubleAgent data",
   "main": "index.js",
   "bin": {
@@ -8,10 +12,10 @@
   },
   "dependencies": {
     "@ulixee/chrome-app": "^1.0.4",
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/real-user-agents": "2.0.0-alpha.34",
-    "@ulixee/unblocked-agent-mitm-socket": "2.0.0-alpha.34",
-    "@ulixee/unblocked-specification": "2.0.0-alpha.34",
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/real-user-agents": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent-mitm-socket": "2.0.0-alpha.34",
+    "@justinearl/unblocked-specification": "2.0.0-alpha.34",
     "compare-versions": "^6.1.0",
     "nanoid": "^3.3.11",
     "tar": "^7.4.3",
@@ -19,9 +23,9 @@
     "ua-parser-js": "^1.0.37"
   },
   "devDependencies": {
-    "@ulixee/unblocked-agent": "2.0.0-alpha.34",
-    "@ulixee/unblocked-agent-mitm": "2.0.0-alpha.34",
-    "@ulixee/unblocked-agent-testing": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent-mitm": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent-testing": "2.0.0-alpha.34",
     "fpcollect": "^1.0.4",
     "fpscanner": "^0.1.5",
     "proxy": "^2.2.0",

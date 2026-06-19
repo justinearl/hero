@@ -1,6 +1,6 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import { PluginCustomConfig } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import { PluginCustomConfig } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import ICorePlugins from './ICorePlugins';
 import { ISessionSummary } from './ICorePlugin';
 

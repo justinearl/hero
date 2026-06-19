@@ -1,6 +1,6 @@
 import Database = require('better-sqlite3');
-import Log from '@ulixee/commons/lib/Logger';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
+import Log from '@justinearl/commons/lib/Logger';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
 import { Database as SqliteDatabase, Transaction } from 'better-sqlite3';
 import * as fs from 'fs';
 import * as Path from 'path';

@@ -1,4 +1,4 @@
-import INodeVisibility from '@ulixee/js-path/interfaces/INodeVisibility';
+import INodeVisibility from '@justinearl/js-path/interfaces/INodeVisibility';
 import { Page } from '../index';
 import Frame from '../lib/Frame';
 import ConsoleMessage from '../lib/ConsoleMessage';

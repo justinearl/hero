@@ -1,6 +1,6 @@
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { ILifecycleEvents, INavigationLoader } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { ILifecycleEvents, INavigationLoader } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 
 export class NavigationLoader {
   public get isNavigationComplete(): boolean {

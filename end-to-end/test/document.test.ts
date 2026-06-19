@@ -1,8 +1,8 @@
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import { XPathResult } from '@ulixee/hero-interfaces/AwaitedDom';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import { FrameEnvironment, LocationStatus } from '@ulixee/hero';
-import Dialog from '@ulixee/hero/lib/Dialog';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import { XPathResult } from '@justinearl/hero-interfaces/AwaitedDom';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import { FrameEnvironment, LocationStatus } from '@justinearl/hero';
+import Dialog from '@justinearl/hero/lib/Dialog';
 import HTMLIFrameElement from '@ulixee/awaited-dom/impl/official-klasses/HTMLIFrameElement';
 import HTMLHeadingElement from '@ulixee/awaited-dom/impl/official-klasses/HTMLHeadingElement';
 

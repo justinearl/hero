@@ -1,11 +1,11 @@
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
 import * as http2 from 'http2';
 import { IncomingHttpHeaders, IncomingHttpStatusHeader } from 'http2';
 import { URL } from 'url';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket';
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
-import MitmSocketSession from '@ulixee/unblocked-agent-mitm-socket/lib/MitmSocketSession';
-import CertificateGenerator from '@ulixee/unblocked-agent-mitm-socket/lib/CertificateGenerator';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
+import MitmSocketSession from '@justinearl/unblocked-agent-mitm-socket/lib/MitmSocketSession';
+import CertificateGenerator from '@justinearl/unblocked-agent-mitm-socket/lib/CertificateGenerator';
 import MitmServer from '../lib/MitmProxy';
 import RequestSession from '../handlers/RequestSession';
 import HttpRequestHandler from '../handlers/HttpRequestHandler';

@@ -1,4 +1,4 @@
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
 import ConnectionToHeroCore from '../connections/ConnectionToHeroCore';
 import IConnectionToCoreOptions from './IConnectionToCoreOptions';
 import CallsiteLocator from '../lib/CallsiteLocator';

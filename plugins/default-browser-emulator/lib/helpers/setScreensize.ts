@@ -1,8 +1,8 @@
 import IDevtoolsSession, {
   Protocol,
-} from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+} from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 
 export default async function setScreensize(
   emulationProfile: IEmulationProfile,

@@ -1,10 +1,10 @@
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
 import IUnblockedPlugin, {
   PluginCustomConfig,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
 import { PluginTypes } from './IPluginTypes';
 import ICorePluginCreateOptions from './ICorePluginCreateOptions';
 import ISessionCreateOptions from './ISessionCreateOptions';

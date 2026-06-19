@@ -1,4 +1,4 @@
-import { INodeVisibility } from '@ulixee/js-path';
+import { INodeVisibility } from '@justinearl/js-path';
 
 export default interface IMouseResult {
   pageX: number;

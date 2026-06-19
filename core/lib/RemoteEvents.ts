@@ -1,5 +1,5 @@
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
-import ICoreEventPayload from '@ulixee/hero-interfaces/ICoreListenerPayload';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
+import ICoreEventPayload from '@justinearl/hero-interfaces/ICoreListenerPayload';
 import Session from './Session';
 import { IRemoteEventListener } from '../interfaces/IRemoteEventListener';
 import RemoteEventTarget from './RemoteEventTarget';

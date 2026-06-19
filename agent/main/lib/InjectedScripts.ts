@@ -1,8 +1,8 @@
 import * as fs from 'fs';
-import { stringifiedTypeSerializerClass } from '@ulixee/commons/lib/TypeSerializer';
+import { stringifiedTypeSerializerClass } from '@justinearl/commons/lib/TypeSerializer';
 import FramesManager from './FramesManager';
 import DevtoolsSession from './DevtoolsSession';
-import { TNewDocumentCallbackFn } from '@ulixee/unblocked-specification/agent/browser/IPage';
+import { TNewDocumentCallbackFn } from '@justinearl/unblocked-specification/agent/browser/IPage';
 
 const pageScripts = {
   NodeTracker: fs.readFileSync(`${__dirname}/../injected-scripts/NodeTracker.js`, 'utf8'),

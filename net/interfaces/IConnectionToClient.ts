@@ -1,4 +1,4 @@
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 import IApiHandlers from './IApiHandlers';
 import ICoreEventPayload from './ICoreEventPayload';
 import ICoreRequestPayload from './ICoreRequestPayload';

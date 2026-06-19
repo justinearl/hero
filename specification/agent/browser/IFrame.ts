@@ -1,5 +1,5 @@
-import type ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
-import { IJsPath } from '@ulixee/js-path';
+import type ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
+import { IJsPath } from '@justinearl/js-path';
 import { IElementInteractVerification, IInteractionGroups } from '../interact/IInteractions';
 import IDevtoolsSession from './IDevtoolsSession';
 import { IFrameNavigations } from './IFrameNavigations';

@@ -1,6 +1,6 @@
-import Logger from '@ulixee/commons/lib/Logger';
+import Logger from '@justinearl/commons/lib/Logger';
 import { IncomingMessage, ServerResponse } from 'http';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import HttpTransportToClient from './HttpTransportToClient';
 import ITransport from '../interfaces/ITransport';
 import ConnectionToClient from './ConnectionToClient';

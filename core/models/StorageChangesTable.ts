@@ -1,7 +1,7 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
-import { IDomStorageEvents } from '@ulixee/unblocked-agent/lib/DomStorageTracker';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
+import { IDomStorageEvents } from '@justinearl/unblocked-agent/lib/DomStorageTracker';
 
 export default class StorageChangesTable extends SqliteTable<IStorageChangesEntry> {
   private changesByTabIdAndTime: {

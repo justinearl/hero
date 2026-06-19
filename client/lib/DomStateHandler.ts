@@ -1,14 +1,14 @@
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import Timer from '@ulixee/commons/lib/Timer';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { IJsPath } from '@ulixee/js-path';
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
-import IDomStateResult from '@ulixee/hero-interfaces/IDomStateResult';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
-import IDomState, { IStateAndAssertion } from '@ulixee/hero-interfaces/IDomState';
-import IDomStateListenArgs, { IRawCommand } from '@ulixee/hero-interfaces/IDomStateListenArgs';
-import DisconnectedError from '@ulixee/net/errors/DisconnectedError';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import Timer from '@justinearl/commons/lib/Timer';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { IJsPath } from '@justinearl/js-path';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
+import IDomStateResult from '@justinearl/hero-interfaces/IDomStateResult';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
+import IDomState, { IStateAndAssertion } from '@justinearl/hero-interfaces/IDomState';
+import IDomStateListenArgs, { IRawCommand } from '@justinearl/hero-interfaces/IDomStateListenArgs';
+import DisconnectedError from '@justinearl/net/errors/DisconnectedError';
 import IFlowCommand from '../interfaces/IFlowCommand';
 import CoreTab from './CoreTab';
 

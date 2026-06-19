@@ -1,5 +1,5 @@
 {
-  "name": "@ulixee/unblocked-browser-profiler-dom-bridger",
+  "name": "@justinearl/unblocked-browser-profiler-dom-bridger",
   "version": "2.0.0-alpha.34",
   "main": "index.js",
   "private": true,
@@ -10,9 +10,9 @@
     "generate": "yarn generateRawMappings && yarn generatePathPatterns"
   },
   "dependencies": {
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/unblocked-browser-profiler": "2.0.0-alpha.34",
-    "@ulixee/unblocked-specification": "2.0.0-alpha.34",
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/unblocked-browser-profiler": "2.0.0-alpha.34",
+    "@justinearl/unblocked-specification": "2.0.0-alpha.34",
     "lodash": "^4.17.20"
   }
 }

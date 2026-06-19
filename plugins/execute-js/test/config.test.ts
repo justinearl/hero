@@ -1,12 +1,12 @@
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import Core from '@ulixee/hero-core';
-import { CorePlugin } from '@ulixee/execute-js-plugin';
-import ICorePluginCreateOptions from '@ulixee/hero-interfaces/ICorePluginCreateOptions';
-import ICorePlugin, { ISessionSummary } from '@ulixee/hero-interfaces/ICorePlugin';
-import type IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import type { PluginCustomConfig } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import { TransportBridge } from '@ulixee/net';
-import { ConnectionToHeroCore } from '@ulixee/hero';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import Core from '@justinearl/hero-core';
+import { CorePlugin } from '@justinearl/execute-js-plugin';
+import ICorePluginCreateOptions from '@justinearl/hero-interfaces/ICorePluginCreateOptions';
+import ICorePlugin, { ISessionSummary } from '@justinearl/hero-interfaces/ICorePlugin';
+import type IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import type { PluginCustomConfig } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import { TransportBridge } from '@justinearl/net';
+import { ConnectionToHeroCore } from '@justinearl/hero';
 
 let core: Core;
 let connectionToCore: ConnectionToHeroCore;

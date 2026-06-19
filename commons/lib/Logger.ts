@@ -221,7 +221,7 @@ if (!global.UlixeeLogCreator) {
   global.UlixeeLogCreator = (module: NodeModule): { log: ILog } => {
     const log: ILog = new Log(module);
 
-    // This code ensures a single version of Log is used across all @ulixee/commons that are loaded into memory.
+    // This code ensures a single version of Log is used across all @justinearl/commons that are loaded into memory.
     // We don't update it if an injected logger is used.
     global.UlxLogPrototype ??= Log.prototype;
     Object.setPrototypeOf(log, global.UlxLogPrototype);

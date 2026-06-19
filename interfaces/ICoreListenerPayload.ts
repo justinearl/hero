@@ -1,4 +1,4 @@
-import type ICoreEventPayload from '@ulixee/net/interfaces/ICoreEventPayload';
+import type ICoreEventPayload from '@justinearl/net/interfaces/ICoreEventPayload';
 import ISessionMeta from './ISessionMeta';
 
 export default interface ICoreListenerPayload extends ICoreEventPayload<any, any> {

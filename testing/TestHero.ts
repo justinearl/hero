@@ -1,6 +1,6 @@
-import Core from '@ulixee/hero-core';
-import DefaultHero, { ConnectionToHeroCore, IHeroCreateOptions } from '@ulixee/hero';
-import TransportBridge from '@ulixee/net/lib/TransportBridge';
+import Core from '@justinearl/hero-core';
+import DefaultHero, { ConnectionToHeroCore, IHeroCreateOptions } from '@justinearl/hero';
+import TransportBridge from '@justinearl/net/lib/TransportBridge';
 
 let core: Core;
 export default class TestHero extends DefaultHero {

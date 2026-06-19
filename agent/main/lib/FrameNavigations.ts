@@ -1,20 +1,20 @@
 import INavigation, {
   ContentPaint,
   NavigationStatus,
-} from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import { NavigationReason } from '@ulixee/unblocked-specification/agent/browser/NavigationReason';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+} from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import { NavigationReason } from '@justinearl/unblocked-specification/agent/browser/NavigationReason';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import {
   IDomPaintEvent,
   ILoadStatus,
   LoadStatus,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
 import {
   IFrameNavigationEvents,
   IFrameNavigations,
-} from '@ulixee/unblocked-specification/agent/browser/IFrameNavigations';
+} from '@justinearl/unblocked-specification/agent/browser/IFrameNavigations';
 import Frame from './Frame';
 
 export default class FrameNavigations

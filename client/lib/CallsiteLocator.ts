@@ -1,5 +1,5 @@
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
-import Callsite from '@ulixee/commons/lib/Callsite';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
+import Callsite from '@justinearl/commons/lib/Callsite';
 import * as Path from 'path';
 
 const AwaitedDomPath = require

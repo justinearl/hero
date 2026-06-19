@@ -1,6 +1,6 @@
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import '@ulixee/commons/lib/SourceMapSupport';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import '@justinearl/commons/lib/SourceMapSupport';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
 import { IncomingMessage, ServerResponse } from 'http';
 import * as QueryString from 'querystring';
 import { URL } from 'url';

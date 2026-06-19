@@ -1,7 +1,7 @@
-import BrowserProfiler from '@ulixee/unblocked-browser-profiler';
+import BrowserProfiler from '@justinearl/unblocked-browser-profiler';
 import IDomPolyfill, {
   IDomPolyfillRemove,
-} from '@ulixee/unblocked-specification/plugin/IDomPolyfill';
+} from '@justinearl/unblocked-specification/plugin/IDomPolyfill';
 import { pathIsPatternMatch } from './lib/BridgeUtils';
 import IBridgeDefinitions from './interfaces/IBridgeDefinitions';
 

@@ -1,16 +1,16 @@
 import Protocol from 'devtools-protocol';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { IFrame, IFrameManagerEvents } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { IFrame, IFrameManagerEvents } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
 import {
   IPageEvents,
   TNewDocumentCallbackFn,
-} from '@ulixee/unblocked-specification/agent/browser/IPage';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+} from '@justinearl/unblocked-specification/agent/browser/IPage';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import DevtoolsSession from './DevtoolsSession';
 import Frame from './Frame';
 import NetworkManager from './NetworkManager';
@@ -28,8 +28,8 @@ import LifecycleEventEvent = Protocol.Page.LifecycleEventEvent;
 import FrameRequestedNavigationEvent = Protocol.Page.FrameRequestedNavigationEvent;
 import TargetInfo = Protocol.Target.TargetInfo;
 import { Console } from './Console';
-import { IBrowserNetworkEvents } from '@ulixee/unblocked-specification/agent/browser/IBrowserNetworkEvents';
-import { IConsoleEvents } from '@ulixee/unblocked-specification/agent/browser/IConsole';
+import { IBrowserNetworkEvents } from '@justinearl/unblocked-specification/agent/browser/IBrowserNetworkEvents';
+import { IConsoleEvents } from '@justinearl/unblocked-specification/agent/browser/IConsole';
 
 export const DEFAULT_PAGE = 'about:blank';
 export const ISOLATED_WORLD = '__agent_world__';

@@ -1,4 +1,4 @@
-import type IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
+import type IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
 import { NavigationReason } from './NavigationReason';
 import { ILoadStatus } from './Location';
 

@@ -1,18 +1,22 @@
 {
-  "name": "@ulixee/execute-js-plugin",
+  "name": "@justinearl/execute-js-plugin",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Plugin that allows executing javascript in the remote browser context",
   "main": "index.js",
   "dependencies": {
-    "@ulixee/hero-interfaces": "2.0.0-alpha.34",
-    "@ulixee/hero-plugin-utils": "2.0.0-alpha.34"
+    "@justinearl/hero-interfaces": "2.0.0-alpha.34",
+    "@justinearl/hero-plugin-utils": "2.0.0-alpha.34"
   },
   "devDependencies": {
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/execute-js-plugin": "2.0.0-alpha.34",
-    "@ulixee/hero": "2.0.0-alpha.34",
-    "@ulixee/hero-core": "2.0.0-alpha.34",
-    "@ulixee/hero-testing": "2.0.0-alpha.34",
-    "@ulixee/net": "2.0.0-alpha.34"
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/execute-js-plugin": "2.0.0-alpha.34",
+    "@justinearl/hero": "2.0.0-alpha.34",
+    "@justinearl/hero-core": "2.0.0-alpha.34",
+    "@justinearl/hero-testing": "2.0.0-alpha.34",
+    "@justinearl/net": "2.0.0-alpha.34"
   }
 }

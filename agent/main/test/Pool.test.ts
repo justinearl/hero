@@ -1,10 +1,10 @@
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import * as http from 'http';
-import { BrowserUtils, Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import { ITestHttpServer } from '@ulixee/unblocked-agent-testing/helpers';
-import IBrowserEngine from '@ulixee/unblocked-specification/agent/browser/IBrowserEngine';
-import { UnblockedPluginClassDecorator } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+import { BrowserUtils, Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import { ITestHttpServer } from '@justinearl/unblocked-agent-testing/helpers';
+import IBrowserEngine from '@justinearl/unblocked-specification/agent/browser/IBrowserEngine';
+import { UnblockedPluginClassDecorator } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 import { Pool } from '../index';
 import Agent from '../lib/Agent';
 

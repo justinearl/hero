@@ -1,13 +1,13 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import ICorePlugin, {
   CorePluginClassDecorator,
   ICorePluginClass,
   ISessionSummary,
-} from '@ulixee/hero-interfaces/ICorePlugin';
-import { PluginTypes } from '@ulixee/hero-interfaces/IPluginTypes';
-import ICorePluginCreateOptions from '@ulixee/hero-interfaces/ICorePluginCreateOptions';
-import IBrowserEngine from '@ulixee/unblocked-specification/agent/browser/IBrowserEngine';
-import ICorePlugins from '@ulixee/hero-interfaces/ICorePlugins';
+} from '@justinearl/hero-interfaces/ICorePlugin';
+import { PluginTypes } from '@justinearl/hero-interfaces/IPluginTypes';
+import ICorePluginCreateOptions from '@justinearl/hero-interfaces/ICorePluginCreateOptions';
+import IBrowserEngine from '@justinearl/unblocked-specification/agent/browser/IBrowserEngine';
+import ICorePlugins from '@justinearl/hero-interfaces/ICorePlugins';
 
 @CorePluginClassDecorator
 export default class CorePlugin implements ICorePlugin {

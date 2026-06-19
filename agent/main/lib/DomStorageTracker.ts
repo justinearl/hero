@@ -1,13 +1,13 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import IDomStorage, {
   IDomStorageForOrigin,
-} from '@ulixee/unblocked-specification/agent/browser/IDomStorage';
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import { IIndexedDB } from '@ulixee/unblocked-specification/agent/browser/IIndexedDB';
+} from '@justinearl/unblocked-specification/agent/browser/IDomStorage';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import { IIndexedDB } from '@justinearl/unblocked-specification/agent/browser/IIndexedDB';
 import Protocol from 'devtools-protocol';
 import DevtoolsSession from './DevtoolsSession';
 import NetworkManager from './NetworkManager';

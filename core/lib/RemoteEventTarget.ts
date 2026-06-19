@@ -1,7 +1,7 @@
-import { IJsPath } from '@ulixee/js-path';
-import ICoreListenerPayload from '@ulixee/hero-interfaces/ICoreListenerPayload';
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
-import Logger from '@ulixee/commons/lib/Logger';
+import { IJsPath } from '@justinearl/js-path';
+import ICoreListenerPayload from '@justinearl/hero-interfaces/ICoreListenerPayload';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
+import Logger from '@justinearl/commons/lib/Logger';
 import Session from './Session';
 import { IRemoteEventListener } from '../interfaces/IRemoteEventListener';
 

@@ -1,7 +1,7 @@
-import { assert } from '@ulixee/commons/lib/utils';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
+import { assert } from '@justinearl/commons/lib/utils';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
 
 export default function setActiveAndFocused(
   emulationProfile: IEmulationProfile,

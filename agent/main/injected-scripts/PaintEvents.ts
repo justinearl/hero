@@ -1,4 +1,4 @@
-import type { IDomPaintEvent } from '@ulixee/unblocked-specification/agent/browser/Location';
+import type { IDomPaintEvent } from '@justinearl/unblocked-specification/agent/browser/Location';
 
 declare global {
   interface Window {

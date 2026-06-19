@@ -1,4 +1,4 @@
-import { safeOverwriteFile } from '@ulixee/commons/lib/fileUtils';
+import { safeOverwriteFile } from '@justinearl/commons/lib/fileUtils';
 import DeviceCategory from '../interfaces/DeviceCategory';
 import OperatingSystems from '../lib/OperatingSystems';
 import { getOsNameFromId, getOsVersionFromOsId } from '../lib/OsUtils';

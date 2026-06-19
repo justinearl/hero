@@ -22,7 +22,7 @@ import * as fs from 'fs';
 import * as Path from 'path';
 import { AddressInfo, Socket } from 'net';
 import { createGzip } from 'zlib';
-import Log from '@ulixee/commons/lib/Logger';
+import Log from '@justinearl/commons/lib/Logger';
 import { Duplex } from 'stream';
 
 const { log } = Log(module);

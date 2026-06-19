@@ -1,9 +1,9 @@
-import { IJsPath } from '@ulixee/js-path';
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import Log from '@ulixee/commons/lib/Logger';
-import ICoreCommandRequestPayload from '@ulixee/hero-interfaces/ICoreCommandRequestPayload';
-import DisconnectedError from '@ulixee/net/errors/DisconnectedError';
+import { IJsPath } from '@justinearl/js-path';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import Log from '@justinearl/commons/lib/Logger';
+import ICoreCommandRequestPayload from '@justinearl/hero-interfaces/ICoreCommandRequestPayload';
+import DisconnectedError from '@justinearl/net/errors/DisconnectedError';
 import ConnectionToHeroCore from '../connections/ConnectionToHeroCore';
 import ICommandCounter from '../interfaces/ICommandCounter';
 import CallsiteLocator from './CallsiteLocator';

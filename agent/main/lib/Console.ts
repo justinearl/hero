@@ -1,10 +1,10 @@
 // Currently this only used to support communication from chrome (injected scripts) to unblocked agent
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import TypedEventEmitter from '@ulixee/commons/lib/TypedEventEmitter';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import TypedEventEmitter from '@justinearl/commons/lib/TypedEventEmitter';
 import DevtoolsSession from './DevtoolsSession';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
 import Protocol from 'devtools-protocol';
-import { IConsoleEvents } from '@ulixee/unblocked-specification/agent/browser/IConsole';
+import { IConsoleEvents } from '@justinearl/unblocked-specification/agent/browser/IConsole';
 
 const SCRIPT_PLACEHOLDER = '';
 

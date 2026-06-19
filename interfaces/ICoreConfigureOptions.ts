@@ -1,5 +1,5 @@
-import { IUnblockedPluginClass } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import type ISessionRegistry from '@ulixee/hero-core/interfaces/ISessionRegistry';
+import { IUnblockedPluginClass } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import type ISessionRegistry from '@justinearl/hero-core/interfaces/ISessionRegistry';
 
 export default interface ICoreConfigureOptions {
   maxConcurrentClientCount?: number;

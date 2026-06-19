@@ -1,8 +1,8 @@
-import { BrowserUtils, Helpers, TestLogger } from '@ulixee/unblocked-agent-testing/index';
-import TypeSerializer, { stringifiedTypeSerializerClass } from '@ulixee/commons/lib/TypeSerializer';
-import getTestObject from '@ulixee/commons/test/helpers/getTestObject';
+import { BrowserUtils, Helpers, TestLogger } from '@justinearl/unblocked-agent-testing/index';
+import TypeSerializer, { stringifiedTypeSerializerClass } from '@justinearl/commons/lib/TypeSerializer';
+import getTestObject from '@justinearl/commons/test/helpers/getTestObject';
 
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import { Browser, BrowserContext } from '../index';
 
 describe('basic tests', () => {

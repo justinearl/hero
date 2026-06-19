@@ -7,8 +7,8 @@
   "dependencies": {
     "@double-agent/collect": "2.0.0-alpha.34",
     "@double-agent/config": "2.0.0-alpha.34",
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/real-user-agents": "2.0.0-alpha.34",
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/real-user-agents": "2.0.0-alpha.34",
     "axios": "^1.7.7",
     "cookie": "^0.4.0",
     "diff": "^4.0.2",

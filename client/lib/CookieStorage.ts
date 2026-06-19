@@ -1,5 +1,5 @@
-import ISetCookieOptions from '@ulixee/hero-interfaces/ISetCookieOptions';
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
+import ISetCookieOptions from '@justinearl/hero-interfaces/ISetCookieOptions';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
 import CoreFrameEnvironment from './CoreFrameEnvironment';
 
 export default class CookieStorage {

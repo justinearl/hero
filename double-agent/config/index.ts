@@ -1,9 +1,9 @@
 import * as Fs from 'fs';
 import * as Path from 'path';
-import { createOsIdFromUserAgentString } from '@ulixee/real-user-agents/lib/OsUtils';
-import { createBrowserIdFromUserAgentString } from '@ulixee/real-user-agents/lib/BrowserUtils';
-import RealUserAgents from '@ulixee/real-user-agents';
-import { loadEnv, parseEnvInt } from '@ulixee/commons/lib/envUtils';
+import { createOsIdFromUserAgentString } from '@justinearl/real-user-agents/lib/OsUtils';
+import { createBrowserIdFromUserAgentString } from '@justinearl/real-user-agents/lib/BrowserUtils';
+import RealUserAgents from '@justinearl/real-user-agents';
+import { loadEnv, parseEnvInt } from '@justinearl/commons/lib/envUtils';
 import * as Paths from './paths';
 import * as browserstackIndicators from './data/path-patterns/browserstack-indicators.json';
 import * as instanceVariations from './data/path-patterns/instance-variations.json';

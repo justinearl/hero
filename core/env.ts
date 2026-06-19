@@ -1,5 +1,5 @@
-import AgentEnv from '@ulixee/unblocked-agent/env';
-import { loadEnv, parseEnvBool, parseEnvPath } from '@ulixee/commons/lib/envUtils';
+import AgentEnv from '@justinearl/unblocked-agent/env';
+import { loadEnv, parseEnvBool, parseEnvPath } from '@justinearl/commons/lib/envUtils';
 
 loadEnv(__dirname);
 const env = process.env;

@@ -1,4 +1,4 @@
-import type ITypeSerializer from '@ulixee/commons/interfaces/ITypeSerializer';
+import type ITypeSerializer from '@justinearl/commons/interfaces/ITypeSerializer';
 
 export type UtilsInput = {
   sourceUrl: string;

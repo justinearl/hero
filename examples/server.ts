@@ -1,10 +1,10 @@
-import '@ulixee/commons/lib/SourceMapSupport';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import '@justinearl/commons/lib/SourceMapSupport';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import WebSocket = require('ws');
-import Core from '@ulixee/hero-core';
-import { WsTransportToClient } from '@ulixee/net';
-import { version } from '@ulixee/hero-core/package.json';
-import UlixeeHostsConfig from '@ulixee/commons/config/hosts';
+import Core from '@justinearl/hero-core';
+import { WsTransportToClient } from '@justinearl/net';
+import { version } from '@justinearl/hero-core/package.json';
+import UlixeeHostsConfig from '@justinearl/commons/config/hosts';
 import { AddressInfo } from 'net';
 import { IncomingMessage } from 'http';
 

@@ -1,5 +1,5 @@
-import type ICoreRequestPayload from '@ulixee/net/interfaces/ICoreRequestPayload';
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
+import type ICoreRequestPayload from '@justinearl/net/interfaces/ICoreRequestPayload';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
 import ISessionMeta from './ISessionMeta';
 
 export default interface ICoreCommandRequestPayload extends ICoreRequestPayload<any, any> {

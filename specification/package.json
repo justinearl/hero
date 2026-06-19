@@ -1,12 +1,16 @@
 {
-  "name": "@ulixee/unblocked-specification",
+  "name": "@justinearl/unblocked-specification",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Interfaces to interact with Unblocked Agent Plugins",
   "dependencies": {
-    "@ulixee/js-path": "2.0.0-alpha.34",
+    "@justinearl/js-path": "2.0.0-alpha.34",
     "devtools-protocol": "^0.0.1137505"
   },
   "devDependencies": {
-    "@ulixee/commons": "2.0.0-alpha.34"
+    "@justinearl/commons": "2.0.0-alpha.34"
   }
 }

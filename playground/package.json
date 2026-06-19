@@ -1,6 +1,10 @@
 {
-  "name": "@ulixee/hero-playground",
+  "name": "@justinearl/hero-playground",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "A Hero playground that creates a Client/Core connection out of the box",
   "exports": {
     ".": {
@@ -11,9 +15,9 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/hero": "2.0.0-alpha.34",
-    "@ulixee/hero-core": "2.0.0-alpha.34",
-    "@ulixee/net": "2.0.0-alpha.34"
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/hero": "2.0.0-alpha.34",
+    "@justinearl/hero-core": "2.0.0-alpha.34",
+    "@justinearl/net": "2.0.0-alpha.34"
   }
 }

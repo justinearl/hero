@@ -1,8 +1,8 @@
 import * as Fs from 'fs';
-import IUserAgentOption from '@ulixee/unblocked-specification/plugin/IUserAgentOption';
-import { convertMacOsVersionString } from '@ulixee/real-user-agents/lib/OsUtils';
-import getLocalOperatingSystemMeta from '@ulixee/real-user-agents/lib/getLocalOperatingSystemMeta';
-import { findClosestVersionMatch } from '@ulixee/real-user-agents/lib/VersionUtils';
+import IUserAgentOption from '@justinearl/unblocked-specification/plugin/IUserAgentOption';
+import { convertMacOsVersionString } from '@justinearl/real-user-agents/lib/OsUtils';
+import getLocalOperatingSystemMeta from '@justinearl/real-user-agents/lib/getLocalOperatingSystemMeta';
+import { findClosestVersionMatch } from '@justinearl/real-user-agents/lib/VersionUtils';
 import IBrowserData, {
   IDataBrowserConfig,
   IDataClienthello,

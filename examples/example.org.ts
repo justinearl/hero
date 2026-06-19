@@ -1,4 +1,4 @@
-import Hero, { LocationTrigger } from '@ulixee/hero';
+import Hero, { LocationTrigger } from '@justinearl/hero';
 
 // NOTE: You need to start a Ulixee Cloud to run this example
 async function run() {

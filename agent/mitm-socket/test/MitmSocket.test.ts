@@ -1,9 +1,9 @@
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import { createPromise } from '@ulixee/commons/lib/utils';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import { createPromise } from '@justinearl/commons/lib/utils';
 import * as http2 from 'http2';
 import * as stream from 'stream';
 import WebSocket = require('ws');
-import { getTlsConnection, httpGetWithSocket } from '@ulixee/unblocked-agent-testing/helpers';
+import { getTlsConnection, httpGetWithSocket } from '@justinearl/unblocked-agent-testing/helpers';
 import * as https from 'https';
 import { IncomingMessage } from 'http';
 import MitmSocket from '../index';

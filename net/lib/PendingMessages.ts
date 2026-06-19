@@ -1,6 +1,6 @@
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 
 export default class PendingMessages<IPayload> {
   private lastId = 0;

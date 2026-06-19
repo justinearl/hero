@@ -1,4 +1,4 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import '@double-agent/config/load';
 import { IAssignmentType } from '@double-agent/collect-controller/interfaces/IAssignment';
 import Config from '@double-agent/config';

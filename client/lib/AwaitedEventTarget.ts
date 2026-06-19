@@ -1,4 +1,4 @@
-import { IJsPath } from '@ulixee/js-path';
+import { IJsPath } from '@justinearl/js-path';
 import IAwaitedEventTarget from '../interfaces/IAwaitedEventTarget';
 import IJsPathEventTarget from '../interfaces/IJsPathEventTarget';
 

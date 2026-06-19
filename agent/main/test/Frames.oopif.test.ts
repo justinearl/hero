@@ -1,6 +1,6 @@
-import { browserEngineOptions } from '@ulixee/unblocked-agent-testing/browserUtils';
-import { TestLogger } from '@ulixee/unblocked-agent-testing/index';
-import IBrowser from '@ulixee/unblocked-specification/agent/browser/IBrowser';
+import { browserEngineOptions } from '@justinearl/unblocked-agent-testing/browserUtils';
+import { TestLogger } from '@justinearl/unblocked-agent-testing/index';
+import IBrowser from '@justinearl/unblocked-specification/agent/browser/IBrowser';
 import { Browser, BrowserContext, Page } from '../index';
 import { attachFrame, detachFrame, navigateFrame, waitForVisible } from './_pageTestUtils';
 import { TestServer } from './server';

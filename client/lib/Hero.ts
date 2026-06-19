@@ -1,25 +1,25 @@
-import { BlockedResourceType } from '@ulixee/hero-interfaces/ITabOptions';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
+import { BlockedResourceType } from '@justinearl/hero-interfaces/ITabOptions';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
 import SuperDocument from '@ulixee/awaited-dom/impl/super-klasses/SuperDocument';
-import IDomStorage from '@ulixee/unblocked-specification/agent/browser/IDomStorage';
-import IUserProfile from '@ulixee/hero-interfaces/IUserProfile';
+import IDomStorage from '@justinearl/unblocked-specification/agent/browser/IDomStorage';
+import IUserProfile from '@justinearl/hero-interfaces/IUserProfile';
 import { IRequestInit } from '@ulixee/awaited-dom/base/interfaces/official';
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
 import Response from '@ulixee/awaited-dom/impl/official-klasses/Response';
 import {
   ISuperElement,
   ISuperNode,
   ISuperNodeList,
 } from '@ulixee/awaited-dom/base/interfaces/super';
-import IWaitForResourceOptions from '@ulixee/hero-interfaces/IWaitForResourceOptions';
-import IWaitForElementOptions from '@ulixee/hero-interfaces/IWaitForElementOptions';
+import IWaitForResourceOptions from '@justinearl/hero-interfaces/IWaitForResourceOptions';
+import IWaitForElementOptions from '@justinearl/hero-interfaces/IWaitForElementOptions';
 import {
   ILoadStatus,
   ILocationTrigger,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
 import Request from '@ulixee/awaited-dom/impl/official-klasses/Request';
-import IWaitForOptions from '@ulixee/hero-interfaces/IWaitForOptions';
+import IWaitForOptions from '@justinearl/hero-interfaces/IWaitForOptions';
 import {
   IElementIsolate,
   IHTMLFrameElementIsolate,
@@ -28,26 +28,26 @@ import {
   INodeIsolate,
 } from '@ulixee/awaited-dom/base/interfaces/isolate';
 import CSSStyleDeclaration from '@ulixee/awaited-dom/impl/official-klasses/CSSStyleDeclaration';
-import IHeroMeta from '@ulixee/hero-interfaces/IHeroMeta';
-import IScreenshotOptions from '@ulixee/unblocked-specification/agent/browser/IScreenshotOptions';
-import { INodeVisibility } from '@ulixee/js-path';
-import IClientPlugin, { IClientPluginClass } from '@ulixee/hero-interfaces/IClientPlugin';
-import { PluginTypes } from '@ulixee/hero-interfaces/IPluginTypes';
-import requirePlugins from '@ulixee/hero-plugin-utils/lib/utils/requirePlugins';
-import filterPlugins from '@ulixee/hero-plugin-utils/lib/utils/filterPlugins';
-import extractPlugins from '@ulixee/hero-plugin-utils/lib/utils/extractPlugins';
-import IFlowCommandOptions from '@ulixee/hero-interfaces/IFlowCommandOptions';
-import DisconnectedError from '@ulixee/net/errors/DisconnectedError';
-import { IPluginClass } from '@ulixee/hero-interfaces/IPlugin';
+import IHeroMeta from '@justinearl/hero-interfaces/IHeroMeta';
+import IScreenshotOptions from '@justinearl/unblocked-specification/agent/browser/IScreenshotOptions';
+import { INodeVisibility } from '@justinearl/js-path';
+import IClientPlugin, { IClientPluginClass } from '@justinearl/hero-interfaces/IClientPlugin';
+import { PluginTypes } from '@justinearl/hero-interfaces/IPluginTypes';
+import requirePlugins from '@justinearl/hero-plugin-utils/lib/utils/requirePlugins';
+import filterPlugins from '@justinearl/hero-plugin-utils/lib/utils/filterPlugins';
+import extractPlugins from '@justinearl/hero-plugin-utils/lib/utils/extractPlugins';
+import IFlowCommandOptions from '@justinearl/hero-interfaces/IFlowCommandOptions';
+import DisconnectedError from '@justinearl/net/errors/DisconnectedError';
+import { IPluginClass } from '@justinearl/hero-interfaces/IPlugin';
 import {
   IElementInteractVerification,
   IMousePositionXY,
   isMousePositionXY,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import IDomState, { IDomStateAllFn } from '@ulixee/hero-interfaces/IDomState';
-import IResourceFilterProperties from '@ulixee/hero-interfaces/IResourceFilterProperties';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import IDomState, { IDomStateAllFn } from '@justinearl/hero-interfaces/IDomState';
+import IResourceFilterProperties from '@justinearl/hero-interfaces/IResourceFilterProperties';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import { EventEmitter } from 'events';
 import DetachedElement from './DetachedElement';
 import DetachedResource from './DetachedResource';

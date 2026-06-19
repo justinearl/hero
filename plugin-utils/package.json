@@ -1,10 +1,14 @@
 {
-  "name": "@ulixee/hero-plugin-utils",
+  "name": "@justinearl/hero-plugin-utils",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Base classes to build hero plugins",
   "dependencies": {
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/hero-interfaces": "2.0.0-alpha.34",
-    "@ulixee/unblocked-specification": "2.0.0-alpha.34"
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/hero-interfaces": "2.0.0-alpha.34",
+    "@justinearl/unblocked-specification": "2.0.0-alpha.34"
   }
 }

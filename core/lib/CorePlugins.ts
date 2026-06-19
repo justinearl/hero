@@ -1,15 +1,15 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import ICorePlugin, {
   ICorePluginClass,
   IOnClientCommandMeta,
   ISessionSummary,
-} from '@ulixee/hero-interfaces/ICorePlugin';
-import requirePlugins from '@ulixee/hero-plugin-utils/lib/utils/requirePlugins';
-import ICorePlugins from '@ulixee/hero-interfaces/ICorePlugins';
-import { PluginTypes } from '@ulixee/hero-interfaces/IPluginTypes';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import Agent from '@ulixee/unblocked-agent/lib/Agent';
-import { PluginConfigs } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+} from '@justinearl/hero-interfaces/ICorePlugin';
+import requirePlugins from '@justinearl/hero-plugin-utils/lib/utils/requirePlugins';
+import ICorePlugins from '@justinearl/hero-interfaces/ICorePlugins';
+import { PluginTypes } from '@justinearl/hero-interfaces/IPluginTypes';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import Agent from '@justinearl/unblocked-agent/lib/Agent';
+import { PluginConfigs } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import Core from '../index';
 
 interface IOptionsCreate {

@@ -1,4 +1,4 @@
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
 
 export default interface IResourceSummary {
   url: string;

@@ -1,4 +1,4 @@
-import type { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import type { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import IUserAgentOption from './IUserAgentOption';
 import IDeviceProfile from './IDeviceProfile';
 import IGeolocation from './IGeolocation';

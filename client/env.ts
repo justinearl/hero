@@ -1,4 +1,4 @@
-import { loadEnv, parseEnvPath } from '@ulixee/commons/lib/envUtils';
+import { loadEnv, parseEnvPath } from '@justinearl/commons/lib/envUtils';
 import * as Path from 'path';
 
 loadEnv(Path.join(__dirname, '..', 'core'));

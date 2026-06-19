@@ -1,7 +1,7 @@
-import { Helpers } from '@ulixee/hero-testing';
-import UlixeeHostsConfig from '@ulixee/commons/config/hosts';
-import * as VersionUtils from '@ulixee/commons/lib/VersionUtils';
-import Callsite from '@ulixee/commons/lib/Callsite';
+import { Helpers } from '@justinearl/hero-testing';
+import UlixeeHostsConfig from '@justinearl/commons/config/hosts';
+import * as VersionUtils from '@justinearl/commons/lib/VersionUtils';
+import Callsite from '@justinearl/commons/lib/Callsite';
 import Hero from '../index';
 import ConnectionFactory from '../connections/ConnectionFactory';
 import MockConnectionToCore from './_MockConnectionToCore';

@@ -1,5 +1,5 @@
-import { IOnClientCommandMeta } from '@ulixee/hero-interfaces/ICorePlugin';
-import CorePlugin from '@ulixee/hero-plugin-utils/lib/CorePlugin';
+import { IOnClientCommandMeta } from '@justinearl/hero-interfaces/ICorePlugin';
+import CorePlugin from '@justinearl/hero-plugin-utils/lib/CorePlugin';
 import { IExecuteJsArgs } from './IExecuteJsArgs';
 
 const { name: pluginId } = require('../package.json');

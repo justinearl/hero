@@ -1,6 +1,6 @@
-import UlixeeHostsConfig from '@ulixee/commons/config/hosts';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
-import { WsTransportToCore } from '@ulixee/net';
+import UlixeeHostsConfig from '@justinearl/commons/config/hosts';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
+import { WsTransportToCore } from '@justinearl/net';
 import IConnectionToCoreOptions from '../interfaces/IConnectionToCoreOptions';
 import CallsiteLocator from '../lib/CallsiteLocator';
 import ConnectionToHeroCore from './ConnectionToHeroCore';

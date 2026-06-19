@@ -1,11 +1,11 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import IViewport from '@ulixee/unblocked-specification/agent/browser/IViewport';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import IDeviceProfile from '@ulixee/unblocked-specification/plugin/IDeviceProfile';
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
-import IHeroMeta from '@ulixee/hero-interfaces/IHeroMeta';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
-import IScriptInvocationMeta from '@ulixee/hero-interfaces/IScriptInvocationMeta';
+import IViewport from '@justinearl/unblocked-specification/agent/browser/IViewport';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import IDeviceProfile from '@justinearl/unblocked-specification/plugin/IDeviceProfile';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
+import IHeroMeta from '@justinearl/hero-interfaces/IHeroMeta';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
+import IScriptInvocationMeta from '@justinearl/hero-interfaces/IScriptInvocationMeta';
 
 export default class SessionTable extends SqliteTable<ISessionRecord> {
   private id: string;

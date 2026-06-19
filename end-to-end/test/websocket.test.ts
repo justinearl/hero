@@ -1,12 +1,12 @@
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import MitmServer from '@ulixee/unblocked-agent-mitm/lib/MitmProxy';
-import { createPromise } from '@ulixee/commons/lib/utils';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import MitmServer from '@justinearl/unblocked-agent-mitm/lib/MitmProxy';
+import { createPromise } from '@justinearl/commons/lib/utils';
 import WebSocket = require('ws');
-import HttpUpgradeHandler from '@ulixee/unblocked-agent-mitm/handlers/HttpUpgradeHandler';
-import WebsocketResource from '@ulixee/hero/lib/WebsocketResource';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
+import HttpUpgradeHandler from '@justinearl/unblocked-agent-mitm/handlers/HttpUpgradeHandler';
+import WebsocketResource from '@justinearl/hero/lib/WebsocketResource';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
 import { AddressInfo } from 'net';
-import Core from '@ulixee/hero-core';
+import Core from '@justinearl/hero-core';
 
 let koaServer: ITestKoaServer;
 beforeAll(async () => {

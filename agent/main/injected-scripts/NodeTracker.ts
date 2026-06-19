@@ -1,5 +1,5 @@
 // have to add an import to use global define
-import {} from '@ulixee/unblocked-specification/agent/browser/IWindowOffset';
+import {} from '@justinearl/unblocked-specification/agent/browser/IWindowOffset';
 
 interface IStaticNodeTracker {
   has(node: Node): boolean;

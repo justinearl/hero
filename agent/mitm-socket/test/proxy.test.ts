@@ -1,10 +1,10 @@
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
 import {
   getTlsConnection,
   httpGetWithSocket,
   readableToBuffer,
-} from '@ulixee/unblocked-agent-testing/helpers';
+} from '@justinearl/unblocked-agent-testing/helpers';
 import * as http from 'http';
 import * as http2 from 'http2';
 import { AddressInfo } from 'node:net';

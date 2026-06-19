@@ -1,10 +1,10 @@
-import { Helpers } from '@ulixee/hero-testing';
-import { InteractionCommand } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import Core, { Session, Tab } from '@ulixee/hero-core';
-import ConnectionToHeroClient from '@ulixee/hero-core/connections/ConnectionToHeroClient';
-import InjectedScripts from '@ulixee/hero-core/lib/InjectedScripts';
-import DomChangesTable from '@ulixee/hero-core/models/DomChangesTable';
+import { Helpers } from '@justinearl/hero-testing';
+import { InteractionCommand } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import Core, { Session, Tab } from '@justinearl/hero-core';
+import ConnectionToHeroClient from '@justinearl/hero-core/connections/ConnectionToHeroClient';
+import InjectedScripts from '@justinearl/hero-core/lib/InjectedScripts';
+import DomChangesTable from '@justinearl/hero-core/models/DomChangesTable';
 import { inspect } from 'util';
 import MirrorContext from '../lib/MirrorContext';
 import MirrorPage from '../lib/MirrorPage';

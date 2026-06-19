@@ -1,4 +1,4 @@
-import { TNewDocumentCallbackFn } from '@ulixee/unblocked-specification/agent/browser/IPage';
+import { TNewDocumentCallbackFn } from '@justinearl/unblocked-specification/agent/browser/IPage';
 
 export default interface INewDocumentInjectedScript {
   script: string;

@@ -2,22 +2,22 @@ import RequestSession, {
   IRequestSessionHttpErrorEvent,
   IRequestSessionRequestEvent,
   IRequestSessionResponseEvent,
-} from '@ulixee/unblocked-agent-mitm/handlers/RequestSession';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import MitmRequestContext from '@ulixee/unblocked-agent-mitm/lib/MitmRequestContext';
-import { IBrowserResourceRequest } from '@ulixee/unblocked-specification/agent/browser/IBrowserNetworkEvents';
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
-import { IPageEvents } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
-import HeadersHandler from '@ulixee/unblocked-agent-mitm/handlers/HeadersHandler';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
+} from '@justinearl/unblocked-agent-mitm/handlers/RequestSession';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import MitmRequestContext from '@justinearl/unblocked-agent-mitm/lib/MitmRequestContext';
+import { IBrowserResourceRequest } from '@justinearl/unblocked-specification/agent/browser/IBrowserNetworkEvents';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
+import { IPageEvents } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import HeadersHandler from '@justinearl/unblocked-agent-mitm/handlers/HeadersHandler';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
 import { Cookie } from 'tough-cookie';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import IBrowserRequestMatcher from '@ulixee/unblocked-agent-mitm/interfaces/IBrowserRequestMatcher';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import IMitmRequestContext from '@ulixee/unblocked-agent-mitm/interfaces/IMitmRequestContext';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import IBrowserRequestMatcher from '@justinearl/unblocked-agent-mitm/interfaces/IBrowserRequestMatcher';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import IMitmRequestContext from '@justinearl/unblocked-agent-mitm/interfaces/IMitmRequestContext';
 import { IMitmRequestPendingBrowserRequest, IResourceEvents } from '../interfaces/IResourceEvents';
 import BrowserContext from './BrowserContext';
 

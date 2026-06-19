@@ -1,4 +1,4 @@
-import IRect from '@ulixee/unblocked-specification/agent/browser/IRect';
+import IRect from '@justinearl/unblocked-specification/agent/browser/IRect';
 import {
   createPointInRect,
   createScrollPointForRect,

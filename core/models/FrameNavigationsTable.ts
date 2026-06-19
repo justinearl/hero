@@ -1,8 +1,8 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import INavigation, { ContentPaint, NavigationStatus } from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import INavigation, { ContentPaint, NavigationStatus } from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 
 export default class FrameNavigationsTable extends SqliteTable<IFrameNavigationRecord> {
   public idCounter = 0;

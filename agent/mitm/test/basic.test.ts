@@ -1,7 +1,7 @@
-import { createPromise } from '@ulixee/commons/lib/utils';
-import CertificateGenerator from '@ulixee/unblocked-agent-mitm-socket/lib/CertificateGenerator';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import CertificateGenerator from '@justinearl/unblocked-agent-mitm-socket/lib/CertificateGenerator';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
 import * as http from 'http';
 import { IncomingHttpHeaders } from 'http';
 import { HttpProxyAgent } from 'http-proxy-agent';

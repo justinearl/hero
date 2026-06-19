@@ -1,4 +1,4 @@
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 import IBrowserData from '../interfaces/IBrowserData';
 import IUserAgentData from '../interfaces/IUserAgentData';
 import DomOverridesBuilder from './DomOverridesBuilder';

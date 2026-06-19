@@ -1,10 +1,10 @@
 /* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable prefer-spread */
 /* eslint-disable prefer-rest-params */
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing/index';
-import Pool from '@ulixee/unblocked-agent/lib/Pool';
-import { LocationStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing/index';
+import Pool from '@justinearl/unblocked-agent/lib/Pool';
+import { LocationStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 import BrowserEmulator, { defaultConfig } from '../index';
 import IBrowserEmulatorConfig, { InjectedScript } from '../interfaces/IBrowserEmulatorConfig';
 import type { Args as ErrorArgs } from '../injected-scripts/error';

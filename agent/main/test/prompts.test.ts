@@ -1,6 +1,6 @@
-import { defaultBrowserEngine } from '@ulixee/unblocked-agent-testing/browserUtils';
-import { TestLogger } from '@ulixee/unblocked-agent-testing/index';
-import { IPageEvents } from '@ulixee/unblocked-specification/agent/browser/IPage';
+import { defaultBrowserEngine } from '@justinearl/unblocked-agent-testing/browserUtils';
+import { TestLogger } from '@justinearl/unblocked-agent-testing/index';
+import { IPageEvents } from '@justinearl/unblocked-specification/agent/browser/IPage';
 import { TestServer } from './server';
 import { Browser, BrowserContext, Page } from '../index';
 

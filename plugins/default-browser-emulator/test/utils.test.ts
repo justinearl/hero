@@ -1,9 +1,9 @@
-import * as Helpers from '@ulixee/unblocked-agent-testing/helpers';
+import * as Helpers from '@justinearl/unblocked-agent-testing/helpers';
 import { inspect } from 'util';
-import Log from '@ulixee/commons/lib/Logger';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { Browser } from '@ulixee/unblocked-agent';
-import { defaultHooks } from '@ulixee/unblocked-agent-testing/browserUtils';
+import Log from '@justinearl/commons/lib/Logger';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { Browser } from '@justinearl/unblocked-agent';
+import { defaultHooks } from '@justinearl/unblocked-agent-testing/browserUtils';
 import { getOverrideScript, injectedSourceUrl } from '../lib/DomOverridesBuilder';
 // @ts-ignore
 // eslint-disable-next-line import/extensions

@@ -1,4 +1,4 @@
-import { IJsPath } from '@ulixee/js-path';
+import { IJsPath } from '@justinearl/js-path';
 
 export type IRemoteEmitFn = (listenerId: string, ...eventArgs: any[]) => void;
 

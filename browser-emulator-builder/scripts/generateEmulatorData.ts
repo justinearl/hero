@@ -1,6 +1,6 @@
-import '@ulixee/commons/lib/SourceMapSupport';
-import BrowserProfiler from '@ulixee/unblocked-browser-profiler';
-import * as stableChromeVersions from '@ulixee/real-user-agents/data/stableChromeVersions.json';
+import '@justinearl/commons/lib/SourceMapSupport';
+import BrowserProfiler from '@justinearl/unblocked-browser-profiler';
+import * as stableChromeVersions from '@justinearl/real-user-agents/data/stableChromeVersions.json';
 import * as Fs from 'fs';
 import * as Path from 'path';
 import ConfigJson from '../lib/json-creators/Config';

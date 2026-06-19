@@ -1,9 +1,9 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import Logger from '@ulixee/commons/lib/Logger';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket';
-import MitmSocketSession from '@ulixee/unblocked-agent-mitm-socket/lib/MitmSocketSession';
-import MitmEnv from '@ulixee/unblocked-agent-mitm/env'; // eslint-disable-line import/no-extraneous-dependencies
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import Logger from '@justinearl/commons/lib/Logger';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket';
+import MitmSocketSession from '@justinearl/unblocked-agent-mitm-socket/lib/MitmSocketSession';
+import MitmEnv from '@justinearl/unblocked-agent-mitm/env'; // eslint-disable-line import/no-extraneous-dependencies
 import * as Fs from 'fs';
 import * as http from 'http';
 import { IncomingMessage, RequestListener, Server } from 'http';

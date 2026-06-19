@@ -1,6 +1,6 @@
 import sizeOf from 'image-size';
-import { TestLogger } from '@ulixee/unblocked-agent-testing';
-import { browserEngineOptions, PageHooks } from '@ulixee/unblocked-agent-testing/browserUtils';
+import { TestLogger } from '@justinearl/unblocked-agent-testing';
+import { browserEngineOptions, PageHooks } from '@justinearl/unblocked-agent-testing/browserUtils';
 import ConsoleMessage from '../lib/ConsoleMessage';
 import { TestServer } from './server';
 import { Browser } from '../index';

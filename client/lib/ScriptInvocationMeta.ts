@@ -1,6 +1,6 @@
-import IScriptRunMeta from '@ulixee/hero-interfaces/IScriptInvocationMeta';
-import Callsite from '@ulixee/commons/lib/Callsite';
-import { filterUndefined } from '@ulixee/commons/lib/objectUtils';
+import IScriptRunMeta from '@justinearl/hero-interfaces/IScriptInvocationMeta';
+import Callsite from '@justinearl/commons/lib/Callsite';
+import { filterUndefined } from '@justinearl/commons/lib/objectUtils';
 
 const scriptInstanceVersion = Date.now().toString();
 

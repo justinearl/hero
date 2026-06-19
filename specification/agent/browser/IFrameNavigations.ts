@@ -1,4 +1,4 @@
-import type ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import type ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 import INavigation, { NavigationStatus } from './INavigation';
 import { LoadStatus } from './Location';
 

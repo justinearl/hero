@@ -1,5 +1,5 @@
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IDevtoolsSession from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IDevtoolsSession from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
 import IBrowserData from '../interfaces/IBrowserData';
 import DomOverridesBuilder from './DomOverridesBuilder';
 import INewDocumentInjectedScript from '../interfaces/INewDocumentInjectedScript';

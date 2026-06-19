@@ -1,5 +1,5 @@
-import Hero from '@ulixee/hero';
-import { ClientPlugin } from '@ulixee/hero-plugin-utils';
+import Hero from '@justinearl/hero';
+import { ClientPlugin } from '@justinearl/hero-plugin-utils';
 
 // NOTE: You need to start a Ulixee Cloud to run this example
 

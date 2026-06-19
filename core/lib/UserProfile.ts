@@ -1,11 +1,11 @@
-import IUserProfile from '@ulixee/hero-interfaces/IUserProfile';
+import IUserProfile from '@justinearl/hero-interfaces/IUserProfile';
 import IDomStorage, {
   IDomStorageForOrigin,
-} from '@ulixee/unblocked-specification/agent/browser/IDomStorage';
-import Log from '@ulixee/commons/lib/Logger';
-import { assert } from '@ulixee/commons/lib/utils';
-import Page from '@ulixee/unblocked-agent/lib/Page';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+} from '@justinearl/unblocked-specification/agent/browser/IDomStorage';
+import Log from '@justinearl/commons/lib/Logger';
+import { assert } from '@justinearl/commons/lib/utils';
+import Page from '@justinearl/unblocked-agent/lib/Page';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import Session from './Session';
 import InjectedScripts from './InjectedScripts';
 

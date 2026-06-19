@@ -1,12 +1,12 @@
-import IResourceSummary from '@ulixee/hero-interfaces/IResourceSummary';
-import { decompressBuffer } from '@ulixee/commons/lib/bufferUtils';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import ResourcesTable, { IResourcesRecord } from '@ulixee/hero-core/models/ResourcesTable';
-import SessionDb from '@ulixee/hero-core/dbs/SessionDb';
-import { Protocol } from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
+import IResourceSummary from '@justinearl/hero-interfaces/IResourceSummary';
+import { decompressBuffer } from '@justinearl/commons/lib/bufferUtils';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import ResourcesTable, { IResourcesRecord } from '@justinearl/hero-core/models/ResourcesTable';
+import SessionDb from '@justinearl/hero-core/dbs/SessionDb';
+import { Protocol } from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
 import Fetch = Protocol.Fetch;
 
 interface ISessionResourceDetails {

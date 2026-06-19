@@ -1,9 +1,9 @@
-import { IKeyboardKeyCode } from '@ulixee/unblocked-specification/agent/interact/IKeyboardLayoutUS';
-import { IKeyboardShortcut } from '@ulixee/unblocked-specification/agent/interact/IKeyboardShortcuts';
+import { IKeyboardKeyCode } from '@justinearl/unblocked-specification/agent/interact/IKeyboardLayoutUS';
+import { IKeyboardShortcut } from '@justinearl/unblocked-specification/agent/interact/IKeyboardShortcuts';
 import {
   IElementInteractVerification,
   IMousePositionXY,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 import { ISuperElement } from '@ulixee/awaited-dom/base/interfaces/super';
 
 export type IInteraction = ICommand | ICommandDetailed;

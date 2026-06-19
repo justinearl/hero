@@ -1,7 +1,7 @@
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import { Helpers } from '@ulixee/hero-testing/index';
-import ICoreCommandRequestPayload from '@ulixee/hero-interfaces/ICoreCommandRequestPayload';
-import ICoreResponsePayload from '@ulixee/net/interfaces/ICoreResponsePayload';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import { Helpers } from '@justinearl/hero-testing/index';
+import ICoreCommandRequestPayload from '@justinearl/hero-interfaces/ICoreCommandRequestPayload';
+import ICoreResponsePayload from '@justinearl/net/interfaces/ICoreResponsePayload';
 import Hero from '../index';
 import MockConnectionToCore from './_MockConnectionToCore';
 

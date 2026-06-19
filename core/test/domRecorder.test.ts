@@ -1,8 +1,8 @@
-import { Helpers } from '@ulixee/hero-testing';
-import { LocationStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
-import { InteractionCommand } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
+import { Helpers } from '@justinearl/hero-testing';
+import { LocationStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
+import { InteractionCommand } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
 import ConnectionToHeroClient from '../connections/ConnectionToHeroClient';
 import { MouseEventType } from '../models/MouseEventsTable';
 import Core, { Session } from '../index';

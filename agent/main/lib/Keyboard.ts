@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { IKeyboardKey } from '@ulixee/unblocked-specification/agent/interact/IKeyboardLayoutUS';
-import { assert } from '@ulixee/commons/lib/utils';
-import { IKeyboard } from '@ulixee/unblocked-specification/agent/interact/IInput';
+import { IKeyboardKey } from '@justinearl/unblocked-specification/agent/interact/IKeyboardLayoutUS';
+import { assert } from '@justinearl/commons/lib/utils';
+import { IKeyboard } from '@justinearl/unblocked-specification/agent/interact/IInput';
 import { IKeyDefinition, keyDefinitions } from './KeyboardLayoutUS';
 import DevtoolsSession from './DevtoolsSession';
 

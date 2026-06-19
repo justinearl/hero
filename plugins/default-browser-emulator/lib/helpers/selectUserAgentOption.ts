@@ -1,4 +1,4 @@
-import IUserAgentOption from '@ulixee/unblocked-specification/plugin/IUserAgentOption';
+import IUserAgentOption from '@justinearl/unblocked-specification/plugin/IUserAgentOption';
 import UserAgentPatternSelector from '../UserAgentSelector';
 import UserAgentOptions from '../UserAgentOptions';
 

@@ -1,21 +1,21 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import Log from '@ulixee/commons/lib/Logger';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import Core from '@ulixee/hero-core';
-import SessionDb from '@ulixee/hero-core/dbs/SessionDb';
-import ISessionRegistry from '@ulixee/hero-core/interfaces/ISessionRegistry';
-import Session from '@ulixee/hero-core/lib/Session';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import Log from '@justinearl/commons/lib/Logger';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import Core from '@justinearl/hero-core';
+import SessionDb from '@justinearl/hero-core/dbs/SessionDb';
+import ISessionRegistry from '@justinearl/hero-core/interfaces/ISessionRegistry';
+import Session from '@justinearl/hero-core/lib/Session';
 import DomChangesTable, {
   IDomChangeRecord,
   IDomRecording,
-} from '@ulixee/hero-core/models/DomChangesTable';
-import { IFrameNavigationRecord } from '@ulixee/hero-core/models/FrameNavigationsTable';
-import { IStorageChangesEntry } from '@ulixee/hero-core/models/StorageChangesTable';
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import IDomStateAssertionBatch from '@ulixee/hero-interfaces/IDomStateAssertionBatch';
-import IResourceFilterProperties from '@ulixee/hero-interfaces/IResourceFilterProperties';
-import IResourceSummary from '@ulixee/hero-interfaces/IResourceSummary';
-import BrowserContext from '@ulixee/unblocked-agent/lib/BrowserContext';
+} from '@justinearl/hero-core/models/DomChangesTable';
+import { IFrameNavigationRecord } from '@justinearl/hero-core/models/FrameNavigationsTable';
+import { IStorageChangesEntry } from '@justinearl/hero-core/models/StorageChangesTable';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import IDomStateAssertionBatch from '@justinearl/hero-interfaces/IDomStateAssertionBatch';
+import IResourceFilterProperties from '@justinearl/hero-interfaces/IResourceFilterProperties';
+import IResourceSummary from '@justinearl/hero-interfaces/IResourceSummary';
+import BrowserContext from '@justinearl/unblocked-agent/lib/BrowserContext';
 import * as Path from 'path';
 import { NodeType } from './DomNode';
 import DomRebuilder from './DomRebuilder';

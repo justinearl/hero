@@ -1,4 +1,4 @@
-import { Helpers } from '@ulixee/hero-testing/index';
+import { Helpers } from '@justinearl/hero-testing/index';
 import * as Fs from 'fs';
 import Core, { Session } from '../index';
 

@@ -1,4 +1,4 @@
-import ICommandMeta from '@ulixee/hero-interfaces/ICommandMeta';
+import ICommandMeta from '@justinearl/hero-interfaces/ICommandMeta';
 
 export default interface ICommandWithResult extends ICommandMeta {
   label: string;

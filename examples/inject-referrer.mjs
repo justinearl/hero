@@ -1,7 +1,7 @@
-import HeroCore from '@ulixee/hero-core';
-import Hero from '@ulixee/hero';
-import { TransportBridge } from '@ulixee/net';
-import { ConnectionToHeroCore } from '@ulixee/hero';
+import HeroCore from '@justinearl/hero-core';
+import Hero from '@justinearl/hero';
+import { TransportBridge } from '@justinearl/net';
+import { ConnectionToHeroCore } from '@justinearl/hero';
 
 async function start() {
   await HeroCore.start()

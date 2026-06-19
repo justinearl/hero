@@ -1,4 +1,4 @@
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
 import type {
   IElementRect,
   IJsPath,
@@ -6,8 +6,8 @@ import type {
   INodePointer,
   INodeVisibility,
   IPathStep,
-} from '@ulixee/js-path';
-import IPoint from '@ulixee/unblocked-specification/agent/browser/IPoint';
+} from '@justinearl/js-path';
+import IPoint from '@justinearl/unblocked-specification/agent/browser/IPoint';
 
 const pointerFnName = '__getNodePointer__';
 

@@ -16,10 +16,10 @@
  */
 import IDevtoolsSession, {
   Protocol,
-} from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import IBrowserEngine from '@ulixee/unblocked-specification/agent/browser/IBrowserEngine';
-import { readFileAsJson } from '@ulixee/commons/lib/fileUtils';
+} from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import IBrowserEngine from '@justinearl/unblocked-specification/agent/browser/IBrowserEngine';
+import { readFileAsJson } from '@justinearl/commons/lib/fileUtils';
 import * as Fs from 'fs';
 import * as Path from 'path';
 import BindingCalledEvent = Protocol.Runtime.BindingCalledEvent;

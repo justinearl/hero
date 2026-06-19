@@ -1,5 +1,5 @@
-import IFileChooserPrompt from '@ulixee/unblocked-specification/agent/browser/IFileChooserPrompt';
-import { IJsPath } from '@ulixee/js-path';
+import IFileChooserPrompt from '@justinearl/unblocked-specification/agent/browser/IFileChooserPrompt';
+import { IJsPath } from '@justinearl/js-path';
 import AwaitedPath from '@ulixee/awaited-dom/base/AwaitedPath';
 import { createHTMLInputElement } from '@ulixee/awaited-dom/impl/create';
 import { IHTMLInputElement } from '@ulixee/awaited-dom/base/interfaces/official';

@@ -1,5 +1,5 @@
-import '@ulixee/commons/lib/SourceMapSupport';
-import { defaultBrowserEngine } from '@ulixee/default-browser-emulator';
+import '@justinearl/commons/lib/SourceMapSupport';
+import { defaultBrowserEngine } from '@justinearl/default-browser-emulator';
 import IUserAgentConfig from '@double-agent/runner/interfaces/IUserAgentConfig';
 import * as Fs from 'fs';
 import { getExternalDataPath } from '../paths';

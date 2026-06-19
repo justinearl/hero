@@ -1,6 +1,6 @@
 import { Readable } from 'stream';
 import { URL } from 'url';
-import type { IEventSubscriber } from '@ulixee/commons/interfaces/IRegisteredEventListener';
+import type { IEventSubscriber } from '@justinearl/commons/interfaces/IRegisteredEventListener';
 import IResourceType from './IResourceType';
 import IHttpHeaders from './IHttpHeaders';
 import OriginType from './OriginType';

@@ -1,4 +1,4 @@
-import type { ScriptInput } from '@ulixee/default-browser-emulator/injected-scripts/_utils';
+import type { ScriptInput } from '@justinearl/default-browser-emulator/injected-scripts/_utils';
 
 export type Args = { callbackName: string };
 

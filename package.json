@@ -1,5 +1,5 @@
 {
-  "name": "@ulixee/hero-monorepo",
+  "name": "@justinearl/hero-monorepo",
   "private": true,
   "description": "The Web Browser Built for Scraping",
   "scripts": {
@@ -26,13 +26,16 @@
     "version:check": "ulx-repo-version-check fix",
     "version:bump": "ulx-repo-version-bump"
   },
-  "repository": "git@github.com:ulixee/hero.git",
+  "repository": "git@github.com:justinearl/hero.git",
   "author": "Data Liberation Foundation",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ulixee/hero/issues"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://ulixee.org",
+  "bugs": {
+    "url": "https://github.com/justinearl/hero/issues"
+  },
+  "homepage": "https://github.com/justinearl/hero",
   "engines": {
     "node": ">=18"
   },

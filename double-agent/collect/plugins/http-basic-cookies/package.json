@@ -8,7 +8,7 @@
   "dependencies": {
     "@double-agent/collect": "2.0.0-alpha.34",
     "@double-agent/config": "2.0.0-alpha.34",
-    "@ulixee/real-user-agents": "2.0.0-alpha.34",
+    "@justinearl/real-user-agents": "2.0.0-alpha.34",
     "cookie": "^0.4.0",
     "diff": "^4.0.2",
     "source-map-support": "^0.5.16",

@@ -1,4 +1,4 @@
-import { IElementRect, IJsPath, INodePointer } from '@ulixee/js-path';
+import { IElementRect, IJsPath, INodePointer } from '@justinearl/js-path';
 import IExecJsPathResult from './IExecJsPathResult';
 
 import IPoint from "./IPoint";

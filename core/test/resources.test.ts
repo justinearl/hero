@@ -1,6 +1,6 @@
-import { Helpers } from '@ulixee/hero-testing';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { defaultBrowserEngine } from '@ulixee/default-browser-emulator';
+import { Helpers } from '@justinearl/hero-testing';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { defaultBrowserEngine } from '@justinearl/default-browser-emulator';
 import ConnectionToHeroClient from '../connections/ConnectionToHeroClient';
 import Core, { Session } from '../index';
 import { stringToRegex } from '../lib/Tab';

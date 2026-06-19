@@ -1,6 +1,6 @@
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
-import IResourceRequest from '@ulixee/unblocked-specification/agent/net/IResourceRequest';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
+import IResourceRequest from '@justinearl/unblocked-specification/agent/net/IResourceRequest';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
 import CoreTab from './CoreTab';
 
 export default class ResourceRequest {

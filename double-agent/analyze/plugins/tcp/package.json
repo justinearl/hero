@@ -10,7 +10,7 @@
     "@double-agent/collect": "2.0.0-alpha.34",
     "@double-agent/collect-tcp": "2.0.0-alpha.34",
     "@double-agent/config": "2.0.0-alpha.34",
-    "@ulixee/real-user-agents": "2.0.0-alpha.34",
+    "@justinearl/real-user-agents": "2.0.0-alpha.34",
     "source-map-support": "^0.5.16"
   }
 }

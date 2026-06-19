@@ -1,11 +1,11 @@
 // NOTE: do not use node dependencies
 
-import type { IDomChangeEvent, INodeData } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import type { IMouseEvent } from '@ulixee/hero-interfaces/IMouseEvent';
-import type { IFocusEvent } from '@ulixee/hero-interfaces/IFocusEvent';
-import type { IScrollEvent } from '@ulixee/hero-interfaces/IScrollEvent';
-import type { ILoadEvent } from '@ulixee/hero-interfaces/ILoadEvent';
-import type ITypeSerializer from '@ulixee/commons/interfaces/ITypeSerializer';
+import type { IDomChangeEvent, INodeData } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import type { IMouseEvent } from '@justinearl/hero-interfaces/IMouseEvent';
+import type { IFocusEvent } from '@justinearl/hero-interfaces/IFocusEvent';
+import type { IScrollEvent } from '@justinearl/hero-interfaces/IScrollEvent';
+import type { ILoadEvent } from '@justinearl/hero-interfaces/ILoadEvent';
+import type ITypeSerializer from '@justinearl/commons/interfaces/ITypeSerializer';
 
 declare global {
   let TypeSerializer: ITypeSerializer;

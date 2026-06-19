@@ -1,26 +1,26 @@
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import IViewport from '@ulixee/unblocked-specification/agent/browser/IViewport';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import InjectedScripts, { CorePageInjectedScript } from '@ulixee/hero-core/lib/InjectedScripts';
-import { IMouseEventRecord } from '@ulixee/hero-core/models/MouseEventsTable';
-import { IScrollRecord } from '@ulixee/hero-core/models/ScrollEventsTable';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import IViewport from '@justinearl/unblocked-specification/agent/browser/IViewport';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import InjectedScripts, { CorePageInjectedScript } from '@justinearl/hero-core/lib/InjectedScripts';
+import { IMouseEventRecord } from '@justinearl/hero-core/models/MouseEventsTable';
+import { IScrollRecord } from '@justinearl/hero-core/models/ScrollEventsTable';
 import DomChangesTable, {
   IDocument,
   IDomChangeRecord,
   IDomRecording,
   IPaintEvent,
-} from '@ulixee/hero-core/models/DomChangesTable';
-import Log from '@ulixee/commons/lib/Logger';
+} from '@justinearl/hero-core/models/DomChangesTable';
+import Log from '@justinearl/commons/lib/Logger';
 import * as fs from 'fs';
-import { IFrontendDomChangeEvent } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import { Tab } from '@ulixee/hero-core';
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import Queue from '@ulixee/commons/lib/Queue';
-import { ITabEventParams } from '@ulixee/hero-core/lib/Tab';
-import Page from '@ulixee/unblocked-agent/lib/Page';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import BrowserContext from '@ulixee/unblocked-agent/lib/BrowserContext';
+import { IFrontendDomChangeEvent } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import { Tab } from '@justinearl/hero-core';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import Queue from '@justinearl/commons/lib/Queue';
+import { ITabEventParams } from '@justinearl/hero-core/lib/Tab';
+import Page from '@justinearl/unblocked-agent/lib/Page';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import BrowserContext from '@justinearl/unblocked-agent/lib/BrowserContext';
 import MirrorNetwork from './MirrorNetwork';
 
 const { log } = Log(module);

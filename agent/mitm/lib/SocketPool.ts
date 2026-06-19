@@ -1,9 +1,9 @@
-import Queue from '@ulixee/commons/lib/Queue';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import Queue from '@justinearl/commons/lib/Queue';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import { ClientHttp2Session } from 'http2';
 import RequestSession from '../handlers/RequestSession';
 import Http2SessionBinding from './Http2SessionBinding';

@@ -1,23 +1,23 @@
 import * as http from 'http';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
-import IResourceRequest from '@ulixee/unblocked-specification/agent/net/IResourceRequest';
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import IResourceRequest from '@justinearl/unblocked-specification/agent/net/IResourceRequest';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
 import * as http2 from 'http2';
-import IResourceResponse from '@ulixee/unblocked-specification/agent/net/IResourceResponse';
+import IResourceResponse from '@justinearl/unblocked-specification/agent/net/IResourceResponse';
 import * as net from 'net';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket/index';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket/index';
 import { URL } from 'url';
 import {
   IBrowserContextHooks,
   INetworkHooks,
-} from '@ulixee/unblocked-specification/agent/hooks/IHooks';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+} from '@justinearl/unblocked-specification/agent/hooks/IHooks';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import MitmRequestAgent from '../lib/MitmRequestAgent';
 import IMitmRequestContext from '../interfaces/IMitmRequestContext';
 import { Dns } from '../lib/Dns';

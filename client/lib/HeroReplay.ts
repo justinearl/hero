@@ -1,4 +1,4 @@
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
 import Hero from './Hero';
 import IHeroReplayCreateOptions from '../interfaces/IHeroReplayCreateOptions';
 import DetachedElements from './DetachedElements';

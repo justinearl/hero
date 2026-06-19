@@ -1,4 +1,4 @@
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
 
 export default class RemoteError extends Error {
   private readonly type: string;

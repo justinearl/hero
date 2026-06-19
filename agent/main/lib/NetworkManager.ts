@@ -1,14 +1,14 @@
 import { Protocol } from 'devtools-protocol';
-import { getResourceTypeForChromeValue } from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
+import { getResourceTypeForChromeValue } from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
 import {
   IBrowserNetworkEvents,
   IBrowserResourceRequest,
-} from '@ulixee/unblocked-specification/agent/browser/IBrowserNetworkEvents';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+} from '@justinearl/unblocked-specification/agent/browser/IBrowserNetworkEvents';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import { URL } from 'url';
 import DevtoolsSession from './DevtoolsSession';
 import AuthChallengeResponse = Protocol.Fetch.AuthChallengeResponseResponse;

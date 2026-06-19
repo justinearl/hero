@@ -1,15 +1,15 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import '../env'; // load our env before DA
 import '@double-agent/config/load';
 import { execSync } from 'child_process';
 import { existsSync, promises as Fs, rmSync } from 'fs';
 import * as Path from 'path';
 import Axios from 'axios';
-import { existsAsync } from '@ulixee/commons/lib/fileUtils';
+import { existsAsync } from '@justinearl/commons/lib/fileUtils';
 import AssignmentsClient, { IAssignment } from '@double-agent/runner/lib/AssignmentsClient';
 import saveAssignmentToProfileDir from '@double-agent/runner/lib/saveAssignmentToProfileDir';
 import Config, { createUserAgentIdFromIds } from '@double-agent/config';
-import getLocalOperatingSystemMeta from '@ulixee/real-user-agents/lib/getLocalOperatingSystemMeta';
+import getLocalOperatingSystemMeta from '@justinearl/real-user-agents/lib/getLocalOperatingSystemMeta';
 import BrowserProfiler from '../index';
 import {
   buildChromeDocker,

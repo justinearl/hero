@@ -1,6 +1,6 @@
-import { createSession, ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import { Helpers } from '@ulixee/hero-testing';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import { createSession, ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import { Helpers } from '@justinearl/hero-testing';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import Core from '../index';
 
 let koaServer: ITestKoaServer;

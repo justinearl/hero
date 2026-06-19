@@ -1,4 +1,4 @@
-import Hero from '@ulixee/hero';
+import Hero from '@justinearl/hero';
 
 // NOTE: You need to start a Ulixee Cloud to run this example
 

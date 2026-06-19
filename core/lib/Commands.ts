@@ -1,9 +1,9 @@
-import ICommandMeta from '@ulixee/hero-interfaces/ICommandMeta';
-import { IJsPath } from '@ulixee/js-path';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import ICommandMarker from '@ulixee/unblocked-agent/interfaces/ICommandMarker';
-import ICoreCommandRequestPayload from '@ulixee/hero-interfaces/ICoreCommandRequestPayload';
+import ICommandMeta from '@justinearl/hero-interfaces/ICommandMeta';
+import { IJsPath } from '@justinearl/js-path';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import ICommandMarker from '@justinearl/unblocked-agent/interfaces/ICommandMarker';
+import ICoreCommandRequestPayload from '@justinearl/hero-interfaces/ICoreCommandRequestPayload';
 import { IRemoteEmitFn } from '../interfaces/IRemoteEventListener';
 import { IEventRecord } from '../models/AwaitedEventsTable';
 import SessionDb from '../dbs/SessionDb';

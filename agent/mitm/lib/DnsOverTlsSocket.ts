@@ -1,12 +1,12 @@
 import { randomBytes } from 'crypto';
 import * as dnsPacket from 'dns-packet';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket/index';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import IDnsSettings from '@ulixee/unblocked-specification/agent/net/IDnsSettings';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket/index';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import IDnsSettings from '@justinearl/unblocked-specification/agent/net/IDnsSettings';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import RequestSession from '../handlers/RequestSession';
 import env from "../env";
 

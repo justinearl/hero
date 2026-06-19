@@ -1,7 +1,7 @@
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import '@ulixee/commons/lib/SourceMapSupport';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import '@justinearl/commons/lib/SourceMapSupport';
 import ITransport, { ITransportEvents } from '../interfaces/ITransport';
 
 let counter = 0;

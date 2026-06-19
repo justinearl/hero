@@ -1,6 +1,6 @@
-import Core from '@ulixee/hero-core';
-import Hero from '@ulixee/hero'
-import ExecuteJsPlugin from '@ulixee/execute-js-plugin';
+import Core from '@justinearl/hero-core';
+import Hero from '@justinearl/hero'
+import ExecuteJsPlugin from '@justinearl/execute-js-plugin';
 
 Core.use(ExecuteJsPlugin);
 

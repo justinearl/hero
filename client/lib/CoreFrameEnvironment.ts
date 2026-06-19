@@ -1,31 +1,31 @@
 import {
   IInteractionGroups,
   isMousePositionXY,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
 import {
   ILoadStatus,
   ILocationTrigger,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import { IJsPath, INodePointer, INodeVisibility } from '@ulixee/js-path';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import { IJsPath, INodePointer, INodeVisibility } from '@justinearl/js-path';
 import AwaitedPath from '@ulixee/awaited-dom/base/AwaitedPath';
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
-import IWaitForElementOptions from '@ulixee/hero-interfaces/IWaitForElementOptions';
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
+import IWaitForElementOptions from '@justinearl/hero-interfaces/IWaitForElementOptions';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
 import { IRequestInit } from '@ulixee/awaited-dom/base/interfaces/official';
-import ISetCookieOptions from '@ulixee/hero-interfaces/ISetCookieOptions';
+import ISetCookieOptions from '@justinearl/hero-interfaces/ISetCookieOptions';
 import {
   getComputedVisibilityFnName,
   isFocusedFnName,
-} from '@ulixee/unblocked-specification/agent/browser/IJsPathFunctions';
-import IWaitForOptions from '@ulixee/hero-interfaces/IWaitForOptions';
-import IFrameMeta from '@ulixee/hero-interfaces/IFrameMeta';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
+} from '@justinearl/unblocked-specification/agent/browser/IJsPathFunctions';
+import IWaitForOptions from '@justinearl/hero-interfaces/IWaitForOptions';
+import IFrameMeta from '@justinearl/hero-interfaces/IFrameMeta';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
 import StateMachine from '@ulixee/awaited-dom/base/StateMachine';
 import { IElementIsolate, INodeIsolate } from '@ulixee/awaited-dom/base/interfaces/isolate';
 import { ISuperElement } from '@ulixee/awaited-dom/base/interfaces/super';
-import TimeoutError from '@ulixee/commons/interfaces/TimeoutError';
-import IDetachedElement from '@ulixee/hero-interfaces/IDetachedElement';
+import TimeoutError from '@justinearl/commons/interfaces/TimeoutError';
+import IDetachedElement from '@justinearl/hero-interfaces/IDetachedElement';
 import IAwaitedOptions from '../interfaces/IAwaitedOptions';
 import CoreCommandQueue from './CoreCommandQueue';
 import CoreTab from './CoreTab';

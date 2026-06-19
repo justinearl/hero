@@ -1,6 +1,6 @@
 import ChromeApp from '@ulixee/chrome-app';
-import IBrowserEngineOption from '@ulixee/unblocked-specification/agent/browser/IBrowserEngineOption';
-import { IVersion } from '@ulixee/unblocked-specification/plugin/IUserAgentOption';
+import IBrowserEngineOption from '@justinearl/unblocked-specification/agent/browser/IBrowserEngineOption';
+import { IVersion } from '@justinearl/unblocked-specification/plugin/IUserAgentOption';
 import DataLoader from './DataLoader';
 
 type IBrowserEngineOptionAndVersion = IBrowserEngineOption & { version: IVersion };
@@ -24,7 +24,7 @@ export default class BrowserEngineOptions {
             
 ----------- update to the latest data files using ----------
         
-         npx @ulixee/default-browser-emulator update-unblocked-emulators
+         npx @justinearl/default-browser-emulator update-unblocked-emulators
         
 ------------------------------------------------------------`,
           );
@@ -57,7 +57,7 @@ export default class BrowserEngineOptions {
 
       if (!this.dataLoader.isInstalledBrowser(`as-${engine.id}`)) {
         this.browserIdsNeedingDataFiles.add(engine.id);
-        console.warn(`[@ulixee/hero] You have a Chrome Browser Engine installed without accompanying data files needed to emulate Operating Systems & Headed operation. 
+        console.warn(`[@justinearl/hero] You have a Chrome Browser Engine installed without accompanying data files needed to emulate Operating Systems & Headed operation. 
           
 You must install data files for "${engine.id}" to support emulating the browser.`);
         continue;

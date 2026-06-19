@@ -1,12 +1,12 @@
 import {
   IInteractionStep,
   InteractionCommand,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import Log from '@ulixee/commons/lib/Logger';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import * as rectUtils from '@ulixee/unblocked-agent/lib/rectUtils';
-import IInteractionsHelper from '@ulixee/unblocked-specification/agent/interact/IInteractionsHelper';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import Log from '@justinearl/commons/lib/Logger';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import * as rectUtils from '@justinearl/unblocked-agent/lib/rectUtils';
+import IInteractionsHelper from '@justinearl/unblocked-specification/agent/interact/IInteractionsHelper';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
 import HumanEmulator from '../index';
 
 const { log } = Log(module);

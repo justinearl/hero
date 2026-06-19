@@ -1,4 +1,4 @@
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
 
 export default interface ICommandMeta {
   id: number;

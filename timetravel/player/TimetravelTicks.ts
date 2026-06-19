@@ -1,13 +1,13 @@
-import SessionDb from '@ulixee/hero-core/dbs/SessionDb';
-import { IMouseEventRecord, MouseEventType } from '@ulixee/hero-core/models/MouseEventsTable';
-import { IFocusRecord } from '@ulixee/hero-core/models/FocusEventsTable';
-import { IScrollRecord } from '@ulixee/hero-core/models/ScrollEventsTable';
-import ICommandWithResult from '@ulixee/hero-core/interfaces/ICommandWithResult';
-import CommandFormatter from '@ulixee/hero-core/lib/CommandFormatter';
+import SessionDb from '@justinearl/hero-core/dbs/SessionDb';
+import { IMouseEventRecord, MouseEventType } from '@justinearl/hero-core/models/MouseEventsTable';
+import { IFocusRecord } from '@justinearl/hero-core/models/FocusEventsTable';
+import { IScrollRecord } from '@justinearl/hero-core/models/ScrollEventsTable';
+import ICommandWithResult from '@justinearl/hero-core/interfaces/ICommandWithResult';
+import CommandFormatter from '@justinearl/hero-core/lib/CommandFormatter';
 import DomChangesTable, {
   IDomChangeRecord,
   IDomRecording,
-} from '@ulixee/hero-core/models/DomChangesTable';
+} from '@justinearl/hero-core/models/DomChangesTable';
 import CommandTimeline from '../lib/CommandTimeline';
 
 export default class TimetravelTicks {

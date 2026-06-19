@@ -1,4 +1,4 @@
-import { readFileAsJson } from '@ulixee/commons/lib/fileUtils';
+import { readFileAsJson } from '@justinearl/commons/lib/fileUtils';
 import { getDataFilePath } from '../lib/paths';
 import IStableChromeVersion from '../interfaces/IStableChromeVersion';
 

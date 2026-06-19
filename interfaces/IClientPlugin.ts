@@ -1,5 +1,5 @@
-import type { Tab, FrameEnvironment } from '@ulixee/hero';
-import type Hero from '@ulixee/hero/lib/Hero';
+import type { Tab, FrameEnvironment } from '@justinearl/hero';
+import type Hero from '@justinearl/hero/lib/Hero';
 import { PluginTypes } from './IPluginTypes';
 
 export default interface IClientPlugin {
