@@ -1,10 +1,10 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { IWorker, IWorkerEvents } from '@ulixee/unblocked-specification/agent/browser/IWorker';
-import { IBrowserContextHooks } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { IWorker, IWorkerEvents } from '@justinearl/unblocked-specification/agent/browser/IWorker';
+import { IBrowserContextHooks } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
 import Protocol from 'devtools-protocol';
 import BrowserContext from './BrowserContext';
 import ConsoleMessage from './ConsoleMessage';

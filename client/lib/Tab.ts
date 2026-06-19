@@ -7,17 +7,17 @@ import {
 import { IRequestInit } from '@ulixee/awaited-dom/base/interfaces/official';
 import SuperDocument from '@ulixee/awaited-dom/impl/super-klasses/SuperDocument';
 import Storage from '@ulixee/awaited-dom/impl/official-klasses/Storage';
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
 import CSSStyleDeclaration from '@ulixee/awaited-dom/impl/official-klasses/CSSStyleDeclaration';
 import Request from '@ulixee/awaited-dom/impl/official-klasses/Request';
 import {
   ILoadStatus,
   ILocationTrigger,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import IWaitForResourceOptions from '@ulixee/hero-interfaces/IWaitForResourceOptions';
-import IWaitForElementOptions from '@ulixee/hero-interfaces/IWaitForElementOptions';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import IWaitForResourceOptions from '@justinearl/hero-interfaces/IWaitForResourceOptions';
+import IWaitForElementOptions from '@justinearl/hero-interfaces/IWaitForElementOptions';
 import Response from '@ulixee/awaited-dom/impl/official-klasses/Response';
-import IWaitForOptions from '@ulixee/hero-interfaces/IWaitForOptions';
+import IWaitForOptions from '@justinearl/hero-interfaces/IWaitForOptions';
 import {
   IElementIsolate,
   IHTMLFrameElementIsolate,
@@ -25,12 +25,12 @@ import {
   IHTMLObjectElementIsolate,
   INodeIsolate,
 } from '@ulixee/awaited-dom/base/interfaces/isolate';
-import IScreenshotOptions from '@ulixee/unblocked-specification/agent/browser/IScreenshotOptions';
+import IScreenshotOptions from '@justinearl/unblocked-specification/agent/browser/IScreenshotOptions';
 import AwaitedPath from '@ulixee/awaited-dom/base/AwaitedPath';
-import { INodeVisibility } from '@ulixee/js-path';
-import IResourceFilterProperties from '@ulixee/hero-interfaces/IResourceFilterProperties';
-import IDomState, { IDomStateAllFn } from '@ulixee/hero-interfaces/IDomState';
-import IFlowCommandOptions from '@ulixee/hero-interfaces/IFlowCommandOptions';
+import { INodeVisibility } from '@justinearl/js-path';
+import IResourceFilterProperties from '@justinearl/hero-interfaces/IResourceFilterProperties';
+import IDomState, { IDomStateAllFn } from '@justinearl/hero-interfaces/IDomState';
+import IFlowCommandOptions from '@justinearl/hero-interfaces/IFlowCommandOptions';
 import CoreTab from './CoreTab';
 import Resource, { createResource } from './Resource';
 import IWaitForResourceFilter from '../interfaces/IWaitForResourceFilter';

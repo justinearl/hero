@@ -2,12 +2,12 @@ import * as http from 'http';
 import { RequestOptions } from 'http';
 import * as https from 'https';
 import * as url from 'url';
-import IHttpSocketAgent from '@ulixee/unblocked-specification/agent/net/IHttpSocketAgent';
-import IHttpSocketWrapper from '@ulixee/unblocked-specification/agent/net/IHttpSocketWrapper';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket';
-import MitmSocketSession from '@ulixee/unblocked-agent-mitm-socket/lib/MitmSocketSession';
-import Logger from '@ulixee/commons/lib/Logger';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import IHttpSocketAgent from '@justinearl/unblocked-specification/agent/net/IHttpSocketAgent';
+import IHttpSocketWrapper from '@justinearl/unblocked-specification/agent/net/IHttpSocketWrapper';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket';
+import MitmSocketSession from '@justinearl/unblocked-agent-mitm-socket/lib/MitmSocketSession';
+import Logger from '@justinearl/commons/lib/Logger';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import * as http2 from 'http2';
 
 let sharedSession: MitmSocketSession;

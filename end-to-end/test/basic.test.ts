@@ -1,9 +1,9 @@
-import HeroClient, { ConnectionToHeroCore } from '@ulixee/hero';
-import HeroCore, { Session } from '@ulixee/hero-core';
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
+import HeroClient, { ConnectionToHeroCore } from '@justinearl/hero';
+import HeroCore, { Session } from '@justinearl/hero-core';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
 
-import TransportBridge from '@ulixee/net/lib/TransportBridge';
+import TransportBridge from '@justinearl/net/lib/TransportBridge';
 
 let koaServer: ITestKoaServer;
 let core: HeroCore;

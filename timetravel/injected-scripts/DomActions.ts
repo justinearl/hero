@@ -1,4 +1,4 @@
-import { IFrontendDomChangeEvent } from '@ulixee/hero-interfaces/IDomChangeEvent';
+import { IFrontendDomChangeEvent } from '@justinearl/hero-interfaces/IDomChangeEvent';
 
 declare global {
   interface Window {

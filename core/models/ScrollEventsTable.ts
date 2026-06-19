@@ -1,6 +1,6 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import { IScrollEvent } from '@ulixee/hero-interfaces/IScrollEvent';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import { IScrollEvent } from '@justinearl/hero-interfaces/IScrollEvent';
 
 export default class ScrollEventsTable extends SqliteTable<IScrollRecord> {
   constructor(db: SqliteDatabase) {

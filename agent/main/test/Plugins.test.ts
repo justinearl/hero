@@ -1,7 +1,7 @@
 import IUnblockedPlugin, {
   UnblockedPluginClassDecorator,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 import Plugins from '../lib/Plugins';
 
 test('each plugin should be given a chance to pre-configure the profile', () => {

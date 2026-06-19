@@ -1,5 +1,5 @@
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import { IDomChangeRecord, IPaintEvent } from '@ulixee/hero-core/models/DomChangesTable';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import { IDomChangeRecord, IPaintEvent } from '@justinearl/hero-core/models/DomChangesTable';
 import DomNode from './DomNode';
 import XPathGenerator from './XPathGenerator';
 

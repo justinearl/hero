@@ -1,4 +1,4 @@
-import { Agent } from '@ulixee/unblocked-agent';
+import { Agent } from '@justinearl/unblocked-agent';
 
 async function run() {
   const agent = new Agent();

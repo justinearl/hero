@@ -14,8 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Log from '@ulixee/commons/lib/Logger';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Log from '@justinearl/commons/lib/Logger';
 import IConnectionTransport from '../interfaces/IConnectionTransport';
 import DevtoolsSession from './DevtoolsSession';
 

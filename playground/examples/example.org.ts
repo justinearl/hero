@@ -1,4 +1,4 @@
-import Hero from '@ulixee/hero-playground';
+import Hero from '@justinearl/hero-playground';
 
 (async () => {
   const hero = new Hero();

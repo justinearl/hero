@@ -1,7 +1,7 @@
-import { IPaintEvent } from '@ulixee/hero-core/models/DomChangesTable';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import ITimelineMetadata from '@ulixee/hero-interfaces/ITimelineMetadata';
+import { IPaintEvent } from '@justinearl/hero-core/models/DomChangesTable';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import ITimelineMetadata from '@justinearl/hero-interfaces/ITimelineMetadata';
 import { ITabDetails, ITick } from './TimetravelTicks';
 import MirrorPage from '../lib/MirrorPage';
 

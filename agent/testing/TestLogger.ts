@@ -1,8 +1,8 @@
-import { ILogEntry, translateToPrintable } from '@ulixee/commons/lib/Logger';
-import Callsite from '@ulixee/commons/lib/Callsite';
+import { ILogEntry, translateToPrintable } from '@justinearl/commons/lib/Logger';
+import Callsite from '@justinearl/commons/lib/Callsite';
 import * as Path from 'path';
 import * as Fs from 'fs';
-import ILog, { IBoundLog, ILogData } from '@ulixee/commons/interfaces/ILog';
+import ILog, { IBoundLog, ILogData } from '@justinearl/commons/interfaces/ILog';
 import { inspect } from 'util';
 import env from './env';
 

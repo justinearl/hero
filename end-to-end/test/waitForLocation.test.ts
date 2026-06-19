@@ -1,6 +1,6 @@
-import { Hero, Helpers } from '@ulixee/hero-testing';
-import { getLogo, ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import { Hero, Helpers } from '@justinearl/hero-testing';
+import { getLogo, ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 
 let koaServer: ITestKoaServer;
 beforeAll(async () => {

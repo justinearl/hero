@@ -1,9 +1,9 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import * as Fs from 'fs';
 import axios from 'axios';
 import csvParser = require('csv-parser');
 import *  as moment from 'moment';
-import { readFileAsJson } from '@ulixee/commons/lib/fileUtils';
+import { readFileAsJson } from '@justinearl/commons/lib/fileUtils';
 import { getDataFilePath } from '../lib/paths';
 import { IStatcounterMarketshare } from '../data';
 

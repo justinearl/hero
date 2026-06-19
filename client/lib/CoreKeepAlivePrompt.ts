@@ -1,5 +1,5 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import * as readline from 'readline';
 import { ReadLine } from 'readline';
 

@@ -1,4 +1,4 @@
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
 
 export default interface ISetCookieOptions
   extends Pick<ICookie, 'httpOnly' | 'secure' | 'sameSite'> {

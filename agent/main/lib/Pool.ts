@@ -1,25 +1,25 @@
-import Log from '@ulixee/commons/lib/Logger';
-import { MitmProxy } from '@ulixee/unblocked-agent-mitm';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import IBrowserEngine from '@ulixee/unblocked-specification/agent/browser/IBrowserEngine';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Queue from '@ulixee/commons/lib/Queue';
+import Log from '@justinearl/commons/lib/Logger';
+import { MitmProxy } from '@justinearl/unblocked-agent-mitm';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import IBrowserEngine from '@justinearl/unblocked-specification/agent/browser/IBrowserEngine';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Queue from '@justinearl/commons/lib/Queue';
 import ICertificateGenerator, {
   ICertificateStore,
-} from '@ulixee/unblocked-agent-mitm/interfaces/ICertificateGenerator';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import IBrowserUserConfig from '@ulixee/unblocked-specification/agent/browser/IBrowserUserConfig';
-import IDevtoolsSession from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { IHooksProvider } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
+} from '@justinearl/unblocked-agent-mitm/interfaces/ICertificateGenerator';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import IBrowserUserConfig from '@justinearl/unblocked-specification/agent/browser/IBrowserUserConfig';
+import IDevtoolsSession from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { IHooksProvider } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
 import {
   IUnblockedPluginClass,
   PluginConfigs,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import IRegisteredEventListener from '@ulixee/commons/interfaces/IRegisteredEventListener';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import IRegisteredEventListener from '@justinearl/commons/interfaces/IRegisteredEventListener';
 import Browser from './Browser';
 import Agent, { IAgentCreateOptions } from './Agent';
 import env from '../env';

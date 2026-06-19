@@ -1,6 +1,6 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import { registerSerializableErrorType } from '@ulixee/commons/lib/TypeSerializer';
-import addGlobalInstance from '@ulixee/commons/lib/addGlobalInstance';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import { registerSerializableErrorType } from '@justinearl/commons/lib/TypeSerializer';
+import addGlobalInstance from '@justinearl/commons/lib/addGlobalInstance';
 
 export default class DisconnectedError extends CanceledPromiseError {
   public code = 'DisconnectedError';

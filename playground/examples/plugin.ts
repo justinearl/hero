@@ -1,9 +1,9 @@
-import DefaultBrowserEmulator from '@ulixee/default-browser-emulator';
-import { ConnectionToHeroCore } from '@ulixee/hero';
-import HeroCore from '@ulixee/hero-core';
-import ExecuteJsPlugin from '@ulixee/execute-js-plugin';
-import Hero, { LocationTrigger } from '@ulixee/hero';
-import TransportBridge from '@ulixee/net/lib/TransportBridge';
+import DefaultBrowserEmulator from '@justinearl/default-browser-emulator';
+import { ConnectionToHeroCore } from '@justinearl/hero';
+import HeroCore from '@justinearl/hero-core';
+import ExecuteJsPlugin from '@justinearl/execute-js-plugin';
+import Hero, { LocationTrigger } from '@justinearl/hero';
+import TransportBridge from '@justinearl/net/lib/TransportBridge';
 
 async function run() {
   HeroCore.defaultUnblockedPlugins = [DefaultBrowserEmulator];

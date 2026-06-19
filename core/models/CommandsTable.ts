@@ -1,7 +1,7 @@
-import ICommandMeta from '@ulixee/hero-interfaces/ICommandMeta';
+import ICommandMeta from '@justinearl/hero-interfaces/ICommandMeta';
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
 
 export default class CommandsTable extends SqliteTable<ICommandMeta> {
   public history: ICommandMeta[] = [];

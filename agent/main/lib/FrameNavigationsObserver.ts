@@ -1,4 +1,4 @@
-import { assert } from '@ulixee/commons/lib/utils';
+import { assert } from '@justinearl/commons/lib/utils';
 import {
   ILoadStatus,
   ILocationTrigger,
@@ -6,16 +6,16 @@ import {
   LoadStatusPipeline,
   LocationStatus,
   LocationTrigger,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import { NavigationReason } from '@ulixee/unblocked-specification/agent/browser/NavigationReason';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import { NavigationReason } from '@justinearl/unblocked-specification/agent/browser/NavigationReason';
 import INavigation, {
   ContentPaint,
   NavigationStatus,
-} from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import type IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import type { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+} from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import type IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import type { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import type FrameNavigations from './FrameNavigations';
 import type IWaitForOptions from '../interfaces/IWaitForOptions';
 

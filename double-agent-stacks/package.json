@@ -1,5 +1,5 @@
 {
-  "name": "@ulixee/double-agent-stacks",
+  "name": "@justinearl/double-agent-stacks",
   "version": "2.0.0-alpha.34",
   "private": true,
   "scripts": {
@@ -18,11 +18,11 @@
     "@double-agent/collect-controller": "2.0.0-alpha.34",
     "@double-agent/config": "2.0.0-alpha.34",
     "@double-agent/runner": "2.0.0-alpha.34",
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/default-browser-emulator": "2.0.0-alpha.34",
-    "@ulixee/default-human-emulator": "2.0.0-alpha.34",
-    "@ulixee/real-user-agents": "2.0.0-alpha.34",
-    "@ulixee/unblocked-agent": "2.0.0-alpha.34",
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/default-browser-emulator": "2.0.0-alpha.34",
+    "@justinearl/default-human-emulator": "2.0.0-alpha.34",
+    "@justinearl/real-user-agents": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent": "2.0.0-alpha.34",
     "commander": "^9.5.0",
     "puppeteer": "^23.5.1",
     "selenium-webdriver": "4.4.0"

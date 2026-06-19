@@ -1,7 +1,7 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import ISourceCodeLocation from '@ulixee/commons/interfaces/ISourceCodeLocation';
-import IDomState from '@ulixee/hero-interfaces/IDomState';
-import IFlowCommandOptions from '@ulixee/hero-interfaces/IFlowCommandOptions';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import ISourceCodeLocation from '@justinearl/commons/interfaces/ISourceCodeLocation';
+import IDomState from '@justinearl/hero-interfaces/IDomState';
+import IFlowCommandOptions from '@justinearl/hero-interfaces/IFlowCommandOptions';
 import CoreTab from './CoreTab';
 import DomStateHandler from './DomStateHandler';
 import IFlowCommand from '../interfaces/IFlowCommand';

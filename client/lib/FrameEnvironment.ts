@@ -23,10 +23,10 @@ import {
   ILoadStatus,
   ILocationTrigger,
   LocationStatus,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import IWaitForElementOptions from '@ulixee/hero-interfaces/IWaitForElementOptions';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import IWaitForElementOptions from '@justinearl/hero-interfaces/IWaitForElementOptions';
 import Response from '@ulixee/awaited-dom/impl/official-klasses/Response';
-import IWaitForOptions from '@ulixee/hero-interfaces/IWaitForOptions';
+import IWaitForOptions from '@justinearl/hero-interfaces/IWaitForOptions';
 import {
   IElementIsolate,
   IHTMLFrameElementIsolate,
@@ -34,9 +34,9 @@ import {
   IHTMLObjectElementIsolate,
   INodeIsolate,
 } from '@ulixee/awaited-dom/base/interfaces/isolate';
-import { INodeVisibility } from '@ulixee/js-path';
-import { INodePointer } from '@ulixee/hero-interfaces/AwaitedDom';
-import { IMousePositionXY } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+import { INodeVisibility } from '@justinearl/js-path';
+import { INodePointer } from '@justinearl/hero-interfaces/AwaitedDom';
+import { IMousePositionXY } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 import IAwaitedOptions from '../interfaces/IAwaitedOptions';
 import RequestGenerator, { getRequestIdOrUrl } from './Request';
 import CookieStorage, { createCookieStorage } from './CookieStorage';

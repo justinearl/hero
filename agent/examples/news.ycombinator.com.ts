@@ -1,5 +1,5 @@
-import { Agent } from '@ulixee/unblocked-agent';
-import { IJsPath } from '@ulixee/js-path';
+import { Agent } from '@justinearl/unblocked-agent';
+import { IJsPath } from '@justinearl/js-path';
 
 async function run() {
   const agent = new Agent({

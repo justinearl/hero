@@ -10,7 +10,7 @@
  * add an entry
  * 1 6 * * * cd $HOME/Projects/ulixee/hero/browser-profiler/build/ && npx runLocal
  */
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import { spawnSync } from 'child_process';
 import runLocalDoms from '../scripts/runLocalDoms';
 import { profileDataDir } from '../paths';

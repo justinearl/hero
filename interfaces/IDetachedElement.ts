@@ -1,4 +1,4 @@
-import { IJsPath } from '@ulixee/js-path';
+import { IJsPath } from '@justinearl/js-path';
 
 export default interface IDetachedElement {
   id?: number;

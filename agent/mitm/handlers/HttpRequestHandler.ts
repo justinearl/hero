@@ -1,5 +1,5 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import Log, { hasBeenLoggedSymbol } from '@ulixee/commons/lib/Logger';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import Log, { hasBeenLoggedSymbol } from '@justinearl/commons/lib/Logger';
 import * as http from 'http';
 import { ClientHttp2Stream, Http2ServerRequest, Http2ServerResponse } from 'http2';
 import IMitmRequestContext from '../interfaces/IMitmRequestContext';

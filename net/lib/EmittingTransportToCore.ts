@@ -1,6 +1,6 @@
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import '@ulixee/commons/lib/SourceMapSupport';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import '@justinearl/commons/lib/SourceMapSupport';
 import ITransport, { ITransportEvents } from '../interfaces/ITransport';
 
 export default class EmittingTransportToCore

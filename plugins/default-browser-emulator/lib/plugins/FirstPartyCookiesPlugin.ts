@@ -7,15 +7,15 @@ import {
   getPublicSuffix,
   permuteDomain,
 } from 'tough-cookie';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
-import SameSiteContext from '@ulixee/commons/interfaces/SameSiteContext';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { IHooksProvider } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { UnblockedPluginClassDecorator } from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import SameSiteContext from '@justinearl/commons/interfaces/SameSiteContext';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { IHooksProvider } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { UnblockedPluginClassDecorator } from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import DomOverridesBuilder from '../DomOverridesBuilder';
 import { InjectedScript } from '../../interfaces/IBrowserEmulatorConfig';
 

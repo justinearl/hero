@@ -1,10 +1,10 @@
-import { BrowserUtils, Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import MitmRequestContext from '@ulixee/unblocked-agent-mitm/lib/MitmRequestContext';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import { LocationStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import { BrowserUtils, Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import MitmRequestContext from '@justinearl/unblocked-agent-mitm/lib/MitmRequestContext';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import { LocationStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
 import { Readable } from 'stream';
 import { Pool } from '../index';
 import { waitForVisible } from './_pageTestUtils';

@@ -1,4 +1,4 @@
-import IBrowserEngineOption from '@ulixee/unblocked-specification/agent/browser/IBrowserEngineOption';
+import IBrowserEngineOption from '@justinearl/unblocked-specification/agent/browser/IBrowserEngineOption';
 import { IDataBrowserEngineOptions } from '../../interfaces/IBrowserData';
 import { defaultBrowserEngine } from '../../index';
 

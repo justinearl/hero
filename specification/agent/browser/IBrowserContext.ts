@@ -1,5 +1,5 @@
 import { URL } from 'url';
-import type ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import type ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 import { IPage } from './IPage';
 import { IWorker } from './IWorker';
 import IBrowser from './IBrowser';

@@ -1,4 +1,4 @@
-import IDomState, { IDomStateAssertions } from '@ulixee/hero-interfaces/IDomState';
+import IDomState, { IDomStateAssertions } from '@justinearl/hero-interfaces/IDomState';
 
 export default class DomState implements IDomState {
   public url?: string | RegExp;

@@ -1,9 +1,9 @@
-import Hero from '@ulixee/hero';
-import { ClientPlugin } from '@ulixee/hero-plugin-utils';
+import Hero from '@justinearl/hero';
+import { ClientPlugin } from '@justinearl/hero-plugin-utils';
 
 // NOTE: You need to start a Ulixee Cloud to run this example
 
-declare module '@ulixee/hero/lib/extendables' {
+declare module '@justinearl/hero/lib/extendables' {
   interface Hero {
     revealAnswers(selector?: string): Promise<any>;
   }

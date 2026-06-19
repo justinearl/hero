@@ -1,6 +1,6 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
-import { DomActionType, IDomChangeEvent } from '@ulixee/hero-interfaces/IDomChangeEvent';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
+import { DomActionType, IDomChangeEvent } from '@justinearl/hero-interfaces/IDomChangeEvent';
 
 export default class DomChangesTable extends SqliteTable<IDomChangeRecord> {
   public countByTimestamp = new Map<number, number>();

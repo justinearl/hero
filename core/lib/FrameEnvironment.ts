@@ -1,38 +1,38 @@
-import Log from '@ulixee/commons/lib/Logger';
+import Log from '@justinearl/commons/lib/Logger';
 import {
   ILoadStatus,
   ILocationTrigger,
   LoadStatus,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import { IJsPath, INodePointer } from '@ulixee/js-path';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { ICookie } from '@ulixee/unblocked-specification/agent/net/ICookie';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import { IJsPath, INodePointer } from '@justinearl/js-path';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { ICookie } from '@justinearl/unblocked-specification/agent/net/ICookie';
 import {
   IInteractionGroups,
   IInteractionStep,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 import { URL } from 'url';
 import * as Fs from 'fs';
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
 import { IRequestInit } from '@ulixee/awaited-dom/base/interfaces/official';
-import { IFrameEvents } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import ISetCookieOptions from '@ulixee/hero-interfaces/ISetCookieOptions';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import IWaitForOptions from '@ulixee/hero-interfaces/IWaitForOptions';
-import IFrameMeta from '@ulixee/hero-interfaces/IFrameMeta';
+import { IFrameEvents } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import ISetCookieOptions from '@justinearl/hero-interfaces/ISetCookieOptions';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import IWaitForOptions from '@justinearl/hero-interfaces/IWaitForOptions';
+import IFrameMeta from '@justinearl/hero-interfaces/IFrameMeta';
 import * as Os from 'os';
-import INavigation from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
-import IDomStateAssertionBatch from '@ulixee/hero-interfaces/IDomStateAssertionBatch';
-import IDetachedElement from '@ulixee/hero-interfaces/IDetachedElement';
-import { IFrameNavigationEvents } from '@ulixee/unblocked-specification/agent/browser/IFrameNavigations';
-import { ISerializable } from '@ulixee/unblocked-agent/lib/JsPath';
-import Frame from '@ulixee/unblocked-agent/lib/Frame';
-import FrameNavigations from '@ulixee/unblocked-agent/lib/FrameNavigations';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import INavigation from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
+import IDomStateAssertionBatch from '@justinearl/hero-interfaces/IDomStateAssertionBatch';
+import IDetachedElement from '@justinearl/hero-interfaces/IDetachedElement';
+import { IFrameNavigationEvents } from '@justinearl/unblocked-specification/agent/browser/IFrameNavigations';
+import { ISerializable } from '@justinearl/unblocked-agent/lib/JsPath';
+import Frame from '@justinearl/unblocked-agent/lib/Frame';
+import FrameNavigations from '@justinearl/unblocked-agent/lib/FrameNavigations';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import Session from './Session';
 import Tab, { ITabEventParams } from './Tab';
 import CommandRecorder from './CommandRecorder';

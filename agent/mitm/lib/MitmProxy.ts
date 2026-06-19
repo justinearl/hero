@@ -4,13 +4,13 @@ import * as http from 'http';
 import { IncomingMessage } from 'http';
 import * as https from 'https';
 import * as http2 from 'http2';
-import Log from '@ulixee/commons/lib/Logger';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
+import Log from '@justinearl/commons/lib/Logger';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
 import CertificateGenerator, {
   ICertificateStore,
-} from '@ulixee/unblocked-agent-mitm-socket/lib/CertificateGenerator';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+} from '@justinearl/unblocked-agent-mitm-socket/lib/CertificateGenerator';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import IMitmProxyOptions from '../interfaces/IMitmProxyOptions';
 import HttpRequestHandler from '../handlers/HttpRequestHandler';
 import RequestSession from '../handlers/RequestSession';

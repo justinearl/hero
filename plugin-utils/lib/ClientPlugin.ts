@@ -1,8 +1,8 @@
 import IClientPlugin, {
   ClientPluginClassDecorator,
   IClientPluginClass,
-} from '@ulixee/hero-interfaces/IClientPlugin';
-import { PluginTypes } from '@ulixee/hero-interfaces/IPluginTypes';
+} from '@justinearl/hero-interfaces/IClientPlugin';
+import { PluginTypes } from '@justinearl/hero-interfaces/IPluginTypes';
 
 @ClientPluginClassDecorator
 export default class ClientPlugin implements IClientPlugin {

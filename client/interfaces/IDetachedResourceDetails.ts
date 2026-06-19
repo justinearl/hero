@@ -1,5 +1,5 @@
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import IWebsocketMessage from '@ulixee/hero-interfaces/IWebsocketMessage';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import IWebsocketMessage from '@justinearl/hero-interfaces/IWebsocketMessage';
 
 export default interface IDetachedResourceDetails extends Required<IResourceMeta>, IResponseBody {
   response: Required<IResourceMeta['response']> & IResponseBody;

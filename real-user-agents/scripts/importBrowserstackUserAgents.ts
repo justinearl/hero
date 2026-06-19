@@ -2,7 +2,7 @@ import * as Fs from 'fs';
 import Queue from 'p-queue';
 import { By, until, Builder, Capabilities, WebDriver } from 'selenium-webdriver';
 import Axios from 'axios';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import * as http from 'http';
 import { createServer } from 'http';
 import * as BrowserStack from 'browserstack-local';

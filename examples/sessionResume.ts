@@ -1,6 +1,6 @@
 // NOTE: You need to start a Ulixee Cloud to run this example
 
-import Hero from '@ulixee/hero';
+import Hero from '@justinearl/hero';
 import * as Fs from 'fs';
 
 const sessionIdPath = `${__dirname}/previousSession.txt`;

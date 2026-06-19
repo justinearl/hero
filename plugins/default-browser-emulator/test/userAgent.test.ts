@@ -1,8 +1,8 @@
 import * as Fs from 'fs';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import Pool from '@ulixee/unblocked-agent/lib/Pool';
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import Pool from '@justinearl/unblocked-agent/lib/Pool';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
 import BrowserEmulator, { defaultBrowserEngine } from '../index';
 
 let koaServer: ITestKoaServer;

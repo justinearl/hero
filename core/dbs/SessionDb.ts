@@ -1,5 +1,5 @@
-import Log from '@ulixee/commons/lib/Logger';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
+import Log from '@justinearl/commons/lib/Logger';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
 import * as Database from 'better-sqlite3';
 import { Database as SqliteDatabase, Transaction } from 'better-sqlite3';
 import env from '../env';

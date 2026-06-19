@@ -1,7 +1,7 @@
 import {
   IAssertionAndResult,
   IAssertionCounts,
-} from '@ulixee/hero-interfaces/IDomStateAssertionBatch';
+} from '@justinearl/hero-interfaces/IDomStateAssertionBatch';
 
 export default class DomStateAssertions {
   private assertsBySessionId: { [sessionId: string]: IFrameAssertions } = {};

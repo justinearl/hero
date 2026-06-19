@@ -1,5 +1,5 @@
-import { existsAsync } from '@ulixee/commons/lib/fileUtils';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
+import { existsAsync } from '@justinearl/commons/lib/fileUtils';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
 import * as Fs from 'fs';
 import * as Path from 'path';
 import ISessionRegistry from '../interfaces/ISessionRegistry';

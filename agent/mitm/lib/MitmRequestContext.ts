@@ -1,10 +1,10 @@
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import MitmSocket from '@ulixee/unblocked-agent-mitm-socket';
-import { IBrowserResourceRequest } from '@ulixee/unblocked-specification/agent/browser/IBrowserNetworkEvents';
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
-import IResourceRequest from '@ulixee/unblocked-specification/agent/net/IResourceRequest';
-import IResourceResponse from '@ulixee/unblocked-specification/agent/net/IResourceResponse';
-import OriginType, { isOriginType } from '@ulixee/unblocked-specification/agent/net/OriginType';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import MitmSocket from '@justinearl/unblocked-agent-mitm-socket';
+import { IBrowserResourceRequest } from '@justinearl/unblocked-specification/agent/browser/IBrowserNetworkEvents';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
+import IResourceRequest from '@justinearl/unblocked-specification/agent/net/IResourceRequest';
+import IResourceResponse from '@justinearl/unblocked-specification/agent/net/IResourceResponse';
+import OriginType, { isOriginType } from '@justinearl/unblocked-specification/agent/net/OriginType';
 import * as http from 'http';
 import * as http2 from 'http2';
 import { TLSSocket } from 'tls';

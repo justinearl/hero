@@ -1,15 +1,15 @@
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { ContentPaint } from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import { Session, Tab } from '@ulixee/hero-core';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import ICommandMeta from '@ulixee/hero-interfaces/ICommandMeta';
-import Log from '@ulixee/commons/lib/Logger';
-import { IFrameNavigationEvents } from '@ulixee/unblocked-specification/agent/browser/IFrameNavigations';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { ContentPaint } from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import { Session, Tab } from '@justinearl/hero-core';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import ICommandMeta from '@justinearl/hero-interfaces/ICommandMeta';
+import Log from '@justinearl/commons/lib/Logger';
+import { IFrameNavigationEvents } from '@justinearl/unblocked-specification/agent/browser/IFrameNavigations';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 
 const { log } = Log(module);
 

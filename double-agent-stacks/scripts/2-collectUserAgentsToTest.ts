@@ -1,4 +1,4 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import { writeUserAgentsToTest } from '@double-agent/runner/lib/collectUserAgentsToTest';
 import * as Fs from 'fs';
 import { getExternalDataPath } from '../paths';

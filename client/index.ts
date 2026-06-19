@@ -11,7 +11,7 @@ import type {
   ISuperStyleSheet,
   ISuperHTMLElement,
 } from '@ulixee/awaited-dom/base/interfaces/super';
-import IUserProfile from '@ulixee/hero-interfaces/IUserProfile';
+import IUserProfile from '@justinearl/hero-interfaces/IUserProfile';
 import {
   IElement,
   IHTMLCollection,
@@ -19,12 +19,12 @@ import {
   INode,
   INodeList,
 } from '@ulixee/awaited-dom/base/interfaces/official';
-import { BlockedResourceType } from '@ulixee/hero-interfaces/ITabOptions';
-import { KeyboardKey } from '@ulixee/unblocked-specification/agent/interact/IKeyboardLayoutUS';
-import IResourceType, { ResourceType } from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import { InteractionCommand, MouseButton,  } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { Node, XPathResult } from '@ulixee/hero-interfaces/AwaitedDom';
-import { LoadStatus, LocationStatus, LocationTrigger } from '@ulixee/unblocked-specification/agent/browser/Location';
+import { BlockedResourceType } from '@justinearl/hero-interfaces/ITabOptions';
+import { KeyboardKey } from '@justinearl/unblocked-specification/agent/interact/IKeyboardLayoutUS';
+import IResourceType, { ResourceType } from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import { InteractionCommand, MouseButton,  } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { Node, XPathResult } from '@justinearl/hero-interfaces/AwaitedDom';
+import { LoadStatus, LocationStatus, LocationTrigger } from '@justinearl/unblocked-specification/agent/browser/Location';
 import IHeroCreateOptions from './interfaces/IHeroCreateOptions';
 import IHeroReplayCreateOptions from './interfaces/IHeroReplayCreateOptions';
 import IConnectionToCoreOptions from './interfaces/IConnectionToCoreOptions';

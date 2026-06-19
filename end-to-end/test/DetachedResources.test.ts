@@ -1,7 +1,7 @@
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import { InternalPropertiesSymbol } from '@ulixee/hero/lib/internal';
-import CoreSession from '@ulixee/hero/lib/CoreSession';
-import DetachedResources from '@ulixee/hero/lib/DetachedResources';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import { InternalPropertiesSymbol } from '@justinearl/hero/lib/internal';
+import CoreSession from '@justinearl/hero/lib/CoreSession';
+import DetachedResources from '@justinearl/hero/lib/DetachedResources';
 
 let koaServer: Helpers.ITestKoaServer;
 beforeAll(async () => {

@@ -1,7 +1,7 @@
-import IDataSnippet from '@ulixee/hero-interfaces/IDataSnippet';
-import IDetachedElement from '@ulixee/hero-interfaces/IDetachedElement';
-import IDetachedResource from '@ulixee/hero-interfaces/IDetachedResource';
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import IDataSnippet from '@justinearl/hero-interfaces/IDataSnippet';
+import IDetachedElement from '@justinearl/hero-interfaces/IDetachedElement';
+import IDetachedResource from '@justinearl/hero-interfaces/IDetachedResource';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 
 // This interface exists for DatastoreInternal to import
 

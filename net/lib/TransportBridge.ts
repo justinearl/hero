@@ -1,5 +1,5 @@
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
 import EmittingTransportToClient from './EmittingTransportToClient';
 import EmittingTransportToCore from './EmittingTransportToCore';
 

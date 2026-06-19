@@ -1,9 +1,13 @@
 {
-  "name": "@ulixee/unblocked-agent-examples",
+  "name": "@justinearl/unblocked-agent-examples",
   "private": true,
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
-    "@ulixee/js-path": "2.0.0-alpha.34",
-    "@ulixee/unblocked-agent": "2.0.0-alpha.34"
+    "@justinearl/js-path": "2.0.0-alpha.34",
+    "@justinearl/unblocked-agent": "2.0.0-alpha.34"
   }
 }

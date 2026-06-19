@@ -1,4 +1,4 @@
-import IViewport from '@ulixee/unblocked-specification/agent/browser/IViewport';
+import IViewport from '@justinearl/unblocked-specification/agent/browser/IViewport';
 import { IDataWindowFraming } from '../interfaces/IBrowserData';
 
 const defaultWindowFraming = {

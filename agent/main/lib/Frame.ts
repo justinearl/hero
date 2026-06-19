@@ -1,30 +1,30 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import IRegisteredEventListener from '@ulixee/commons/interfaces/IRegisteredEventListener';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import Timer from '@ulixee/commons/lib/Timer';
-import IJsPath from '@ulixee/js-path/interfaces/IJsPath';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import IRegisteredEventListener from '@justinearl/commons/interfaces/IRegisteredEventListener';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import Timer from '@justinearl/commons/lib/Timer';
+import IJsPath from '@justinearl/js-path/interfaces/IJsPath';
 import {
   IFrame,
   IFrameEvents,
   ILifecycleEvents,
-} from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import INavigation from '@ulixee/unblocked-specification/agent/browser/INavigation';
-import IPoint from '@ulixee/unblocked-specification/agent/browser/IPoint';
-import IWindowOffset from '@ulixee/unblocked-specification/agent/browser/IWindowOffset';
+} from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import INavigation from '@justinearl/unblocked-specification/agent/browser/INavigation';
+import IPoint from '@justinearl/unblocked-specification/agent/browser/IPoint';
+import IWindowOffset from '@justinearl/unblocked-specification/agent/browser/IWindowOffset';
 import {
   ILoadStatus,
   ILocationTrigger,
   LoadStatus,
-} from '@ulixee/unblocked-specification/agent/browser/Location';
-import { NavigationReason } from '@ulixee/unblocked-specification/agent/browser/NavigationReason';
-import { IInteractHooks } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
+} from '@justinearl/unblocked-specification/agent/browser/Location';
+import { NavigationReason } from '@justinearl/unblocked-specification/agent/browser/NavigationReason';
+import { IInteractHooks } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
 import {
   IElementInteractVerification,
   IInteractionGroups,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 import Protocol from 'devtools-protocol';
 import { URL } from 'url';
 import ProtocolError from '../errors/ProtocolError';

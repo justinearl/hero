@@ -1,4 +1,4 @@
-import SessionClosedOrMissingError from '@ulixee/commons/lib/SessionClosedOrMissingError';
+import SessionClosedOrMissingError from '@justinearl/commons/lib/SessionClosedOrMissingError';
 
 export default class CommandRunner {
   public runFn: () => Promise<any>;

@@ -1,6 +1,6 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import * as Fs from 'fs';
-import { readFileAsJson } from '@ulixee/commons/lib/fileUtils';
+import { readFileAsJson } from '@justinearl/commons/lib/fileUtils';
 import OsGenerator from '../data-generators/OsGenerator';
 import BrowserGenerator from '../data-generators/BrowserGenerator';
 import UserAgentGenerator from '../data-generators/UserAgentGenerator';

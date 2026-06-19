@@ -1,4 +1,4 @@
-import IHttpHeaders from '@ulixee/unblocked-specification/agent/net/IHttpHeaders';
+import IHttpHeaders from '@justinearl/unblocked-specification/agent/net/IHttpHeaders';
 
 export function parseRawHeaders(rawHeaders: string[]): IHttpHeaders {
   const headers = {};

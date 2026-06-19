@@ -1,5 +1,5 @@
-import '@ulixee/commons/lib/SourceMapSupport';
-import { loadEnv, parseEnvBool } from '@ulixee/commons/lib/envUtils';
+import '@justinearl/commons/lib/SourceMapSupport';
+import { loadEnv, parseEnvBool } from '@justinearl/commons/lib/envUtils';
 import * as Path from 'path';
 
 loadEnv(Path.resolve(__dirname, '..'));

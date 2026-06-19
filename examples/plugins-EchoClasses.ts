@@ -1,9 +1,9 @@
 // eslint-disable-next-line max-classes-per-file
-import type Hero from '@ulixee/hero';
-import type Tab from '@ulixee/hero/lib/Tab';
-import { ClientPlugin, CorePlugin } from '@ulixee/hero-plugin-utils';
-import { IOnClientCommandMeta } from '@ulixee/hero-interfaces/ICorePlugin';
-import { ISendToCoreFn } from '@ulixee/hero-interfaces/IClientPlugin';
+import type Hero from '@justinearl/hero';
+import type Tab from '@justinearl/hero/lib/Tab';
+import { ClientPlugin, CorePlugin } from '@justinearl/hero-plugin-utils';
+import { IOnClientCommandMeta } from '@justinearl/hero-interfaces/ICorePlugin';
+import { ISendToCoreFn } from '@justinearl/hero-interfaces/IClientPlugin';
 
 export class EchoClientPlugin extends ClientPlugin {
   static override readonly id = 'echo-plugin';
@@ -48,7 +48,7 @@ type EchoPluginAdditions = {
   echo(echo1: string, echo2: number, ...echoAny: any[]): Promise<[string, number, ...any[]]>;
 };
 
-declare module '@ulixee/hero/lib/extendables' {
+declare module '@justinearl/hero/lib/extendables' {
   interface Hero extends EchoPluginAdditions {} // eslint-disable-line @typescript-eslint/no-shadow
   interface Tab extends EchoPluginAdditions {} // eslint-disable-line @typescript-eslint/no-shadow
 }

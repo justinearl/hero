@@ -1,13 +1,13 @@
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import { InteractionCommand } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
-import Pool from '@ulixee/unblocked-agent/lib/Pool';
-import Agent from '@ulixee/unblocked-agent/lib/Agent';
-import Page from '@ulixee/unblocked-agent/lib/Page';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import { InteractionCommand } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
+import Pool from '@justinearl/unblocked-agent/lib/Pool';
+import Agent from '@justinearl/unblocked-agent/lib/Agent';
+import Page from '@justinearl/unblocked-agent/lib/Page';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 import { URL } from 'url';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import { IncomingHttpHeaders } from 'http';
 import BrowserEmulator from '../index';
 

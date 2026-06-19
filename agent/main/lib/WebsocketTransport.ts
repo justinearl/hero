@@ -1,7 +1,7 @@
-import Log from '@ulixee/commons/lib/Logger';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import Log from '@justinearl/commons/lib/Logger';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import * as WebSocket from 'ws';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
 import IConnectionTransport from '../interfaces/IConnectionTransport';
 
 const { log } = Log(module);

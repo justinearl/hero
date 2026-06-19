@@ -1,16 +1,16 @@
-import { INodePointer, IElementRect, IJsPath, INodeVisibility } from '@ulixee/js-path';
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import IPoint from '@ulixee/unblocked-specification/agent/browser/IPoint';
-import { isMousePositionXY } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
+import { INodePointer, IElementRect, IJsPath, INodeVisibility } from '@justinearl/js-path';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import IPoint from '@justinearl/unblocked-specification/agent/browser/IPoint';
+import { isMousePositionXY } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
 import IJsPathFunctions, {
   getClientRectFnName,
   getComputedVisibilityFnName,
   getNodePointerFnName,
   getNodeIdFnName,
-} from '@ulixee/unblocked-specification/agent/browser/IJsPathFunctions';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+} from '@justinearl/unblocked-specification/agent/browser/IJsPathFunctions';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 import Frame from './Frame';
 import InjectedScriptError from '../errors/InjectedScriptError';
 import InjectedScripts from './InjectedScripts';

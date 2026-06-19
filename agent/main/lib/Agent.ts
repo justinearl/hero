@@ -1,19 +1,19 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Log from '@ulixee/commons/lib/Logger';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import '@ulixee/commons/lib/SourceMapSupport';
-import { RequestSession } from '@ulixee/unblocked-agent-mitm';
-import MitmProxy from '@ulixee/unblocked-agent-mitm/lib/MitmProxy';
-import { IHooksProvider } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Log from '@justinearl/commons/lib/Logger';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import '@justinearl/commons/lib/SourceMapSupport';
+import { RequestSession } from '@justinearl/unblocked-agent-mitm';
+import MitmProxy from '@justinearl/unblocked-agent-mitm/lib/MitmProxy';
+import { IHooksProvider } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
 import IEmulationProfile, {
   IEmulationOptions,
-} from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
+} from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
 import {
   IUnblockedPluginClass,
   PluginConfigs,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import { nanoid } from 'nanoid';
 import env from '../env';
 import ICommandMarker from '../interfaces/ICommandMarker';

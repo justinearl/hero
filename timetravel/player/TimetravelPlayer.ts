@@ -1,7 +1,7 @@
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import SessionDb from '@ulixee/hero-core/dbs/SessionDb';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import SessionDb from '@justinearl/hero-core/dbs/SessionDb';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
 import TimetravelTab from './TimetravelTab';
 import MirrorPage from '../lib/MirrorPage';
 import { ITabDetails } from './TimetravelTicks';

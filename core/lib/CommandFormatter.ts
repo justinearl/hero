@@ -1,7 +1,7 @@
-import ICommandMeta from '@ulixee/hero-interfaces/ICommandMeta';
-import { IInteractionGroup } from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import { getKeyboardKey } from '@ulixee/unblocked-specification/agent/interact/IKeyboardLayoutUS';
-import { getNodePointerFnName } from '@ulixee/unblocked-specification/agent/browser/IJsPathFunctions';
+import ICommandMeta from '@justinearl/hero-interfaces/ICommandMeta';
+import { IInteractionGroup } from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import { getKeyboardKey } from '@justinearl/unblocked-specification/agent/interact/IKeyboardLayoutUS';
+import { getNodePointerFnName } from '@justinearl/unblocked-specification/agent/browser/IJsPathFunctions';
 import ICommandWithResult from '../interfaces/ICommandWithResult';
 
 export default class CommandFormatter {

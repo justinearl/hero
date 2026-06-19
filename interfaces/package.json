@@ -1,12 +1,16 @@
 {
-  "name": "@ulixee/hero-interfaces",
+  "name": "@justinearl/hero-interfaces",
   "version": "2.0.0-alpha.34",
+  "repository": "git+https://github.com/justinearl/hero.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Core interfaces used by Hero",
   "dependencies": {
     "@ulixee/awaited-dom": "1.4.2",
-    "@ulixee/commons": "2.0.0-alpha.34",
-    "@ulixee/js-path": "2.0.0-alpha.34",
-    "@ulixee/unblocked-specification": "2.0.0-alpha.34",
+    "@justinearl/commons": "2.0.0-alpha.34",
+    "@justinearl/js-path": "2.0.0-alpha.34",
+    "@justinearl/unblocked-specification": "2.0.0-alpha.34",
     "devtools-protocol": "^0.0.1137505"
   }
 }

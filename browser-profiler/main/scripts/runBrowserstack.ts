@@ -1,9 +1,9 @@
 import '../env';
 import Queue from 'p-queue';
 import { createUserAgentIdFromIds } from '@double-agent/config';
-import RealUserAgents from '@ulixee/real-user-agents';
+import RealUserAgents from '@justinearl/real-user-agents';
 import getAllPlugins from '@double-agent/collect/lib/getAllPlugins';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import BrowserProfiler from '../index';
 import BrowserStack from '../lib/BrowserStack';
 import SeleniumRunners from '../lib/SeleniumRunners';

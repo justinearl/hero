@@ -1,6 +1,6 @@
-import { Helpers } from '@ulixee/hero-testing/index';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
+import { Helpers } from '@justinearl/hero-testing/index';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
 import ConnectionToHeroClient from '../connections/ConnectionToHeroClient';
 import Core, { Session } from '../index';
 

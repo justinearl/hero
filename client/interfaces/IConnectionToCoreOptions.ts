@@ -1,4 +1,4 @@
-import ICoreConfigureOptions from '@ulixee/hero-interfaces/ICoreConfigureOptions';
+import ICoreConfigureOptions from '@justinearl/hero-interfaces/ICoreConfigureOptions';
 
 export default interface IConnectionToCoreOptions
   extends Omit<ICoreConfigureOptions, 'maxConcurrentClientCount'> {

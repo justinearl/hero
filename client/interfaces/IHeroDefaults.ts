@@ -1,5 +1,5 @@
-import { IBlockedResourceType, InterceptedResource } from '@ulixee/hero-interfaces/ITabOptions';
-import IUserProfile from '@ulixee/hero-interfaces/IUserProfile';
+import { IBlockedResourceType, InterceptedResource } from '@justinearl/hero-interfaces/ITabOptions';
+import IUserProfile from '@justinearl/hero-interfaces/IUserProfile';
 
 export default interface IHeroDefaults {
   blockedResourceTypes?: IBlockedResourceType[];

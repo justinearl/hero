@@ -1,7 +1,7 @@
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { Protocol } from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { Protocol } from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import DevtoolsSession from './DevtoolsSession';
 import Frame from './Frame';
 import BrowserContext from './BrowserContext';

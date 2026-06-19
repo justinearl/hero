@@ -1,4 +1,4 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import Frame from './Frame';
 import Page from './Page';
 import NetworkManager from './NetworkManager';

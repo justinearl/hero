@@ -1,6 +1,6 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import * as Fs from 'fs';
-import { Agent } from '@ulixee/unblocked-agent';
+import { Agent } from '@justinearl/unblocked-agent';
 import { getDataFilePath } from '../lib/paths';
 
 export default async function importChromiumData(): Promise<void> {

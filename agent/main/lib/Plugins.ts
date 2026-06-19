@@ -1,31 +1,31 @@
-import IEmulationProfile from '@ulixee/unblocked-specification/plugin/IEmulationProfile';
-import IUnblockedPlugins from '@ulixee/unblocked-specification/plugin/IUnblockedPlugins';
+import IEmulationProfile from '@justinearl/unblocked-specification/plugin/IEmulationProfile';
+import IUnblockedPlugins from '@justinearl/unblocked-specification/plugin/IUnblockedPlugins';
 import IUnblockedPlugin, {
   IUnblockedPluginClass, PluginConfigs,
-} from '@ulixee/unblocked-specification/plugin/IUnblockedPlugin';
+} from '@justinearl/unblocked-specification/plugin/IUnblockedPlugin';
 import { URL } from 'url';
 import {
   IInteractionGroups,
   IInteractionStep,
-} from '@ulixee/unblocked-specification/agent/interact/IInteractions';
-import IInteractionsHelper from '@ulixee/unblocked-specification/agent/interact/IInteractionsHelper';
-import IHttpResourceLoadDetails from '@ulixee/unblocked-specification/agent/net/IHttpResourceLoadDetails';
-import IHttp2ConnectSettings from '@ulixee/unblocked-specification/agent/net/IHttp2ConnectSettings';
-import IBrowserContext from '@ulixee/unblocked-specification/agent/browser/IBrowserContext';
-import { IWorker } from '@ulixee/unblocked-specification/agent/browser/IWorker';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
-import IBrowser from '@ulixee/unblocked-specification/agent/browser/IBrowser';
-import IBrowserUserConfig from '@ulixee/unblocked-specification/agent/browser/IBrowserUserConfig';
-import IHttpSocketAgent from '@ulixee/unblocked-specification/agent/net/IHttpSocketAgent';
-import ITlsSettings from '@ulixee/unblocked-specification/agent/net/ITlsSettings';
-import ITcpSettings from '@ulixee/unblocked-specification/agent/net/ITcpSettings';
-import IDnsSettings from '@ulixee/unblocked-specification/agent/net/IDnsSettings';
-import IPoint from '@ulixee/unblocked-specification/agent/browser/IPoint';
-import IDevtoolsSession from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
+} from '@justinearl/unblocked-specification/agent/interact/IInteractions';
+import IInteractionsHelper from '@justinearl/unblocked-specification/agent/interact/IInteractionsHelper';
+import IHttpResourceLoadDetails from '@justinearl/unblocked-specification/agent/net/IHttpResourceLoadDetails';
+import IHttp2ConnectSettings from '@justinearl/unblocked-specification/agent/net/IHttp2ConnectSettings';
+import IBrowserContext from '@justinearl/unblocked-specification/agent/browser/IBrowserContext';
+import { IWorker } from '@justinearl/unblocked-specification/agent/browser/IWorker';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
+import IBrowser from '@justinearl/unblocked-specification/agent/browser/IBrowser';
+import IBrowserUserConfig from '@justinearl/unblocked-specification/agent/browser/IBrowserUserConfig';
+import IHttpSocketAgent from '@justinearl/unblocked-specification/agent/net/IHttpSocketAgent';
+import ITlsSettings from '@justinearl/unblocked-specification/agent/net/ITlsSettings';
+import ITcpSettings from '@justinearl/unblocked-specification/agent/net/ITcpSettings';
+import IDnsSettings from '@justinearl/unblocked-specification/agent/net/IDnsSettings';
+import IPoint from '@justinearl/unblocked-specification/agent/browser/IPoint';
+import IDevtoolsSession from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
 import ChromeApp from '@ulixee/chrome-app';
-import { IHooksProvider } from '@ulixee/unblocked-specification/agent/hooks/IHooks';
-import { IFrame } from '@ulixee/unblocked-specification/agent/browser/IFrame';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
+import { IHooksProvider } from '@justinearl/unblocked-specification/agent/hooks/IHooks';
+import { IFrame } from '@justinearl/unblocked-specification/agent/browser/IFrame';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
 import ChromeEngine from './ChromeEngine';
 import Interactor from './Interactor';
 import { IncomingMessage, ServerResponse } from 'http';

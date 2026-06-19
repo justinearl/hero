@@ -1,8 +1,8 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
-import { bindFunctions } from '@ulixee/commons/lib/utils';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
+import { bindFunctions } from '@justinearl/commons/lib/utils';
 import { IncomingMessage } from 'http';
 import WebSocket = require('ws');
 import ITransport, { ITransportEvents } from '../interfaces/ITransport';

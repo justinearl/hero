@@ -1,5 +1,5 @@
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import { createPromise } from '@ulixee/commons/lib/utils';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import { createPromise } from '@justinearl/commons/lib/utils';
 import * as Fs from 'fs';
 
 let koaServer;

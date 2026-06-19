@@ -1,7 +1,7 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
 import * as http from 'http';
 import { ClientRequest, IncomingHttpHeaders } from 'http';
 import * as https from 'https';

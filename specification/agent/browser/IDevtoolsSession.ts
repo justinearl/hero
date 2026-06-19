@@ -1,6 +1,6 @@
 import { ProtocolMapping } from 'devtools-protocol/types/protocol-mapping';
 import Protocol from 'devtools-protocol';
-import type ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import type ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 import RemoteObject = Protocol.Runtime.RemoteObject;
 
 export declare type DevtoolsEvents = {

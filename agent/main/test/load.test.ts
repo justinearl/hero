@@ -1,4 +1,4 @@
-import { BrowserUtils, Helpers, TestLogger } from '@ulixee/unblocked-agent-testing/index';
+import { BrowserUtils, Helpers, TestLogger } from '@justinearl/unblocked-agent-testing/index';
 import { Browser, BrowserContext, Page } from '../index';
 import { TestServer } from './server';
 

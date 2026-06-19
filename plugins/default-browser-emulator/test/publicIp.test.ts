@@ -1,14 +1,14 @@
-import { Helpers, TestLogger } from '@ulixee/unblocked-agent-testing';
-import RequestSession from '@ulixee/unblocked-agent-mitm/handlers/RequestSession';
+import { Helpers, TestLogger } from '@justinearl/unblocked-agent-testing';
+import RequestSession from '@justinearl/unblocked-agent-mitm/handlers/RequestSession';
 import { AddressInfo } from 'node:net';
 import { createProxy } from 'proxy';
 import * as Proxy from 'proxy';
-import MitmServer from '@ulixee/unblocked-agent-mitm/lib/MitmProxy';
-import { ITestKoaServer } from '@ulixee/unblocked-agent-testing/helpers';
-import Pool from '@ulixee/unblocked-agent/lib/Pool';
+import MitmServer from '@justinearl/unblocked-agent-mitm/lib/MitmProxy';
+import { ITestKoaServer } from '@justinearl/unblocked-agent-testing/helpers';
+import Pool from '@justinearl/unblocked-agent/lib/Pool';
 import * as http from 'http';
-import { createPromise } from '@ulixee/commons/lib/utils';
-import IHttpSocketAgent from '@ulixee/unblocked-specification/agent/net/IHttpSocketAgent';
+import { createPromise } from '@justinearl/commons/lib/utils';
+import IHttpSocketAgent from '@justinearl/unblocked-specification/agent/net/IHttpSocketAgent';
 import lookupPublicIp, { IpLookupServices } from '../lib/helpers/lookupPublicIp';
 import BrowserEmulator from '../index';
 

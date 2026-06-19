@@ -1,5 +1,5 @@
-import { IPluginClass } from '@ulixee/hero-interfaces/IPlugin';
-import { IPluginType, PluginTypes } from '@ulixee/hero-interfaces/IPluginTypes';
+import { IPluginClass } from '@justinearl/hero-interfaces/IPlugin';
+import { IPluginType, PluginTypes } from '@justinearl/hero-interfaces/IPluginTypes';
 
 export default function extractPlugins<T = IPluginClass>(obj: any, pluginType?: IPluginType): T[] {
   const Plugins: T[] = [];

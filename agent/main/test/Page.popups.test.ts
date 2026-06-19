@@ -1,5 +1,5 @@
-import { TestLogger } from '@ulixee/unblocked-agent-testing';
-import { browserEngineOptions, PageHooks } from '@ulixee/unblocked-agent-testing/browserUtils';
+import { TestLogger } from '@justinearl/unblocked-agent-testing';
+import { browserEngineOptions, PageHooks } from '@justinearl/unblocked-agent-testing/browserUtils';
 import { Browser, BrowserContext, Page } from '../index';
 import { TestServer } from './server';
 

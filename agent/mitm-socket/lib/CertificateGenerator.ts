@@ -1,7 +1,7 @@
-import Log from '@ulixee/commons/lib/Logger';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import Log from '@justinearl/commons/lib/Logger';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import BaseIpcHandler from './BaseIpcHandler';
 
 const { log } = Log(module);

@@ -1,7 +1,7 @@
-import type { IJsPath } from '@ulixee/js-path';
+import type { IJsPath } from '@justinearl/js-path';
 import IDomStateAssertionBatch, {
   IAssertionAndResult,
-} from '@ulixee/hero-interfaces/IDomStateAssertionBatch';
+} from '@justinearl/hero-interfaces/IDomStateAssertionBatch';
 
 declare let JsPath: any;
 

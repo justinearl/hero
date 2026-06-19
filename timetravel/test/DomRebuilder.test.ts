@@ -1,4 +1,4 @@
-import { DomActionType } from '@ulixee/hero-interfaces/IDomChangeEvent';
+import { DomActionType } from '@justinearl/hero-interfaces/IDomChangeEvent';
 import DomRebuilder from '../lib/DomRebuilder';
 
 describe('DomRebuilder tests', () => {

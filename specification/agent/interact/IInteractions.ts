@@ -1,4 +1,4 @@
-import { IJsPath } from '@ulixee/js-path';
+import { IJsPath } from '@justinearl/js-path';
 import IMouseResult from './IMouseResult';
 import IPoint from '../browser/IPoint';
 import {IKeyboardShortcut} from "./IKeyboardShortcuts";

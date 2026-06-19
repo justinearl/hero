@@ -1,14 +1,14 @@
 // eslint-disable-next-line max-classes-per-file
 import * as net from 'net';
 import { unlink } from 'fs';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { createIpcSocketPath } from '@ulixee/commons/lib/IpcUtils';
-import IHttpSocketWrapper from '@ulixee/unblocked-specification/agent/net/IHttpSocketWrapper';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import IHttpSocketConnectOptions from '@ulixee/unblocked-specification/agent/net/IHttpSocketConnectOptions';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import TimeoutError from '@ulixee/commons/interfaces/TimeoutError';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { createIpcSocketPath } from '@justinearl/commons/lib/IpcUtils';
+import IHttpSocketWrapper from '@justinearl/unblocked-specification/agent/net/IHttpSocketWrapper';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import IHttpSocketConnectOptions from '@justinearl/unblocked-specification/agent/net/IHttpSocketConnectOptions';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import TimeoutError from '@justinearl/commons/interfaces/TimeoutError';
 import MitmSocketSession from './lib/MitmSocketSession';
 
 let idCounter = 0;

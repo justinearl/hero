@@ -1,8 +1,8 @@
-import { LocationStatus } from '@ulixee/hero';
-import { Helpers, Hero } from '@ulixee/hero-testing';
-import Core from '@ulixee/hero-core';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import ExecuteJsPlugin from '@ulixee/execute-js-plugin';
+import { LocationStatus } from '@justinearl/hero';
+import { Helpers, Hero } from '@justinearl/hero-testing';
+import Core from '@justinearl/hero-core';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import ExecuteJsPlugin from '@justinearl/execute-js-plugin';
 import ExecuteJsCorePlugin from '../lib/CorePlugin';
 
 let koaServer: ITestKoaServer;

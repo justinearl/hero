@@ -1,9 +1,9 @@
-import '@ulixee/commons/lib/SourceMapSupport';
+import '@justinearl/commons/lib/SourceMapSupport';
 import '@double-agent/config/load';
 import Collect from '@double-agent/collect';
 import { checkSetup } from '@double-agent/collect/servers/Certs';
 import Config from '@double-agent/config';
-import ShutdownHandler from '@ulixee/commons/lib/ShutdownHandler';
+import ShutdownHandler from '@justinearl/commons/lib/ShutdownHandler';
 import Server from './lib/Server';
 
 const serverPort = Config.collect.port;

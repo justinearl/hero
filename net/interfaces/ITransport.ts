@@ -1,4 +1,4 @@
-import ITypedEventEmitter from '@ulixee/commons/interfaces/ITypedEventEmitter';
+import ITypedEventEmitter from '@justinearl/commons/interfaces/ITypedEventEmitter';
 
 export default interface ITransport extends ITypedEventEmitter<ITransportEvents> {
   host?: string;

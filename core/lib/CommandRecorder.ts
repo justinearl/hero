@@ -1,5 +1,5 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import Log from '@ulixee/commons/lib/Logger';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import Log from '@justinearl/commons/lib/Logger';
 import Session from './Session';
 import Tab from './Tab';
 import { ICommandableTarget } from './CommandRunner';

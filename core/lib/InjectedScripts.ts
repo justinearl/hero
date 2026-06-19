@@ -1,6 +1,6 @@
-import { stringifiedTypeSerializerClass } from '@ulixee/commons/lib/TypeSerializer';
-import IDevtoolsSession from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import { IPage } from '@ulixee/unblocked-specification/agent/browser/IPage';
+import { stringifiedTypeSerializerClass } from '@justinearl/commons/lib/TypeSerializer';
+import IDevtoolsSession from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import { IPage } from '@justinearl/unblocked-specification/agent/browser/IPage';
 import * as fs from 'fs';
 
 const pageScripts = {

@@ -1,7 +1,7 @@
 // NOTE: do not use node dependencies
 
-import type { IScrollRecord } from '@ulixee/hero-core/models/ScrollEventsTable';
-import type { IMouseEventRecord } from '@ulixee/hero-core/models/MouseEventsTable';
+import type { IScrollRecord } from '@justinearl/hero-core/models/ScrollEventsTable';
+import type { IMouseEventRecord } from '@justinearl/hero-core/models/MouseEventsTable';
 
 declare global {
   interface Window {

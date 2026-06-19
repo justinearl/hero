@@ -1,7 +1,7 @@
 import AwaitedPath from '@ulixee/awaited-dom/base/AwaitedPath';
-import IResourceMeta from '@ulixee/unblocked-specification/agent/net/IResourceMeta';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import IWebsocketMessage from '@ulixee/hero-interfaces/IWebsocketMessage';
+import IResourceMeta from '@justinearl/unblocked-specification/agent/net/IResourceMeta';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import IWebsocketMessage from '@justinearl/hero-interfaces/IWebsocketMessage';
 import CoreTab from './CoreTab';
 import DetachedResource from './DetachedResource';
 import ResourceRequest, { createResourceRequest } from './ResourceRequest';

@@ -1,6 +1,6 @@
 // NOTE: You need to start a Ulixee Miner to run this example
 
-const Hero = require('@ulixee/hero');
+const Hero = require('@justinearl/hero');
 
 //process.env.ULX_SHOW_CHROME = 'true';
 

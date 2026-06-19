@@ -1,5 +1,5 @@
 // import IDomProfile from '@double-agent/collect-browser-dom/interfaces/IDomProfile';
-// import BrowserProfiler from '@ulixee/unblocked-browser-profiler';
+// import BrowserProfiler from '@justinearl/unblocked-browser-profiler';
 //
 //   const profiles = BrowserProfiler.getProfiles<IDomProfile>('browser-dom');
 //

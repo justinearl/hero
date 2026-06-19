@@ -1,5 +1,5 @@
 import { Database as SqliteDatabase } from 'better-sqlite3';
-import SqliteTable from '@ulixee/commons/lib/SqliteTable';
+import SqliteTable from '@justinearl/commons/lib/SqliteTable';
 
 export default class FlowHandlersTable extends SqliteTable<IFlowHandlerRecord> {
   constructor(db: SqliteDatabase) {

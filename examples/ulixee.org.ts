@@ -1,7 +1,7 @@
 // NOTE: You need to start a Ulixee Cloud to run this example
 
 import Queue from 'p-queue';
-import Hero from '@ulixee/hero';
+import Hero from '@justinearl/hero';
 
 (async () => {
   let cost = '0';

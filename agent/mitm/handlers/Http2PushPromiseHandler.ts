@@ -1,8 +1,8 @@
 import * as http2 from 'http2';
 import { ClientHttp2Stream, ServerHttp2Stream } from 'http2';
-import Log, { hasBeenLoggedSymbol } from '@ulixee/commons/lib/Logger';
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
+import Log, { hasBeenLoggedSymbol } from '@justinearl/commons/lib/Logger';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
 import IMitmRequestContext from '../interfaces/IMitmRequestContext';
 import MitmRequestContext from '../lib/MitmRequestContext';
 import InterceptorHandler from './InterceptorHandler';

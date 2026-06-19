@@ -1,9 +1,9 @@
-import { Helpers } from '@ulixee/hero-testing';
-import { ITestKoaServer } from '@ulixee/hero-testing/helpers';
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
-import IUserProfile from '@ulixee/hero-interfaces/IUserProfile';
-import Interactor from '@ulixee/unblocked-agent/lib/Interactor';
-import DefaultBrowserEmulator from '@ulixee/default-browser-emulator';
+import { Helpers } from '@justinearl/hero-testing';
+import { ITestKoaServer } from '@justinearl/hero-testing/helpers';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
+import IUserProfile from '@justinearl/hero-interfaces/IUserProfile';
+import Interactor from '@justinearl/unblocked-agent/lib/Interactor';
+import DefaultBrowserEmulator from '@justinearl/default-browser-emulator';
 import Core, { Tab } from '../index';
 import ConnectionToHeroClient from '../connections/ConnectionToHeroClient';
 import Session from '../lib/Session';

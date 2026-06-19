@@ -1,6 +1,6 @@
-import IDetachedResource from '@ulixee/hero-interfaces/IDetachedResource';
-import IResourceType from '@ulixee/unblocked-specification/agent/net/IResourceType';
-import IWebsocketMessage from '@ulixee/hero-interfaces/IWebsocketMessage';
+import IDetachedResource from '@justinearl/hero-interfaces/IDetachedResource';
+import IResourceType from '@justinearl/unblocked-specification/agent/net/IResourceType';
+import IWebsocketMessage from '@justinearl/hero-interfaces/IWebsocketMessage';
 import IDetachedResourceDetails from '../interfaces/IDetachedResourceDetails';
 
 export default class DetachedResource implements IDetachedResourceDetails {

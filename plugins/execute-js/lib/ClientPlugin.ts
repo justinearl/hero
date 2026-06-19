@@ -1,8 +1,8 @@
-import { ISendToCoreFn } from '@ulixee/hero-interfaces/IClientPlugin';
-import ClientPlugin from '@ulixee/hero-plugin-utils/lib/ClientPlugin';
-import type Hero from '@ulixee/hero';
-import type Tab from '@ulixee/hero/lib/Tab';
-import type FrameEnvironment from '@ulixee/hero/lib/FrameEnvironment';
+import { ISendToCoreFn } from '@justinearl/hero-interfaces/IClientPlugin';
+import ClientPlugin from '@justinearl/hero-plugin-utils/lib/ClientPlugin';
+import type Hero from '@justinearl/hero';
+import type Tab from '@justinearl/hero/lib/Tab';
+import type FrameEnvironment from '@justinearl/hero/lib/FrameEnvironment';
 import { IExecuteJsArgs } from './IExecuteJsArgs';
 
 const { name: pluginId } = require('../package.json');

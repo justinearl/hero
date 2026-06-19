@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import Log from '@ulixee/commons/lib/Logger';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import Log from '@justinearl/commons/lib/Logger';
 import { ChildProcess } from 'child_process';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
 import IConnectionTransport from '../interfaces/IConnectionTransport';
 
 const { log } = Log(module);

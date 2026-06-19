@@ -1,9 +1,9 @@
 import * as Fs from 'fs';
-import * as Helpers from '@ulixee/unblocked-agent-testing/helpers';
-import { Browser } from '@ulixee/unblocked-agent';
-import { LoadStatus } from '@ulixee/unblocked-specification/agent/browser/Location';
-import { TestLogger } from '@ulixee/unblocked-agent-testing';
-import { defaultHooks } from '@ulixee/unblocked-agent-testing/browserUtils';
+import * as Helpers from '@justinearl/unblocked-agent-testing/helpers';
+import { Browser } from '@justinearl/unblocked-agent';
+import { LoadStatus } from '@justinearl/unblocked-specification/agent/browser/Location';
+import { TestLogger } from '@justinearl/unblocked-agent-testing';
+import { defaultHooks } from '@justinearl/unblocked-agent-testing/browserUtils';
 import BrowserEmulator from '../index';
 import { getOverrideScript } from '../lib/DomOverridesBuilder';
 import parseNavigatorPlugins from '../lib/utils/parseNavigatorPlugins';

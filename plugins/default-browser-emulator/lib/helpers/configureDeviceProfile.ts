@@ -1,5 +1,5 @@
-import { pickRandom } from '@ulixee/commons/lib/utils';
-import IDeviceProfile from '@ulixee/unblocked-specification/plugin/IDeviceProfile';
+import { pickRandom } from '@justinearl/commons/lib/utils';
+import IDeviceProfile from '@justinearl/unblocked-specification/plugin/IDeviceProfile';
 import { randomBytes } from 'crypto';
 
 export default function configureDeviceProfile(deviceProfile: IDeviceProfile): void {

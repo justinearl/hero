@@ -1,9 +1,9 @@
 import AwaitedHandler, { NotImplementedError } from '@ulixee/awaited-dom/base/AwaitedHandler';
-import { IJsPath , INodePointer } from '@ulixee/js-path';
+import { IJsPath , INodePointer } from '@justinearl/js-path';
 import AwaitedPath from '@ulixee/awaited-dom/base/AwaitedPath';
 import Constructable from '@ulixee/awaited-dom/base/Constructable';
-import IExecJsPathResult from '@ulixee/unblocked-specification/agent/browser/IExecJsPathResult';
-import { getNodePointerFnName } from '@ulixee/unblocked-specification/agent/browser/IJsPathFunctions';
+import IExecJsPathResult from '@justinearl/unblocked-specification/agent/browser/IExecJsPathResult';
+import { getNodePointerFnName } from '@justinearl/unblocked-specification/agent/browser/IJsPathFunctions';
 import StateMachine from '@ulixee/awaited-dom/base/StateMachine';
 import NodeFactory from '@ulixee/awaited-dom/base/NodeFactory';
 import IAwaitedOptions from '../interfaces/IAwaitedOptions';

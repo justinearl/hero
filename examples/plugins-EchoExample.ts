@@ -1,5 +1,5 @@
-import Core from '@ulixee/hero-core';
-import Hero from '@ulixee/hero';
+import Core from '@justinearl/hero-core';
+import Hero from '@justinearl/hero';
 import * as Path from 'path';
 
 // NOTE: You need to start a Ulixee Cloud **in this same process** to run this example

@@ -17,17 +17,17 @@
 
 import { ProtocolMapping } from 'devtools-protocol/types/protocol-mapping';
 import { Protocol } from 'devtools-protocol';
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import { createPromise } from '@ulixee/commons/lib/utils';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import { createPromise } from '@justinearl/commons/lib/utils';
 import IDevtoolsSession, {
   DevtoolsEvents,
   IDevtoolsEventMessage,
   IDevtoolsResponseMessage,
-} from '@ulixee/unblocked-specification/agent/browser/IDevtoolsSession';
-import Log from '@ulixee/commons/lib/Logger';
-import TimeoutError from '@ulixee/commons/interfaces/TimeoutError';
+} from '@justinearl/unblocked-specification/agent/browser/IDevtoolsSession';
+import Log from '@justinearl/commons/lib/Logger';
+import TimeoutError from '@justinearl/commons/interfaces/TimeoutError';
 import ProtocolError from '../errors/ProtocolError';
 import { Connection } from './Connection';
 import RemoteObject = Protocol.Runtime.RemoteObject;

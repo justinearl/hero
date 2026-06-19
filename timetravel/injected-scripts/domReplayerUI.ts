@@ -1,5 +1,5 @@
 // have to import to allow declarations...
-import {} from '@ulixee/hero-interfaces/IDomChangeEvent';
+import {} from '@justinearl/hero-interfaces/IDomChangeEvent';
 
 declare global {
   interface Window {

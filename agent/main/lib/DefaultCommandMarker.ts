@@ -1,4 +1,4 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
 import BrowserContext from './BrowserContext';
 import ICommandMarker from '../interfaces/ICommandMarker';
 

@@ -1,10 +1,10 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import IResolvablePromise from '@ulixee/commons/interfaces/IResolvablePromise';
-import EventSubscriber from '@ulixee/commons/lib/EventSubscriber';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import TypeSerializer from '@ulixee/commons/lib/TypeSerializer';
-import { toUrl } from '@ulixee/commons/lib/utils';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import IResolvablePromise from '@justinearl/commons/interfaces/IResolvablePromise';
+import EventSubscriber from '@justinearl/commons/lib/EventSubscriber';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import TypeSerializer from '@justinearl/commons/lib/TypeSerializer';
+import { toUrl } from '@justinearl/commons/lib/utils';
 import WebSocket = require('ws');
 import DisconnectedError from '../errors/DisconnectedError';
 import ITransport, { ITransportEvents } from '../interfaces/ITransport';

@@ -1,6 +1,6 @@
 /// <reference lib="DOM" />
 /// <reference lib="DOM.Iterable" />
-import IDetachedElement from '@ulixee/hero-interfaces/IDetachedElement';
+import IDetachedElement from '@justinearl/hero-interfaces/IDetachedElement';
 import ICoreSession from '../interfaces/ICoreSession';
 import DetachedElement from './DetachedElement';
 

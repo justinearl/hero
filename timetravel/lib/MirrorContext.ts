@@ -1,7 +1,7 @@
-import Log from '@ulixee/commons/lib/Logger';
-import Core, { Session } from '@ulixee/hero-core';
-import CorePlugins from '@ulixee/hero-core/lib/CorePlugins';
-import BrowserContext from '@ulixee/unblocked-agent/lib/BrowserContext';
+import Log from '@justinearl/commons/lib/Logger';
+import Core, { Session } from '@justinearl/hero-core';
+import CorePlugins from '@justinearl/hero-core/lib/CorePlugins';
+import BrowserContext from '@justinearl/unblocked-agent/lib/BrowserContext';
 
 const { log } = Log(module);
 

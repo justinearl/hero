@@ -1,5 +1,5 @@
-import { IBoundLog } from '@ulixee/commons/interfaces/ILog';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
+import { IBoundLog } from '@justinearl/commons/interfaces/ILog';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
 
 export interface IWebsocketMessage {
   resourceId: number;

@@ -1,20 +1,20 @@
-import { CanceledPromiseError } from '@ulixee/commons/interfaces/IPendingWaitEvent';
-import TimeoutError from '@ulixee/commons/interfaces/TimeoutError';
-import { TypedEventEmitter } from '@ulixee/commons/lib/eventUtils';
-import Log from '@ulixee/commons/lib/Logger';
-import Resolvable from '@ulixee/commons/lib/Resolvable';
-import { isSemverSatisfied } from '@ulixee/commons/lib/VersionUtils';
-import ICoreCommandRequestPayload from '@ulixee/hero-interfaces/ICoreCommandRequestPayload';
-import ICoreListenerPayload from '@ulixee/hero-interfaces/ICoreListenerPayload';
-import ISessionCreateOptions from '@ulixee/hero-interfaces/ISessionCreateOptions';
-import ISessionMeta from '@ulixee/hero-interfaces/ISessionMeta';
+import { CanceledPromiseError } from '@justinearl/commons/interfaces/IPendingWaitEvent';
+import TimeoutError from '@justinearl/commons/interfaces/TimeoutError';
+import { TypedEventEmitter } from '@justinearl/commons/lib/eventUtils';
+import Log from '@justinearl/commons/lib/Logger';
+import Resolvable from '@justinearl/commons/lib/Resolvable';
+import { isSemverSatisfied } from '@justinearl/commons/lib/VersionUtils';
+import ICoreCommandRequestPayload from '@justinearl/hero-interfaces/ICoreCommandRequestPayload';
+import ICoreListenerPayload from '@justinearl/hero-interfaces/ICoreListenerPayload';
+import ISessionCreateOptions from '@justinearl/hero-interfaces/ISessionCreateOptions';
+import ISessionMeta from '@justinearl/hero-interfaces/ISessionMeta';
 import IConnectionToClient, {
   IConnectionToClientEvents,
-} from '@ulixee/net/interfaces/IConnectionToClient';
-import ICoreResponsePayload from '@ulixee/net/interfaces/ICoreResponsePayload';
-import ITransport from '@ulixee/net/interfaces/ITransport';
-import EmittingTransportToClient from '@ulixee/net/lib/EmittingTransportToClient';
-import BrowserLaunchError from '@ulixee/unblocked-agent/errors/BrowserLaunchError';
+} from '@justinearl/net/interfaces/IConnectionToClient';
+import ICoreResponsePayload from '@justinearl/net/interfaces/ICoreResponsePayload';
+import ITransport from '@justinearl/net/interfaces/ITransport';
+import EmittingTransportToClient from '@justinearl/net/lib/EmittingTransportToClient';
+import BrowserLaunchError from '@justinearl/unblocked-agent/errors/BrowserLaunchError';
 import HeroCore from '../index';
 import CommandRunner, { ICommandableTarget } from '../lib/CommandRunner';
 import { ICommandPresetMeta } from '../lib/Commands';

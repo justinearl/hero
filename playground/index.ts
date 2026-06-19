@@ -1,9 +1,9 @@
-import '@ulixee/commons/lib/SourceMapSupport';
-import DefaultHero, { ConnectionToHeroCore, IHeroCreateOptions } from '@ulixee/hero';
-import Core from '@ulixee/hero-core';
-import TransportBridge from '@ulixee/net/lib/TransportBridge';
+import '@justinearl/commons/lib/SourceMapSupport';
+import DefaultHero, { ConnectionToHeroCore, IHeroCreateOptions } from '@justinearl/hero';
+import Core from '@justinearl/hero-core';
+import TransportBridge from '@justinearl/net/lib/TransportBridge';
 
-export * from '@ulixee/hero';
+export * from '@justinearl/hero';
 export { Core };
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
