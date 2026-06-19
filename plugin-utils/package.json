@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "description": "Base classes to build hero plugins",
   "dependencies": {
