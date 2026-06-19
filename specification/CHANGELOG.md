@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **default-browser:** os lookup wrong ([b14bf27](https://github.com/justinearl/hero/commit/b14bf27080e88c50f7c76c53b1275c1b738093c2))
+
+### Features
+
+* **agent:** migrate from websockets to deprecated console domain for communication ([3a2ceca](https://github.com/justinearl/hero/commit/3a2cecaae2968d002c0d4ef9a48d94a6f2335cdc))
+* extend network plugins to be able to intercept requests and serve local responses ([86b2a4f](https://github.com/justinearl/hero/commit/86b2a4f23bce859b375a0d0832cabf629ddc43cc))
+* migrate away from runtime to custom websockets ([1baf701](https://github.com/justinearl/hero/commit/1baf7018e3fba1a8f5cf3fd89f077812a1fbe97c))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/unblocked-specification

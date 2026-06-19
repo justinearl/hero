@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* agent requires a certificate generator ([6715750](https://github.com/justinearl/hero/commit/67157501d00cbc0187ba7cc88820b3ff27747189))
+* **client:** fix HeroReplay replaying a sessionid ([56da409](https://github.com/justinearl/hero/commit/56da409ad42dffd7b45333cd53811d6a8163e550))
+* **client:** remove ability to specify upload path ([5a6537a](https://github.com/justinearl/hero/commit/5a6537a5603d1715c727b22a3bfc8b59190d33ee))
+* **core:** fix unblocked references ([edabadd](https://github.com/justinearl/hero/commit/edabadd08738875234afc9735e0ad81c31bc5c95))
+* **core:** improve max event listener warnings ([8b9422a](https://github.com/justinearl/hero/commit/8b9422ae59760576087546f827c4a3cf6459e863))
+* **core:** subdomain cookies not being removed ([fad14db](https://github.com/justinearl/hero/commit/fad14db468a3c7354e7e5f865fa3c62bf699eac0))
+* disable auto-shutdown of idle connections ([9f3356b](https://github.com/justinearl/hero/commit/9f3356bf3fa60bd527ad3f381875a365146a4bad))
+* new tests failing ([a93550e](https://github.com/justinearl/hero/commit/a93550e805d8104a611f3e554ebbfa7c350f83a9))
+* update awaited-dom to fix ts issue ([b98a567](https://github.com/justinearl/hero/commit/b98a5676df634947ec93e100556ecc4af6cd7890)), closes [#181](https://github.com/justinearl/hero/issues/181)
+* update client hints spec for hero meta ([0455bf9](https://github.com/justinearl/hero/commit/0455bf943e3203a72e12cc43b240874b4e9bd1b8))
+* ws now returns buffer by default ([e808f6b](https://github.com/justinearl/hero/commit/e808f6be2e54d2409482cc69a862330d10dad6a5))
+
+### Features
+
+* add ability to manually create a newTab ([c1f0017](https://github.com/justinearl/hero/commit/c1f0017549bbee215c3ca8c416e1ab4844e297b2)), closes [#268](https://github.com/justinearl/hero/issues/268)
+* added hero.collect and element. from databox-for-hero ([6c6de12](https://github.com/justinearl/hero/commit/6c6de12562a9f85da05bbab0c81cc5d2769f7f05))
+* **client:** $contentDocument AwaitedDOM extender ([d4bacbf](https://github.com/justinearl/hero/commit/d4bacbfa56086e60f72b80a9b5284a0d4bb678c8))
+* convert unblocked to ulixee org ([6616ec9](https://github.com/justinearl/hero/commit/6616ec94186da360e70544c827294b95ecb9381f))
+* **core:** proxy local dns feature ([bd6f7dc](https://github.com/justinearl/hero/commit/bd6f7dc4442277ae0379159ebedafc2355fa386f))
+* **core:** session registry ([fd10317](https://github.com/justinearl/hero/commit/fd10317a1219b1aefffd5b8162021a43c8ca6dc5))
+* **core:** start without session persistence ([4cf7520](https://github.com/justinearl/hero/commit/4cf7520b9f4de21e3c99637c355e49e88d336ba3))
+* detach now only returns element while addToDetached saves it ([f5641f5](https://github.com/justinearl/hero/commit/f5641f5806ba0281a8f0bdd6a0143cfc9326808b))
+* expose triggerFlowHandler internal data ([#229](https://github.com/justinearl/hero/issues/229)) ([5ceb89c](https://github.com/justinearl/hero/commit/5ceb89ccf94a86a6d7dd8bd5465495f4539e12fb))
+* renamed DetachedDOM to DetachedElement + getDataSnippet to getSnippet ([d58431a](https://github.com/justinearl/hero/commit/d58431a205e354c61c75698e3aefc46cd0ebd7bf))
+* renamed HeroExtractor to HeroReplay as well as how $extract/$collect work and are named ([d97fb2d](https://github.com/justinearl/hero/commit/d97fb2dd1ce0b5329f6cf99af96dcd29422b55fb))
+* replaced CollectedSnippets with hero.getData/setData ([96a731f](https://github.com/justinearl/hero/commit/96a731fd295204b7c61d3eb4fbb81131289dc606))
+* upgrade base chrome to 128 ([67ee967](https://github.com/justinearl/hero/commit/67ee967c46d1632cd5e617a43cce29e4e3c1da0a))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/hero-end-to-end

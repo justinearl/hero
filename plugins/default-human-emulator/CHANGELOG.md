@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **core:** allow customizing waitForVisible ([1982f52](https://github.com/justinearl/hero/commit/1982f52e16bca39b4ab4179e9970a190e4340652))
+* **core:** error in jspath re-lookups of xy ([2d5307e](https://github.com/justinearl/hero/commit/2d5307edaa5d4a9e6f32175eae09b8280c5516ad))
+* **core:** fix interact with elements in iframes ([c0c7a6e](https://github.com/justinearl/hero/commit/c0c7a6e0b93fddf418edf1298bb2d1419ebd65ed))
+* **core:** headed interactions viewport wrong ([717ff34](https://github.com/justinearl/hero/commit/717ff347b7c99f6ae2f493b481c858868e3f2312))
+* eslint errors, tests hanging ([e413531](https://github.com/justinearl/hero/commit/e4135311adc2a7841bbe1ec7d0cbe7c8f339468a))
+* fixed paths ([6a28d80](https://github.com/justinearl/hero/commit/6a28d8069111356e0b63d23003187ecd08a365b8))
+* **human-emulator:** fix moving target point ([54f648a](https://github.com/justinearl/hero/commit/54f648a533c4e37c6f169de94635f0bf6cd210f6))
+* **interaction:** cancel mouse clicks on mousedown ([afd1964](https://github.com/justinearl/hero/commit/afd19649c6d3c913b99cc0fa9a21e1c954f4ffbc))
+* **mitm:** workers timing out on init ([42b8e5c](https://github.com/justinearl/hero/commit/42b8e5cdb6a466252e8ea20c3a1037dfc7b43999))
+* **plugins:** handle chrome > 90 scroll animation ([7fc2cd2](https://github.com/justinearl/hero/commit/7fc2cd21d9ad4a3f61f9d049b3f7a927471266c1))
+* **puppet:** turn off final screenshot for cast ([0a9f124](https://github.com/justinearl/hero/commit/0a9f12469a6f7261ee46de69c8f6949c6c485e1c))
+* reversed the reorg from two days ago ([aa5fddd](https://github.com/justinearl/hero/commit/aa5fddddbb66645bef9f6ab1b2d469bc9501f892))
+* speed up human emulator to better emulate a developer ([b24f6e4](https://github.com/justinearl/hero/commit/b24f6e457b1de4fc587ac95587dab00893834496))
+
+### Features
+
+* added support for plugins ([0fda55d](https://github.com/justinearl/hero/commit/0fda55d7a57d300d765c462389e76da0e1fe0822))
+* **client:** add serialized callstack ([7a87445](https://github.com/justinearl/hero/commit/7a87445a5ea772769cd5cf2df5528e9653bd12a8))
+* **core:** click verification modes ([bbfffde](https://github.com/justinearl/hero/commit/bbfffde792cfaf7e2a37ceb5acb781fbe4332155))
+* **core:** click without verification ([285d3f6](https://github.com/justinearl/hero/commit/285d3f6745015be47a464490226ba90f746f7578))
+* **core:** dialogs should run out of order ([b3db8b4](https://github.com/justinearl/hero/commit/b3db8b44a522073fdb25497dc6f9e1affe82b471))
+* **core:** improve mouse message when not there ([b9711d6](https://github.com/justinearl/hero/commit/b9711d6b3b27882ff2be711382464243493d71a7))
+* **core:** use local dir for page state ([d884e81](https://github.com/justinearl/hero/commit/d884e81448e7db9d6f8a1613f7cefe8c5449caed))
+* first stab at documenting plugins + simplified plugin architecture ([fcaa3cf](https://github.com/justinearl/hero/commit/fcaa3cfdca98b6f85128c196369d63ae40642df1))
+* **hero:** automatic server port use ([0199338](https://github.com/justinearl/hero/commit/0199338b9cdad68c7e5acd036597bf8d3252c90c))
+* moved commons into its own repo ([fdbfa4c](https://github.com/justinearl/hero/commit/fdbfa4cdad7fe977412c1660cda7075417a01e82))
+* renamed SecretAgent to Hero ([e5f12a3](https://github.com/justinearl/hero/commit/e5f12a3ff2dd8926f87275a9f248cbeef5c4cfc9))
+* updated to use latest commons version ([f9b145b](https://github.com/justinearl/hero/commit/f9b145b962ee28e2669afd1cefe3da7e1398f3f6))
+* uses new @ulixee/commons/lib structure ([7ba3c73](https://github.com/justinearl/hero/commit/7ba3c73e40663f32d0001c51edce344f7ebd1e42))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/default-human-emulator

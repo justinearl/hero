@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **double-agent:** kill trailing tls process ([5942f27](https://github.com/justinearl/hero/commit/5942f27978a2e5673fadce09ab85e6d690a77423))
+* **double-agent:** try to clean tls servers ([31c9291](https://github.com/justinearl/hero/commit/31c929147879f978ceae173aadfa27b8834ab28d))
+* **profile:** resolve stalled dom collector ([9cd105d](https://github.com/justinearl/hero/commit/9cd105d4cdfe41ac35b1d7b7ba3e5d7f9a3ba679))
+
+### Features
+
+* update to chrome 139 ([9e8a69b](https://github.com/justinearl/hero/commit/9e8a69bf5f4dbb1255b81a7e7bc56839c08dcef7))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 ### Features

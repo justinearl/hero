@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **ghactions:** js branch publishing go ([3e28558](https://github.com/justinearl/hero/commit/3e2855844c0be2350b5239172b1aa92a699b258b))
+* polyfills have extraneous data ([c714917](https://github.com/justinearl/hero/commit/c7149170a18c2c0145898e59b79a8486f4428033))
+
+### Features
+
+* **agent:** chrome 135 emulation ([fdcd31b](https://github.com/justinearl/hero/commit/fdcd31b6f4dc04e8ad716a0ba78cb571e4ed1584))
+* update to chrome 139 ([9e8a69b](https://github.com/justinearl/hero/commit/9e8a69bf5f4dbb1255b81a7e7bc56839c08dcef7))
+* upgrade utls for post quantum chrome ([bb60ad5](https://github.com/justinearl/hero/commit/bb60ad5972febba30989fb4fb73eae8d1ed20180))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 ### Features

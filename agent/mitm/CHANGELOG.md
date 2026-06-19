@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* polyfills have extraneous data ([c714917](https://github.com/justinearl/hero/commit/c7149170a18c2c0145898e59b79a8486f4428033))
+
+### Features
+
+* extend network plugins to be able to intercept requests and serve local responses ([86b2a4f](https://github.com/justinearl/hero/commit/86b2a4f23bce859b375a0d0832cabf629ddc43cc))
+* **net:** simplify network stack ([81d2c76](https://github.com/justinearl/hero/commit/81d2c7613a604bb5abd0d0343fa6dc413e7b6c8d))
+* upgrade base chrome to 128 ([67ee967](https://github.com/justinearl/hero/commit/67ee967c46d1632cd5e617a43cce29e4e3c1da0a))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/unblocked-agent-mitm

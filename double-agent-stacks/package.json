@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/double-agent-stacks",
-  "version": "2.0.0-alpha.34",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "0": "cd ../build/double-agent-stacks && yarn 0",
@@ -14,15 +14,15 @@
     "3-puppeteer": "cd ../build/double-agent-stacks && yarn 3-puppeteer"
   },
   "dependencies": {
-    "@double-agent/collect": "2.0.0-alpha.34",
-    "@double-agent/collect-controller": "2.0.0-alpha.34",
-    "@double-agent/config": "2.0.0-alpha.34",
-    "@double-agent/runner": "2.0.0-alpha.34",
-    "@justinearl/commons": "2.0.0-alpha.34",
-    "@justinearl/default-browser-emulator": "2.0.0-alpha.34",
-    "@justinearl/default-human-emulator": "2.0.0-alpha.34",
-    "@justinearl/real-user-agents": "2.0.0-alpha.34",
-    "@justinearl/unblocked-agent": "2.0.0-alpha.34",
+    "@double-agent/collect": "2.0.0",
+    "@double-agent/collect-controller": "2.0.0",
+    "@double-agent/config": "2.0.0",
+    "@double-agent/runner": "2.0.0",
+    "@justinearl/commons": "2.0.0",
+    "@justinearl/default-browser-emulator": "2.0.0",
+    "@justinearl/default-human-emulator": "2.0.0",
+    "@justinearl/real-user-agents": "2.0.0",
+    "@justinearl/unblocked-agent": "2.0.0",
     "commander": "^9.5.0",
     "puppeteer": "^23.5.1",
     "selenium-webdriver": "4.4.0"

@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/unblocked-browser-profiler",
-  "version": "2.0.0-alpha.34",
+  "version": "2.0.0",
   "main": "index.js",
   "private": true,
   "license": "MIT",
@@ -15,14 +15,14 @@
     "profile:dom-local": "node --inspect -e 'require(\"../../build/browser-profiler/main/scripts/runLocalDoms.js\").default()'"
   },
   "dependencies": {
-    "@double-agent/collect": "2.0.0-alpha.34",
-    "@double-agent/config": "2.0.0-alpha.34",
-    "@double-agent/runner": "2.0.0-alpha.34",
+    "@double-agent/collect": "2.0.0",
+    "@double-agent/config": "2.0.0",
+    "@double-agent/runner": "2.0.0",
+    "@justinearl/commons": "2.0.0",
+    "@justinearl/double-agent-stacks": "2.0.0",
+    "@justinearl/real-user-agents": "2.0.0",
     "@types/selenium-webdriver": "^4.1.5",
     "@ulixee/chrome-app": "^1.0.3",
-    "@justinearl/commons": "2.0.0-alpha.34",
-    "@justinearl/double-agent-stacks": "2.0.0-alpha.34",
-    "@justinearl/real-user-agents": "2.0.0-alpha.34",
     "axios": "^1.7.7",
     "chrome-launcher": "^0.13.4",
     "chrome-remote-interface": "0.32.1",

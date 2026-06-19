@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **double agent:** clean up backend ([72a201f](https://github.com/justinearl/hero/commit/72a201f3e6fef475434357701072f483ce6be9f1))
+* **profiler:** chrome 133 infinite loop ([526c27d](https://github.com/justinearl/hero/commit/526c27d47e4632b4191516a835c34a241db6f167))
+* **profile:** resolve stalled dom collector ([9cd105d](https://github.com/justinearl/hero/commit/9cd105d4cdfe41ac35b1d7b7ba3e5d7f9a3ba679))
+
+### Features
+
+* update to chrome 139 ([9e8a69b](https://github.com/justinearl/hero/commit/9e8a69bf5f4dbb1255b81a7e7bc56839c08dcef7))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 ### Features

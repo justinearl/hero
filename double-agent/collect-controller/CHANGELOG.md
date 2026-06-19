@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **double agent:** clean up backend ([72a201f](https://github.com/justinearl/hero/commit/72a201f3e6fef475434357701072f483ce6be9f1))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @double-agent/collect-controller

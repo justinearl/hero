@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/hero-playground",
-  "version": "2.0.0-alpha.34",
+  "version": "2.0.0",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -15,9 +15,9 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@justinearl/commons": "2.0.0-alpha.34",
-    "@justinearl/hero": "2.0.0-alpha.34",
-    "@justinearl/hero-core": "2.0.0-alpha.34",
-    "@justinearl/net": "2.0.0-alpha.34"
+    "@justinearl/commons": "2.0.0",
+    "@justinearl/hero": "2.0.0",
+    "@justinearl/hero-core": "2.0.0",
+    "@justinearl/net": "2.0.0"
   }
 }

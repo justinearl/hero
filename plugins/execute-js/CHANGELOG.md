@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* a number of tweaks to get client extender plugins working ([bc89574](https://github.com/justinearl/hero/commit/bc8957491b4b3180b67796ae9eb2487250a839df))
+* eslint errors, tests hanging ([e413531](https://github.com/justinearl/hero/commit/e4135311adc2a7841bbe1ec7d0cbe7c8f339468a))
+* fixed paths ([6a28d80](https://github.com/justinearl/hero/commit/6a28d8069111356e0b63d23003187ecd08a365b8))
+* **plugins:** revise plugin extensions ([2bf7ae4](https://github.com/justinearl/hero/commit/2bf7ae47602bfebc67a6a5d1f30c2589953aa91b))
+* **plugins:** tweak executejs params to match SA ([3aa0239](https://github.com/justinearl/hero/commit/3aa023970510579dcc1be0d5fe6cf7ca329a6a40))
+* **puppet:** turn off final screenshot for cast ([0a9f124](https://github.com/justinearl/hero/commit/0a9f12469a6f7261ee46de69c8f6949c6c485e1c))
+* reversed the reorg from two days ago ([aa5fddd](https://github.com/justinearl/hero/commit/aa5fddddbb66645bef9f6ab1b2d469bc9501f892))
+
+### Features
+
+* added support for plugins ([0fda55d](https://github.com/justinearl/hero/commit/0fda55d7a57d300d765c462389e76da0e1fe0822))
+* args can now be passed into ExecuteJsPlugin ([0ed06f0](https://github.com/justinearl/hero/commit/0ed06f0e98a3076c04e5a1aedd5e0dfc53ac6392))
+* **client:** add serialized callstack ([7a87445](https://github.com/justinearl/hero/commit/7a87445a5ea772769cd5cf2df5528e9653bd12a8))
+* **core:** enable dynamic configuration of plugins ([86bacbf](https://github.com/justinearl/hero/commit/86bacbf07fda0c1ece54d11a3a59020e88e49bd0))
+* **core:** geolocation feature ([0ecbb14](https://github.com/justinearl/hero/commit/0ecbb14307c6cdebb99cf2e2ab3c3d27702aa6fa))
+* **core:** use local dir for page state ([d884e81](https://github.com/justinearl/hero/commit/d884e81448e7db9d6f8a1613f7cefe8c5449caed))
+* dynamically require core extender plugins required by client ([f069514](https://github.com/justinearl/hero/commit/f069514fc01916437a37c281354a64eb4f14839f))
+* first stab at documenting plugins + simplified plugin architecture ([fcaa3cf](https://github.com/justinearl/hero/commit/fcaa3cfdca98b6f85128c196369d63ae40642df1))
+* **hero:** automatic server port use ([0199338](https://github.com/justinearl/hero/commit/0199338b9cdad68c7e5acd036597bf8d3252c90c))
+* migrate to repo-tools ([d371df7](https://github.com/justinearl/hero/commit/d371df7731b43ea4b94fa6e8a584c7e8ebf25d01))
+* moved Handler to Runner and Core's http server to Server + no default instance is exported ([41954ff](https://github.com/justinearl/hero/commit/41954ff3a12cadb68bc9a065d54205474aaa8362))
+* moved output from Hero to Databox ([95c3f9b](https://github.com/justinearl/hero/commit/95c3f9bfcff59361037ba3a1f4dda6b87d22f23e))
+* **plugins:** add ability to exec js on frame ([0f2cb97](https://github.com/justinearl/hero/commit/0f2cb97c6cc67d13331bcc7baebff838f028077e))
+* **plugins:** add chrome 98 + selector defaults ([c27f380](https://github.com/justinearl/hero/commit/c27f3804b9ec7559d56021ce6890036ebde1e761))
+* **plugins:** fix typing and load-order ([01cad91](https://github.com/justinearl/hero/commit/01cad91c3d7857abae8cdb23506407027e082567))
+* register Core plugins through agent.use ([eb08964](https://github.com/justinearl/hero/commit/eb0896454ed1e265459fc174a937f666c975844d))
+* renamed SecretAgent to Hero ([e5f12a3](https://github.com/justinearl/hero/commit/e5f12a3ff2dd8926f87275a9f248cbeef5c4cfc9))
+* tweak docs for plugins ([354839d](https://github.com/justinearl/hero/commit/354839d5db9dad1d1932f652a96af797d97a6e4d))
+* updated to use latest commons version ([f9b145b](https://github.com/justinearl/hero/commit/f9b145b962ee28e2669afd1cefe3da7e1398f3f6))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/execute-js-plugin

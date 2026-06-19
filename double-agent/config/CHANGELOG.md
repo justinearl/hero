@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **double agent:** clean up backend ([72a201f](https://github.com/justinearl/hero/commit/72a201f3e6fef475434357701072f483ce6be9f1))
+* polyfills have extraneous data ([c714917](https://github.com/justinearl/hero/commit/c7149170a18c2c0145898e59b79a8486f4428033))
+
+### Features
+
+* update to chrome 139 ([9e8a69b](https://github.com/justinearl/hero/commit/9e8a69bf5f4dbb1255b81a7e7bc56839c08dcef7))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 ### Features

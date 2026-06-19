@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/js-path",
-  "version": "2.0.0-alpha.34",
+  "version": "2.0.0",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

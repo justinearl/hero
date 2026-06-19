@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **client:** detach not returning elements ([34a4340](https://github.com/justinearl/hero/commit/34a4340bfc4c8ef55430481caa7e2033e3019e4e))
+* **core:** fix unblocked references ([edabadd](https://github.com/justinearl/hero/commit/edabadd08738875234afc9735e0ad81c31bc5c95))
+* **core:** fix windows shutdown, blank cli ([4074124](https://github.com/justinearl/hero/commit/40741246105296df7c571937e3eaf8ef5275828a))
+* eslint errors, tests hanging ([e413531](https://github.com/justinearl/hero/commit/e4135311adc2a7841bbe1ec7d0cbe7c8f339468a))
+* fixed paths ([6a28d80](https://github.com/justinearl/hero/commit/6a28d8069111356e0b63d23003187ecd08a365b8))
+* **plugins:** handle chrome > 90 scroll animation ([7fc2cd2](https://github.com/justinearl/hero/commit/7fc2cd21d9ad4a3f61f9d049b3f7a927471266c1))
+* **puppet:** fix hang on puppet close ([64173dd](https://github.com/justinearl/hero/commit/64173dda9947e2b702e859277e60a05c5ed40b97))
+* **puppet:** turn off final screenshot for cast ([0a9f124](https://github.com/justinearl/hero/commit/0a9f12469a6f7261ee46de69c8f6949c6c485e1c))
+* reversed the reorg from two days ago ([aa5fddd](https://github.com/justinearl/hero/commit/aa5fddddbb66645bef9f6ab1b2d469bc9501f892))
+* update client hints spec for hero meta ([0455bf9](https://github.com/justinearl/hero/commit/0455bf943e3203a72e12cc43b240874b4e9bd1b8))
+
+### Features
+
+* added support for plugins ([0fda55d](https://github.com/justinearl/hero/commit/0fda55d7a57d300d765c462389e76da0e1fe0822))
+* **client:** add serialized callstack ([7a87445](https://github.com/justinearl/hero/commit/7a87445a5ea772769cd5cf2df5528e9653bd12a8))
+* **client:** waitForPageState(states, options) ([dae7f24](https://github.com/justinearl/hero/commit/dae7f2446afd0716a6e2063088cb456f5f301029))
+* convert unblocked to ulixee org ([6616ec9](https://github.com/justinearl/hero/commit/6616ec94186da360e70544c827294b95ecb9381f))
+* **core:** use local dir for page state ([d884e81](https://github.com/justinearl/hero/commit/d884e81448e7db9d6f8a1613f7cefe8c5449caed))
+* first stab at documenting plugins + simplified plugin architecture ([fcaa3cf](https://github.com/justinearl/hero/commit/fcaa3cfdca98b6f85128c196369d63ae40642df1))
+* **hero:** automatic server port use ([0199338](https://github.com/justinearl/hero/commit/0199338b9cdad68c7e5acd036597bf8d3252c90c))
+* moved commons into its own repo ([fdbfa4c](https://github.com/justinearl/hero/commit/fdbfa4cdad7fe977412c1660cda7075417a01e82))
+* moved output from Hero to Databox ([95c3f9b](https://github.com/justinearl/hero/commit/95c3f9bfcff59361037ba3a1f4dda6b87d22f23e))
+* **plugin:** chrome dependencies in npm packages ([62d99c9](https://github.com/justinearl/hero/commit/62d99c90b0bc653f568eff9cf2279109f2d24bfe))
+* **puppet:** capture resource browser load time ([1ae520c](https://github.com/justinearl/hero/commit/1ae520ce4047e987011a1a5c50e03e89a630c74e))
+* register Core plugins through agent.use ([eb08964](https://github.com/justinearl/hero/commit/eb0896454ed1e265459fc174a937f666c975844d))
+* remove replay app ([8fc196d](https://github.com/justinearl/hero/commit/8fc196da4a5aa29a78cc1cbfe717622023af0184))
+* renamed SecretAgent to Hero ([e5f12a3](https://github.com/justinearl/hero/commit/e5f12a3ff2dd8926f87275a9f248cbeef5c4cfc9))
+* unify plugin structure ([6b9138d](https://github.com/justinearl/hero/commit/6b9138d890b6fb845af057fef4f390522614978f))
+* updated to use latest commons version ([f9b145b](https://github.com/justinearl/hero/commit/f9b145b962ee28e2669afd1cefe3da7e1398f3f6))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/hero-plugin-utils

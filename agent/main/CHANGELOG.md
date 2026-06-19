@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* **agent:** cleanup old websockets ([d005090](https://github.com/justinearl/hero/commit/d0050902419fb9042232aa9b61de2ce961be619e))
+* **agent:** fix proxyConnectionInfo for socks5 URLs ([d66daed](https://github.com/justinearl/hero/commit/d66daedda1b9a332c279969da03a7ee1428f6d51))
+* **agent:** headers starting with - broken ([47f63af](https://github.com/justinearl/hero/commit/47f63af3813e72d181751a500abdbc3d31f2a7cd)), closes [#345](https://github.com/justinearl/hero/issues/345)
+* **agent:** make ws callbacks no-cors ([ecaf56e](https://github.com/justinearl/hero/commit/ecaf56e9a2a30a3823721b9599beea965b52b0ba))
+* **agent:** merge features so they are all applied ([ca789ab](https://github.com/justinearl/hero/commit/ca789ab10a01b310afb277f416a5ceeeb549fd28))
+* **agent:** resource loading for file urls ([36988a0](https://github.com/justinearl/hero/commit/36988a008b2bc89ae16b40ba67ded3c4785bd32b))
+* **agent:** single new doc callback per name ([20e2c41](https://github.com/justinearl/hero/commit/20e2c4148fe92b3359b6de97ffbfbc95598f6182))
+* **agent:** support callbacks in chrome internal urls ([5b0c41e](https://github.com/justinearl/hero/commit/5b0c41e6c34967f952db9ccb12e8e2fe20288f60))
+* **agent:** support passing invalid URL to isWebsocketUrl ([665c108](https://github.com/justinearl/hero/commit/665c1080b31e9c7d6f4dfb8648524df0e5d64e40))
+* **agent:** use default context if mainframe ([f851728](https://github.com/justinearl/hero/commit/f851728bb98cce6353c13e293b15cbeb3d14799c))
+* **agent:** worker not closing in time ([0d374a5](https://github.com/justinearl/hero/commit/0d374a5547684e024efbb73eddfc109d4c0409e2))
+* **agent:** worker.evaluate wait until ready ([1d8c7a8](https://github.com/justinearl/hero/commit/1d8c7a82bf0c66a8067c0f0cb77ed4b3e5a54c57))
+* **core:** dont log devtools internal ws messages ([3c18030](https://github.com/justinearl/hero/commit/3c1803078b9ec8423b0250ef4b00fa9ab9e20d69))
+* **default-browser-emulator:** disable AimEnabled feature ([bff25c1](https://github.com/justinearl/hero/commit/bff25c1fe70870300ec7504a80870f3ce0da50da))
+* **default-browser:** os lookup wrong ([b14bf27](https://github.com/justinearl/hero/commit/b14bf27080e88c50f7c76c53b1275c1b738093c2))
+* **double-agent:** kill trailing tls process ([5942f27](https://github.com/justinearl/hero/commit/5942f27978a2e5673fadce09ab85e6d690a77423))
+* polyfills have extraneous data ([c714917](https://github.com/justinearl/hero/commit/c7149170a18c2c0145898e59b79a8486f4428033))
+
+### Features
+
+* **agent:** chrome 135 emulation ([fdcd31b](https://github.com/justinearl/hero/commit/fdcd31b6f4dc04e8ad716a0ba78cb571e4ed1584))
+* **agent:** default to chrome 130 ([5830b3d](https://github.com/justinearl/hero/commit/5830b3de6a509614f1a40d20f5fe33f4778b3ac9))
+* **agent:** migrate from websockets to deprecated console domain for communication ([3a2ceca](https://github.com/justinearl/hero/commit/3a2cecaae2968d002c0d4ef9a48d94a6f2335cdc))
+* **agent:** support authenticated proxies when mitm is disabled ([9946794](https://github.com/justinearl/hero/commit/99467940232f004d6cc1a22a3755489083c627be))
+* **commons:** extend typeserializer with array types ([6e23a45](https://github.com/justinearl/hero/commit/6e23a45e96468a155c077543c0c7ff9c7972711e))
+* extend network plugins to be able to intercept requests and serve local responses ([86b2a4f](https://github.com/justinearl/hero/commit/86b2a4f23bce859b375a0d0832cabf629ddc43cc))
+* migrate away from runtime to custom websockets ([1baf701](https://github.com/justinearl/hero/commit/1baf7018e3fba1a8f5cf3fd89f077812a1fbe97c))
+* update to chrome 139 ([9e8a69b](https://github.com/justinearl/hero/commit/9e8a69bf5f4dbb1255b81a7e7bc56839c08dcef7))
+* upgrade base chrome to 128 ([67ee967](https://github.com/justinearl/hero/commit/67ee967c46d1632cd5e617a43cce29e4e3c1da0a))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 ### Bug Fixes

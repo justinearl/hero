@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/hero-core",
-  "version": "2.0.0-alpha.34",
+  "version": "2.0.0",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -36,27 +36,27 @@
     }
   },
   "dependencies": {
+    "@justinearl/commons": "2.0.0",
+    "@justinearl/default-browser-emulator": "2.0.0",
+    "@justinearl/default-human-emulator": "2.0.0",
+    "@justinearl/hero-interfaces": "2.0.0",
+    "@justinearl/hero-plugin-utils": "2.0.0",
+    "@justinearl/hero-timetravel": "2.0.0",
+    "@justinearl/js-path": "2.0.0",
+    "@justinearl/net": "2.0.0",
+    "@justinearl/unblocked-agent": "2.0.0",
+    "@justinearl/unblocked-agent-mitm": "2.0.0",
+    "@justinearl/unblocked-specification": "2.0.0",
     "@ulixee/awaited-dom": "1.4.2",
-    "@justinearl/commons": "2.0.0-alpha.34",
-    "@justinearl/default-browser-emulator": "2.0.0-alpha.34",
-    "@justinearl/default-human-emulator": "2.0.0-alpha.34",
-    "@justinearl/hero-interfaces": "2.0.0-alpha.34",
-    "@justinearl/hero-plugin-utils": "2.0.0-alpha.34",
-    "@justinearl/hero-timetravel": "2.0.0-alpha.34",
-    "@justinearl/js-path": "2.0.0-alpha.34",
-    "@justinearl/net": "2.0.0-alpha.34",
-    "@justinearl/unblocked-agent": "2.0.0-alpha.34",
-    "@justinearl/unblocked-agent-mitm": "2.0.0-alpha.34",
-    "@justinearl/unblocked-specification": "2.0.0-alpha.34",
     "better-sqlite3": "^11.1.2",
     "moment": "^2.29.4",
     "nanoid": "^3.3.11",
     "ws": "^8.18.0"
   },
   "devDependencies": {
+    "@justinearl/hero": "2.0.0",
+    "@justinearl/hero-testing": "2.0.0",
     "@types/better-sqlite3": "^7.6.11",
-    "@ulixee/chrome-app": "1.0.3",
-    "@justinearl/hero": "2.0.0-alpha.34",
-    "@justinearl/hero-testing": "2.0.0-alpha.34"
+    "@ulixee/chrome-app": "1.0.3"
   }
 }

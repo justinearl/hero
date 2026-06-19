@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2026-06-19)
+
+### Bug Fixes
+
+* polyfills adding incorrect data ([824da44](https://github.com/justinearl/hero/commit/824da4418303931a95a5bb2b2feedc5ee12a0ba8))
+* polyfills have extraneous data ([c714917](https://github.com/justinearl/hero/commit/c7149170a18c2c0145898e59b79a8486f4428033))
+
 # [2.0.0-alpha.34](https://github.com/ulixee/hero/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2025-09-08)
 
 **Note:** Version bump only for package @ulixee/unblocked-browser-emulator-builder
