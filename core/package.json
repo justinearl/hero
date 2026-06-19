@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/hero-core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -36,17 +36,17 @@
     }
   },
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/default-browser-emulator": "2.0.0",
-    "@justinearl/default-human-emulator": "2.0.0",
-    "@justinearl/hero-interfaces": "2.0.0",
-    "@justinearl/hero-plugin-utils": "2.0.0",
-    "@justinearl/hero-timetravel": "2.0.0",
-    "@justinearl/js-path": "2.0.0",
-    "@justinearl/net": "2.0.0",
-    "@justinearl/unblocked-agent": "2.0.0",
-    "@justinearl/unblocked-agent-mitm": "2.0.0",
-    "@justinearl/unblocked-specification": "2.0.0",
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/default-browser-emulator": "2.0.1",
+    "@justinearl/default-human-emulator": "2.0.1",
+    "@justinearl/hero-interfaces": "2.0.1",
+    "@justinearl/hero-plugin-utils": "2.0.1",
+    "@justinearl/hero-timetravel": "2.0.1",
+    "@justinearl/js-path": "2.0.1",
+    "@justinearl/net": "2.0.1",
+    "@justinearl/unblocked-agent": "2.0.1",
+    "@justinearl/unblocked-agent-mitm": "2.0.1",
+    "@justinearl/unblocked-specification": "2.0.1",
     "@ulixee/awaited-dom": "1.4.2",
     "better-sqlite3": "^11.1.2",
     "moment": "^2.29.4",
@@ -54,8 +54,8 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@justinearl/hero": "2.0.0",
-    "@justinearl/hero-testing": "2.0.0",
+    "@justinearl/hero": "2.0.1",
+    "@justinearl/hero-testing": "2.0.1",
     "@types/better-sqlite3": "^7.6.11",
     "@ulixee/chrome-app": "1.0.3"
   }

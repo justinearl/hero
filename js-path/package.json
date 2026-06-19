@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/js-path",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"

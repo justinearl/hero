@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/unblocked-agent",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -8,10 +8,10 @@
   "description": "Fully programmable Devtools Protocol based browser",
   "main": "index.js",
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/js-path": "2.0.0",
-    "@justinearl/unblocked-agent-mitm": "2.0.0",
-    "@justinearl/unblocked-specification": "2.0.0",
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/js-path": "2.0.1",
+    "@justinearl/unblocked-agent-mitm": "2.0.1",
+    "@justinearl/unblocked-specification": "2.0.1",
     "@ulixee/chrome-139-0": "^7258.155.11",
     "@ulixee/chrome-app": "^1.0.3",
     "devtools-protocol": "^0.0.1137505",
@@ -20,7 +20,7 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@justinearl/unblocked-agent-testing": "2.0.0",
+    "@justinearl/unblocked-agent-testing": "2.0.1",
     "image-size": "^1.0.1",
     "vue": "^3.4.30"
   }

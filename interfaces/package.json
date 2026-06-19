@@ -1,15 +1,15 @@
 {
   "name": "@justinearl/hero-interfaces",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
   },
   "description": "Core interfaces used by Hero",
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/js-path": "2.0.0",
-    "@justinearl/unblocked-specification": "2.0.0",
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/js-path": "2.0.1",
+    "@justinearl/unblocked-specification": "2.0.1",
     "@ulixee/awaited-dom": "1.4.2",
     "devtools-protocol": "^0.0.1137505"
   }

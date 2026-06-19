@@ -1,14 +1,14 @@
 {
   "name": "@justinearl/hero-plugin-utils",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
   },
   "description": "Base classes to build hero plugins",
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/hero-interfaces": "2.0.0",
-    "@justinearl/unblocked-specification": "2.0.0"
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/hero-interfaces": "2.0.1",
+    "@justinearl/unblocked-specification": "2.0.1"
   }
 }

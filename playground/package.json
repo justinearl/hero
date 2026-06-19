@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/hero-playground",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -15,9 +15,9 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/hero": "2.0.0",
-    "@justinearl/hero-core": "2.0.0",
-    "@justinearl/net": "2.0.0"
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/hero": "2.0.1",
+    "@justinearl/hero-core": "2.0.1",
+    "@justinearl/net": "2.0.1"
   }
 }

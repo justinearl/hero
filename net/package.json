@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/net",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -9,7 +9,7 @@
   "description": "Common networking for the Ulixee projects",
   "license": "MIT",
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
+    "@justinearl/commons": "2.0.1",
     "ws": "^8.18.0"
   },
   "devDependencies": {

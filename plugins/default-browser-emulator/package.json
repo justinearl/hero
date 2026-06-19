@@ -1,6 +1,6 @@
 {
   "name": "@justinearl/default-browser-emulator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "git+https://github.com/justinearl/hero.git",
   "publishConfig": {
     "access": "public"
@@ -11,10 +11,10 @@
     "update-unblocked-emulators": "./bin/downloadData.js"
   },
   "dependencies": {
-    "@justinearl/commons": "2.0.0",
-    "@justinearl/real-user-agents": "2.0.0",
-    "@justinearl/unblocked-agent-mitm-socket": "2.0.0",
-    "@justinearl/unblocked-specification": "2.0.0",
+    "@justinearl/commons": "2.0.1",
+    "@justinearl/real-user-agents": "2.0.1",
+    "@justinearl/unblocked-agent-mitm-socket": "2.0.1",
+    "@justinearl/unblocked-specification": "2.0.1",
     "@ulixee/chrome-app": "^1.0.4",
     "compare-versions": "^6.1.0",
     "nanoid": "^3.3.11",
@@ -23,9 +23,9 @@
     "ua-parser-js": "^1.0.37"
   },
   "devDependencies": {
-    "@justinearl/unblocked-agent": "2.0.0",
-    "@justinearl/unblocked-agent-mitm": "2.0.0",
-    "@justinearl/unblocked-agent-testing": "2.0.0",
+    "@justinearl/unblocked-agent": "2.0.1",
+    "@justinearl/unblocked-agent-mitm": "2.0.1",
+    "@justinearl/unblocked-agent-testing": "2.0.1",
     "fpcollect": "^1.0.4",
     "fpscanner": "^0.1.5",
     "proxy": "^2.2.0",
